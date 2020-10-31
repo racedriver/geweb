@@ -1030,6 +1030,25 @@ figcaption {
   flex: 0 0 auto;
 }
 
+.brand3 {
+  padding-top: 48px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
 .brand.order-first {
   -webkit-box-ordinal-group: 0;
   -webkit-order: -1;
@@ -1720,6 +1739,30 @@ figcaption {
 
 .hr.on-dark.opacity {
   background-color: hsla(0, 0%, 100%, 0.2);
+}
+
+.size-h1-title {
+  font-size: 53px;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.size-h2-title {
+  font-size: 28px;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.size-h3-title {
+  font-size: 32px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.size-h4-title {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
 }
 
 .size-h1 {
@@ -4508,6 +4551,7 @@ figcaption {
   padding-top: 16px;
   padding-bottom: 16px;
   background-color: #fff;
+
 }
 
 .navigation-section.position-absolute {
@@ -4552,7 +4596,7 @@ figcaption {
   padding: 16px 0px;
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
-  color: #1d2b36;
+  color: #ffffff;
   font-weight: 700;
 }
 
@@ -4596,6 +4640,7 @@ figcaption {
 }
 
 .c-nav_dropdown {
+  margin-top: 48px;
   margin-right: 0px;
   margin-left: 0px;
 }
@@ -4623,12 +4668,13 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 48px;
   margin-right: 24px;
   margin-left: 24px;
   padding: 16px 0px;
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
-  color: #1d2b36;
+  color: #ffffff;
   font-weight: 700;
 }
 
@@ -5244,6 +5290,8 @@ figcaption {
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
   }
+
+
   .col.lg-2.no-margin-bottom-lg.lg-text-align-right.md-basis-auto.md-margin-bottom-small {
     margin-bottom: 16px;
   }
@@ -5946,6 +5994,7 @@ figcaption {
     z-index: 9999;
     padding-top: 16px;
     padding-bottom: 16px;
+    color: #ffffff;
   }
   .navigation-section.position-absolute {
     top: 0px;

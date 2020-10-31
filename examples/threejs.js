@@ -62,7 +62,9 @@ function init() {
 
 	//
 
-	renderer = new THREE.WebGLRenderer();
+	var canvas = document.querySelector("canvas");
+	var renderer = new THREE.WebGLRenderer({canvas: canvas});
+	//renderer = new THREE.WebGLRenderer();
 	renderer.setPixelRatio( window.devicePixelRatio );
 	//container.insertBefore( renderer.domElement, container.childNodes[ 0 ] );
 	container.appendChild( renderer.domElement );

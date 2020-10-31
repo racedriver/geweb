@@ -83,7 +83,7 @@ a, button, input, select {
 	padding: 10px;
 }
 #background1 {
-	position: relative;
+
 	text-align: center;
 	color: white;
 }
@@ -92,4 +92,15 @@ a, button, input, select {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	color: black
+}
+
+canvas {
+	width: 100vw;
+	height: 100vh;
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -9999;
 }

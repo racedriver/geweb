@@ -1,22 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="" />
+    <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/examples/images/AdobeStock_358394879_Preview.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/images/AdobeStock_52527080_Preview.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/css/omyra-template.webflow.css" beforeDir="false" afterPath="$PROJECT_DIR$/examples/css/omyra-template.webflow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/examples/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/threejs.js" beforeDir="false" afterPath="$PROJECT_DIR$/examples/threejs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/webgl_effects_anaglyph.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/webgl_effects_anaglyph.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/three.js" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jaE3szH5ZpEVR7nNMdBxXAQhzZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -45,38 +58,50 @@
       <option name="presentableId" value="Default" />
       <updated>1604033605719</updated>
       <workItem from="1604033606867" duration="1828000" />
-      <workItem from="1604050973321" duration="3059000" />
+      <workItem from="1604050973321" duration="3406000" />
+      <workItem from="1604109870799" duration="1336000" />
+      <workItem from="1604113177746" duration="9490000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/three.js" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="2325" y="563" key="Github.ShareDialog" timestamp="1604035167307">
+    <state x="2325" y="563" key="Github.ShareDialog" timestamp="1604055937261">
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>
-    <state x="2325" y="563" key="Github.ShareDialog/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@1920.-153.1050.1657" timestamp="1604035167307" />
-    <state width="1029" height="152" key="GridCell.Tab.0.bottom" timestamp="1604053963428">
+    <state x="2325" y="563" key="Github.ShareDialog/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@1920.-153.1050.1657" timestamp="1604055937261" />
+    <state x="2197" y="371" key="Github.UntrackedFilesDialog" timestamp="1604055960110">
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>
-    <state width="1029" height="152" key="GridCell.Tab.0.bottom/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@1920.-153.1050.1657" timestamp="1604053963428" />
-    <state width="1029" height="152" key="GridCell.Tab.0.center" timestamp="1604053963421">
+    <state x="2197" y="371" key="Github.UntrackedFilesDialog/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@1920.-153.1050.1657" timestamp="1604055960110" />
+    <state width="1029" height="152" key="GridCell.Tab.0.bottom" timestamp="1604056157567">
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>
-    <state width="1029" height="152" key="GridCell.Tab.0.center/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@1920.-153.1050.1657" timestamp="1604053963421" />
-    <state width="1029" height="152" key="GridCell.Tab.0.left" timestamp="1604053963418">
+    <state width="1029" height="152" key="GridCell.Tab.0.bottom/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@1920.-153.1050.1657" timestamp="1604056157567" />
+    <state width="1029" height="152" key="GridCell.Tab.0.center" timestamp="1604056157567">
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>
-    <state width="1029" height="152" key="GridCell.Tab.0.left/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@1920.-153.1050.1657" timestamp="1604053963418" />
-    <state width="1029" height="152" key="GridCell.Tab.0.right" timestamp="1604053963425">
+    <state width="1029" height="152" key="GridCell.Tab.0.center/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@1920.-153.1050.1657" timestamp="1604056157567" />
+    <state width="1029" height="152" key="GridCell.Tab.0.left" timestamp="1604056157566">
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>
-    <state width="1029" height="152" key="GridCell.Tab.0.right/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@1920.-153.1050.1657" timestamp="1604053963425" />
-    <state x="1954" y="298" key="SettingsEditor" timestamp="1604051110409">
+    <state width="1029" height="152" key="GridCell.Tab.0.left/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@1920.-153.1050.1657" timestamp="1604056157566" />
+    <state width="1029" height="152" key="GridCell.Tab.0.right" timestamp="1604056157567">
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>
-    <state x="1954" y="298" key="SettingsEditor/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@1920.-153.1050.1657" timestamp="1604051110409" />
+    <state width="1029" height="152" key="GridCell.Tab.0.right/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@1920.-153.1050.1657" timestamp="1604056157567" />
+    <state x="1954" y="298" key="SettingsEditor" timestamp="1604111507916">
+      <screen x="1920" y="-153" width="1050" height="1657" />
+    </state>
+    <state x="1954" y="298" key="SettingsEditor/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@1920.-153.1050.1657" timestamp="1604111507916" />
     <state x="2152" y="291" width="586" height="735" key="find.popup" timestamp="1604051016672">
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>
