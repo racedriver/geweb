@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/examples/images/logo2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/css/skylinesone.css" beforeDir="false" afterPath="$PROJECT_DIR$/examples/css/skylinesone.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/examples/index.htm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,8 @@
       <workItem from="1604050973321" duration="3406000" />
       <workItem from="1604109870799" duration="1336000" />
       <workItem from="1604113177746" duration="10242000" />
-      <workItem from="1604207821639" duration="6928000" />
+      <workItem from="1604207821639" duration="8152000" />
+      <workItem from="1604251278833" duration="3229000" />
     </task>
     <task id="LOCAL-00001" summary="Landing page works">
       <created>1604128864923</created>
@@ -71,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604220253638</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="site v1.9&#10;three.js, wireframe, text, body and footer ok&#10;still missing detail text and images">
+      <created>1604223762598</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604223762598</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,13 +92,15 @@
     </ignored-roots>
     <MESSAGE value="Landing page works" />
     <MESSAGE value="Website body text updated, moving to footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Website body text updated, moving to footer" />
+    <MESSAGE value="Site complete w/o images" />
+    <MESSAGE value="site v1.9&#10;three.js, wireframe, text, body and footer ok&#10;still missing detail text and images" />
+    <option name="LAST_COMMIT_MESSAGE" value="site v1.9&#10;three.js, wireframe, text, body and footer ok&#10;still missing detail text and images" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="567" y="104" key="CommitChangelistDialog2" timestamp="1604220252949">
+    <state x="567" y="104" key="CommitChangelistDialog2" timestamp="1604223762327">
       <screen x="0" y="23" width="1920" height="1011" />
     </state>
-    <state x="567" y="104" key="CommitChangelistDialog2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604220252949" />
+    <state x="567" y="104" key="CommitChangelistDialog2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604223762327" />
     <state x="2325" y="563" key="Github.ShareDialog" timestamp="1604055937261">
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>
@@ -119,10 +129,14 @@
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>
     <state x="1954" y="298" key="SettingsEditor/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@1920.-153.1050.1657" timestamp="1604111507916" />
-    <state x="560" y="268" key="Vcs.Push.Dialog.v2" timestamp="1604220257343">
+    <state x="560" y="268" key="Vcs.Push.Dialog.v2" timestamp="1604223772317">
       <screen x="0" y="23" width="1920" height="1011" />
     </state>
-    <state x="560" y="268" key="Vcs.Push.Dialog.v2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604220257343" />
+    <state x="560" y="268" key="Vcs.Push.Dialog.v2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604223772317" />
+    <state x="773" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604224903901">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state x="773" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604224903901" />
     <state x="2152" y="291" width="586" height="735" key="find.popup" timestamp="1604051016672">
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>
