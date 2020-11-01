@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/examples/images/AdobeStock_358394879_Preview.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/images/AdobeStock_52527080_Preview.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/css/omyra-template.webflow.css" beforeDir="false" afterPath="$PROJECT_DIR$/examples/css/omyra-template.webflow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/examples/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/threejs.js" beforeDir="false" afterPath="$PROJECT_DIR$/examples/threejs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/webgl_effects_anaglyph.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/webgl_effects_anaglyph.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/about-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/contact-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/css/omyra-template.webflow.css" beforeDir="false" afterPath="$PROJECT_DIR$/examples/css/skylinesone.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/examples/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/portfolio-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/portfolio-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/single-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/single-post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/webgl_effects_anaglyph.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/index.htm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +62,17 @@
       <workItem from="1604033606867" duration="1828000" />
       <workItem from="1604050973321" duration="3406000" />
       <workItem from="1604109870799" duration="1336000" />
-      <workItem from="1604113177746" duration="9490000" />
+      <workItem from="1604113177746" duration="10242000" />
+      <workItem from="1604207821639" duration="4868000" />
     </task>
+    <task id="LOCAL-00001" summary="Landing page works">
+      <created>1604128864923</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604128864923</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,8 +83,14 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/three.js" />
     </ignored-roots>
+    <MESSAGE value="Landing page works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Landing page works" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="567" y="104" key="CommitChangelistDialog2" timestamp="1604128863444">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state x="567" y="104" key="CommitChangelistDialog2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604128863444" />
     <state x="2325" y="563" key="Github.ShareDialog" timestamp="1604055937261">
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>
@@ -102,6 +119,10 @@
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>
     <state x="1954" y="298" key="SettingsEditor/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@1920.-153.1050.1657" timestamp="1604111507916" />
+    <state x="560" y="268" key="Vcs.Push.Dialog.v2" timestamp="1604128869918">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state x="560" y="268" key="Vcs.Push.Dialog.v2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604128869918" />
     <state x="2152" y="291" width="586" height="735" key="find.popup" timestamp="1604051016672">
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>

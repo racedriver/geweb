@@ -556,6 +556,15 @@ figcaption {
   font-size: 20px;
 }
 
+.text-medium-white {
+  font-size: 20px;
+  color: white;
+}
+
+.color-white{
+  color:white;
+}
+
 .heading-omega {
   color: #333;
   font-size: 46px;
