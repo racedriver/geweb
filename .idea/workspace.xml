@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/examples/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/contact-us.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604298707317</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="remove menu bar temporarily">
+      <created>1604299164794</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604299164794</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,13 +111,14 @@
     <MESSAGE value="Site complete w/o images" />
     <MESSAGE value="site v1.9&#10;three.js, wireframe, text, body and footer ok&#10;still missing detail text and images" />
     <MESSAGE value="proofreading index.htm" />
-    <option name="LAST_COMMIT_MESSAGE" value="proofreading index.htm" />
+    <MESSAGE value="remove menu bar temporarily" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove menu bar temporarily" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="567" y="104" key="CommitChangelistDialog2" timestamp="1604298707002">
+    <state x="567" y="104" key="CommitChangelistDialog2" timestamp="1604299164578">
       <screen x="0" y="23" width="1920" height="1011" />
     </state>
-    <state x="567" y="104" key="CommitChangelistDialog2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604298707002" />
+    <state x="567" y="104" key="CommitChangelistDialog2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604299164578" />
     <state x="2325" y="563" key="Github.ShareDialog" timestamp="1604055937261">
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>
@@ -143,10 +151,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604297047052" />
-    <state x="560" y="268" key="Vcs.Push.Dialog.v2" timestamp="1604298711286">
+    <state x="560" y="268" key="Vcs.Push.Dialog.v2" timestamp="1604299166736">
       <screen x="0" y="23" width="1920" height="1011" />
     </state>
-    <state x="560" y="268" key="Vcs.Push.Dialog.v2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604298711286" />
+    <state x="560" y="268" key="Vcs.Push.Dialog.v2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604299166736" />
     <state x="4613" y="425" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604292163289">
       <screen x="3840" y="-13" width="1920" height="1040" />
     </state>
