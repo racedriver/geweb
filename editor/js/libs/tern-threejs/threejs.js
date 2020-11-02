@@ -3257,7 +3257,7 @@
         },
         "determinant": {
           "!type": "fn() -> number",
-          "!doc": "Computes determinant of this matrix.<br>\n\t\tBased on [link:http://www.euclideanspace.com/maths/algebra/matrix/functions/inverse/fourD/index.htm]"
+          "!doc": "Computes determinant of this matrix.<br>\n\t\tBased on [link:http://www.euclideanspace.com/maths/algebra/matrix/functions/inverse/fourD/index.html]"
         },
         "transpose": {
           "!type": "fn() -> +THREE.Matrix4",
@@ -3273,7 +3273,7 @@
         },
         "getInverse": {
           "!type": "fn(m: +THREE.Matrix4) -> +THREE.Matrix4",
-          "!doc": "Sets this matrix to the inverse of matrix *m*.<br>\n\t\tBased on [link:http://www.euclideanspace.com/maths/algebra/matrix/functions/inverse/fourD/index.htm]."
+          "!doc": "Sets this matrix to the inverse of matrix *m*.<br>\n\t\tBased on [link:http://www.euclideanspace.com/maths/algebra/matrix/functions/inverse/fourD/index.html]."
         },
         "makeRotationFromEuler": {
           "!type": "fn(euler: +THREE.Euler) -> +THREE.Matrix4",
@@ -3445,11 +3445,11 @@
         },
         "setFromAxisAngle": {
           "!type": "fn(axis: +THREE.Vector3, angle: number) -> +THREE.Quaternion",
-          "!doc": "Sets this quaternion from rotation specified by axis and angle.<br>\n\t\tAdapted from [link:http://www.euclideanspace.com/maths/geometry/rotations/conversions/angleToQuaternion/index.htm].<br>\n\t\t*Axis* is asumed to be normalized, *angle* is in radians."
+          "!doc": "Sets this quaternion from rotation specified by axis and angle.<br>\n\t\tAdapted from [link:http://www.euclideanspace.com/maths/geometry/rotations/conversions/angleToQuaternion/index.html].<br>\n\t\t*Axis* is asumed to be normalized, *angle* is in radians."
         },
         "setFromRotationMatrix": {
           "!type": "fn(m: +THREE.Matrix4) -> +THREE.Quaternion",
-          "!doc": "Sets this quaternion from rotation component of *m*.<br>\n\t\tAdapted from [link:http://www.euclideanspace.com/maths/geometry/rotations/conversions/matrixToQuaternion/index.htm]."
+          "!doc": "Sets this quaternion from rotation component of *m*.<br>\n\t\tAdapted from [link:http://www.euclideanspace.com/maths/geometry/rotations/conversions/matrixToQuaternion/index.html]."
         },
         "setFromUnitVectors": {
           "!type": "fn(vFrom: +THREE.Vector3, vTo: +THREE.Vector3) -> +THREE.Quaternion",
@@ -3473,7 +3473,7 @@
         },
         "multiplyQuaternions": {
           "!type": "fn(a: +THREE.Quaternion, b: +THREE.Quaternion) -> +THREE.Quaternion",
-          "!doc": "Sets this quaternion to *a x b*<br>\n\t\tAdapted from [link:http://www.euclideanspace.com/maths/algebra/realNormedAlgebra/quaternions/code/index.htm]."
+          "!doc": "Sets this quaternion to *a x b*<br>\n\t\tAdapted from [link:http://www.euclideanspace.com/maths/algebra/realNormedAlgebra/quaternions/code/index.html]."
         },
         "multiplyVector3": {
           "!type": "fn(vector: +THREE.Vector3, dest: +THREE.Vector3) -> +THREE.Quaternion",
