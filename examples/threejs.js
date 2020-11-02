@@ -1,7 +1,7 @@
 
-import * as THREE from '../build/three.module.js';
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.118/build/three.module.js';
 
-import { AnaglyphEffect } from './jsm/effects/AnaglyphEffect.js';
+import { AnaglyphEffect } from 'https://cdn.jsdelivr.net/npm/three@0.118/examples/jsm/effects/AnaglyphEffect.js';
 
 let container, camera, scene, renderer, effect;
 

@@ -646,6 +646,15 @@ figcaption {
   background-repeat: no-repeat;
 }
 
+.section.is-contactus-header {
+  padding-top: 160px;
+  background-color: #f0f0f0;
+  background-image: url('../images/contact_us2.png');
+  background-position: -30% 50%;
+  background-size: 2530px;
+  background-repeat: no-repeat;
+}
+
 .section.is-header.bg-accent.position-relative.bg-img {
   background-image: url('https://via.placeholder.com/1000x600.png?text=IMAGE');
   background-position: 100% 50%;

@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.firebase/hosting.ZXhhbXBsZXM.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.firebaserc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firebase-hosting-pull-request.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/js/libs/tern-threejs/threejs.js" beforeDir="false" afterPath="$PROJECT_DIR$/editor/js/libs/tern-threejs/threejs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/images/contact_us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/images/contact_us2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/images/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZXhhbXBsZXM.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.ZXhhbXBsZXM.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/contact-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/css/skylinesone.css" beforeDir="false" afterPath="$PROJECT_DIR$/examples/css/skylinesone.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/threejs.js" beforeDir="false" afterPath="$PROJECT_DIR$/examples/threejs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +66,9 @@
       <workItem from="1604113177746" duration="10242000" />
       <workItem from="1604207821639" duration="8152000" />
       <workItem from="1604251278833" duration="3229000" />
+      <workItem from="1604303731071" duration="104000" />
+      <workItem from="1604303851398" duration="735000" />
+      <workItem from="1604305033888" duration="1138000" />
     </task>
     <task id="LOCAL-00001" summary="Landing page works">
       <created>1604128864923</created>
@@ -93,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604302610356</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="firebase deploy&#10;rename index.htm to index.html">
+      <created>1604303191355</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604303191355</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,13 +121,14 @@
     <MESSAGE value="Site complete w/o images" />
     <MESSAGE value="site v1.9&#10;three.js, wireframe, text, body and footer ok&#10;still missing detail text and images" />
     <MESSAGE value="last fixes before initial release-alex" />
-    <option name="LAST_COMMIT_MESSAGE" value="last fixes before initial release-alex" />
+    <MESSAGE value="firebase deploy&#10;rename index.htm to index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="firebase deploy&#10;rename index.htm to index.html" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="567" y="104" key="CommitChangelistDialog2" timestamp="1604302610119">
+    <state x="567" y="104" key="CommitChangelistDialog2" timestamp="1604303190900">
       <screen x="0" y="23" width="1920" height="1011" />
     </state>
-    <state x="567" y="104" key="CommitChangelistDialog2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604302610119" />
+    <state x="567" y="104" key="CommitChangelistDialog2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604303190900" />
     <state x="2325" y="563" key="Github.ShareDialog" timestamp="1604055937261">
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>
@@ -149,10 +162,10 @@
     </state>
     <state width="500" height="434" key="SwitcherDM/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604302674171" />
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604297047052" />
-    <state x="560" y="268" key="Vcs.Push.Dialog.v2" timestamp="1604302612759">
+    <state x="560" y="268" key="Vcs.Push.Dialog.v2" timestamp="1604303193591">
       <screen x="0" y="23" width="1920" height="1011" />
     </state>
-    <state x="560" y="268" key="Vcs.Push.Dialog.v2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604302612759" />
+    <state x="560" y="268" key="Vcs.Push.Dialog.v2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604303193591" />
     <state x="4613" y="425" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604292163289">
       <screen x="3840" y="-13" width="1920" height="1040" />
     </state>
