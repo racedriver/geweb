@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/examples/images/AdobeStock_183503137.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/images/Maintenance &amp; Support.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/images/Visual Design app.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/images/plan.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/images/planing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/images/software launch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/images/user testing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/images/wireframes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/images/wireframing.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/css/skylinesone.css" beforeDir="false" afterPath="$PROJECT_DIR$/examples/css/skylinesone.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/examples/index.htm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +34,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/examples/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -38,6 +46,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Saves\Work\GitHub\racedriver\three.js\examples\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/examples" />
       <recent name="$PROJECT_DIR$/examples/sl1" />
@@ -129,14 +140,19 @@
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>
     <state x="1954" y="298" key="SettingsEditor/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@1920.-153.1050.1657" timestamp="1604111507916" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1604297047052">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604297047052" />
     <state x="560" y="268" key="Vcs.Push.Dialog.v2" timestamp="1604223772317">
       <screen x="0" y="23" width="1920" height="1011" />
     </state>
     <state x="560" y="268" key="Vcs.Push.Dialog.v2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604223772317" />
-    <state x="773" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604224903901">
-      <screen x="0" y="23" width="1920" height="1011" />
+    <state x="4613" y="425" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604292163289">
+      <screen x="3840" y="-13" width="1920" height="1040" />
     </state>
     <state x="773" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604224903901" />
+    <state x="4613" y="425" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@3840.-13.1920.1040" timestamp="1604292163289" />
     <state x="2152" y="291" width="586" height="735" key="find.popup" timestamp="1604051016672">
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>
