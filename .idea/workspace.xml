@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/examples/images/AdobeStock_183503137.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/images/Maintenance &amp; Support.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/images/Visual Design app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/images/plan.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/images/planing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/images/software launch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/images/user testing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/images/wireframes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/images/wireframing.png" afterDir="false" />
+    <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="Added images for OUR PROCES">
+      <change afterPath="$PROJECT_DIR$/examples/images/TESTIMONIALS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/images/myFitment-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/images/myFitment.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/examples/index.htm" afterDir="false" />
     </list>
@@ -90,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604223762598</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added images for OUR PROCESS">
+      <created>1604297306873</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604297306873</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,13 +106,15 @@
     <MESSAGE value="Website body text updated, moving to footer" />
     <MESSAGE value="Site complete w/o images" />
     <MESSAGE value="site v1.9&#10;three.js, wireframe, text, body and footer ok&#10;still missing detail text and images" />
-    <option name="LAST_COMMIT_MESSAGE" value="site v1.9&#10;three.js, wireframe, text, body and footer ok&#10;still missing detail text and images" />
+    <MESSAGE value="Added images for OUR PROCESS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added images for OUR PROCESS" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="567" y="104" key="CommitChangelistDialog2" timestamp="1604223762327">
-      <screen x="0" y="23" width="1920" height="1011" />
+    <state x="567" y="83" key="CommitChangelistDialog2" timestamp="1604301546539">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="567" y="104" key="CommitChangelistDialog2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604223762327" />
+    <state x="567" y="83" key="CommitChangelistDialog2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604301546539" />
     <state x="2325" y="563" key="Github.ShareDialog" timestamp="1604055937261">
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>
@@ -144,10 +147,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604297047052" />
-    <state x="560" y="268" key="Vcs.Push.Dialog.v2" timestamp="1604223772317">
-      <screen x="0" y="23" width="1920" height="1011" />
+    <state x="560" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604297308319">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="560" y="268" key="Vcs.Push.Dialog.v2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604223772317" />
+    <state x="560" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604297308319" />
     <state x="4613" y="425" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604292163289">
       <screen x="3840" y="-13" width="1920" height="1040" />
     </state>
