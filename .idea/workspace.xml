@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="Added images for OUR PROCES">
-      <change afterPath="$PROJECT_DIR$/examples/images/TESTIMONIALS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/images/myFitment-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/images/myFitment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/images/patrick.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/contact-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/examples/index.htm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
