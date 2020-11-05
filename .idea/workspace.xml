@@ -1,21 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/examples/images/contact_us.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/images/contact_us2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/includeHTML.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZXhhbXBsZXM.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.ZXhhbXBsZXM.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/contact-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/css/skylinesone.css" beforeDir="false" afterPath="$PROJECT_DIR$/examples/css/skylinesone.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/threejs.js" beforeDir="false" afterPath="$PROJECT_DIR$/examples/threejs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,6 +61,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/examples/images" />
@@ -69,6 +101,7 @@
       <workItem from="1604303731071" duration="104000" />
       <workItem from="1604303851398" duration="735000" />
       <workItem from="1604305033888" duration="1138000" />
+      <workItem from="1604546457024" duration="4149000" />
     </task>
     <task id="LOCAL-00001" summary="Landing page works">
       <created>1604128864923</created>
@@ -105,11 +138,37 @@
       <option name="project" value="LOCAL" />
       <updated>1604303191355</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fix big mobile bug and improved code quality">
+      <created>1604492586867</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604492586867</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Finished version mobile support">
+      <created>1604507928157</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604507928157</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -122,13 +181,24 @@
     <MESSAGE value="site v1.9&#10;three.js, wireframe, text, body and footer ok&#10;still missing detail text and images" />
     <MESSAGE value="last fixes before initial release-alex" />
     <MESSAGE value="firebase deploy&#10;rename index.htm to index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="firebase deploy&#10;rename index.htm to index.html" />
+    <MESSAGE value="Fix big mobile bug and improved code quality" />
+    <MESSAGE value="Finished version mobile support" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished version mobile support" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="567" y="104" key="CommitChangelistDialog2" timestamp="1604303190900">
-      <screen x="0" y="23" width="1920" height="1011" />
+    <state x="567" y="83" key="CommitChangelistDialog2" timestamp="1604507927037">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="567" y="104" key="CommitChangelistDialog2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604303190900" />
+    <state x="567" y="83" key="CommitChangelistDialog2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604507927037" />
+    <state x="93" y="93" width="3559" height="853" key="DiffContextDialog" timestamp="1604497307269">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="93" y="93" width="3559" height="853" key="DiffContextDialog/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604497307269" />
+    <state x="0" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1604491213018">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="FileDocumentManager.FileCacheConflict/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604491213018" />
     <state x="2325" y="563" key="Github.ShareDialog" timestamp="1604055937261">
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>
@@ -157,19 +227,21 @@
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>
     <state x="1954" y="298" key="SettingsEditor/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@1920.-153.1050.1657" timestamp="1604111507916" />
-    <state width="500" height="434" key="SwitcherDM" timestamp="1604302674171">
-      <screen x="0" y="23" width="1920" height="1011" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1604548507822">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="500" height="434" key="SwitcherDM/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604302674171" />
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604297047052" />
-    <state x="560" y="268" key="Vcs.Push.Dialog.v2" timestamp="1604303193591">
-      <screen x="0" y="23" width="1920" height="1011" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604548507822" />
+    <state x="560" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604507929746">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="560" y="268" key="Vcs.Push.Dialog.v2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604303193591" />
-    <state x="4613" y="425" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604292163289">
-      <screen x="3840" y="-13" width="1920" height="1040" />
+    <state x="560" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604507929746" />
+    <state x="773" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604491169738">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="773" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604224903901" />
+    <state x="773" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604491169738" />
     <state x="4613" y="425" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@3840.-13.1920.1040" timestamp="1604292163289" />
     <state x="2152" y="291" width="586" height="735" key="find.popup" timestamp="1604051016672">
       <screen x="1920" y="-153" width="1050" height="1657" />
@@ -179,9 +251,17 @@
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>
     <state x="2264" y="555" key="git4idea.remote.GitConfigureRemotesDialog/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@1920.-153.1050.1657" timestamp="1604035131627" />
+    <state x="604" y="248" width="700" height="530" key="recent.locations.popup" timestamp="1604497139776">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="604" y="248" width="700" height="530" key="recent.locations.popup/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604497139776" />
     <state x="2110" y="309" key="run.anything.popup" timestamp="1604054657016">
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>
     <state x="2110" y="309" key="run.anything.popup/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@1920.-153.1050.1657" timestamp="1604054657016" />
+    <state x="624" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1604548494598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="624" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604548494598" />
   </component>
 </project>

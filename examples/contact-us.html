@@ -1,175 +1,99 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>Contact Us</title>
-  <meta content="Contact Us" property="og:title">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="Webflow" name="generator">
-  <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="css/skylinesone.css" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"]  }});</script>
-  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <meta content="Contact Us" property="og:title">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!--    <link href="css/normalize.css" rel="stylesheet" type="text/css">-->
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="css/webflow.css" rel="stylesheet" type="text/css">
+    <link href="css/skylinesone.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <script type="text/javascript">WebFont.load({google: {families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"]}});</script>
+    <!-- [if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"
+            type="text/javascript"></script><![endif] -->
+    <script type="text/javascript">!function (o, c) {
+        var n = c.documentElement, t = " w-mod-";
+        n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+    }(window, document);</script>
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon">
 
 </head>
+<header w3-include-html="header.html"></header>
+
+<div id="background1">
+    <canvas></canvas>
+</div>
+
 <body>
-  <header class="navigation-section position-absolute is-transparent">
-    <div class="navigation-overlay"></div>
-    <div class="navigation-and-offcanvas">
-      <div class="col lg-2 no-margin-bottom-lg md-basis-auto"><a href="#" class="brand w-inline-block"><img src="images/logo.png" alt=""></a></div>
-      <div class="col lg-8 no-margin-bottom md-basis-auto md-order-last">
-        <nav class="navigation-menu flexh-justify-center position-relative">
-          <!--a href="#" class="c-nav__link">Home</a>
-          <a href="about-us.html" class="c-nav__link">About</a>
-          <a href="portfolio.html" class="c-nav__link">Portfolio</a>
-          <a href="blog.html" class="c-nav__link">Blog</a>
-          <a href="contact-us.html" class="c-nav__link w--current">Contact Us</a-->
-          <!--div data-hover="1" data-delay="0" data-w-id="5fdb8a12-9519-42e0-9c63-f85cfbd14533" class="c-nav_dropdown w-dropdown">
-            <div class="nav-dropdown-toggle w-dropdown-toggle">
-              <a href="#" class="nav-link-block w-inline-block">
-                <div>Pages</div>
-                <div class="dropdown-icon w-icon-dropdown-toggle"></div>
-              </a>
-            </div>
-            <nav class="c-dropdown w-dropdown-list"><a href="portfolio-detail.html" class="c-dropdown__link w-dropdown-link">Single Portfolio</a><a href="single-post.html" class="c-dropdown__link w-dropdown-link">Single Post</a></nav>
-          </div>
-        </nav-->
-      </div>
-      <!--div class="col lg-2 no-margin-bottom-lg lg-text-align-right md-basis-auto md-margin-bottom-small">
-          <div class="c-search-popup w-form">
-            <form id="email-form-2" name="email-form-2" data-name="Email Form 2"><input type="text" class="form-input-text-2 w-input" maxlength="256" name="Search-4" data-name="Search 4" placeholder="Search" id="Search-4"></form>
-            <div class="w-form-done">
-              <div>Thank you! Your submission has been received!</div>
-            </div>
-            <div class="w-form-fail">
-              <div>Oops! Something went wrong while submitting the form.</div>
-      </div>
-            <a data-w-id="5fdb8a12-9519-42e0-9c63-f85cfbd1454b" href="#" class="c-search-popup__close-btn w-inline-block">
-              <div><em class="iconfont__no-italize"></em></div>
-            </a>
-          </div>
-        </div>
-    </div>
-      <a data-w-id="5fdb8a12-9519-42e0-9c63-f85cfbd14551" href="#" class="c-nav__close-button w-inline-block">
-        <div class="iconfont is-offcanvas-close-button"><em class="iconfont__no-italize"></em></div>
-      </a>
-    </div-->
-    <div class="mobile-navigation-bar"><a href="#" class="brand-2 w-inline-block"><img src="images/-asset-omyra-dark.svg" width="100" alt="" class="logo-image-2"></a>
-      <a data-w-id="5fdb8a12-9519-42e0-9c63-f85cfbd14558" href="#" class="burger-button w-inline-block">
-        <div class="iconfont is-burger"><em class="iconfont__no-italize"></em></div>
-      </a>
-    </div>
-  </header>
-  <div class="section is-contactus-header">
-    <div class="container">
-      <div class="col lg-12 text-align-center">
 
-      </div>
-    </div>
-  </div>
-  <div class="section">
+<div class="section">
     <div class="container is-wide">
-      <div class="col lg-12 position-relative bg-accent">
-        <div class="container container-nested position-relative">
-          <div class="col lg-4"></div>
-          <div class="col lg-8 md-12 padding-double">
-            <h1>Contact Us</h1>
+        <div class="col lg-12 position-relative bg-accent">
+            <div class="container container-nested position-relative">
 
-            <!--div class="w-form">
-              <form id="email-form" name="email-form" data-name="Email Form"><label for="name" class="form-label">Name</label><input type="text" class="form-input-text w-input" maxlength="256" name="name" data-name="Name" id="name"><label for="email" class="form-label">Email Address</label><input type="email" class="form-input-text w-input" maxlength="256" name="email" data-name="Email" id="email" required=""><textarea placeholder="Example Text" maxlength="5000" id="field" name="field" data-name="Field" class="form-textarea w-input"></textarea><select id="field-2" name="field-2" class="form-select w-select"><option value="">Select one...</option><option value="First">First Choice</option><option value="Second">Second Choice</option><option value="Third">Third Choice</option></select><input type="submit" value="Submit" data-wait="Please wait..." class="button-primary is-form-button w-button"></form>
-              <div class="w-form-done">
-                <div>Thank you! Your submission has been received!</div>
-              </div>
-              <div class="w-form-fail">
-                <div>Oops! Something went wrong while submitting the form.</div>
-              </div-->
+                <div class="col lg-4"></div>
+                <div class="col lg-8 md-12 padding-double">
+                    <h1>Contact Us</h1>
+
+                    <div class="w-form">
+                        <form data-name="Email Form" id="email-form" name="email-form">
+                            <label class="form-label" for="name">Name</label>
+                            <input class="form-input-text w-input" data-name="Name" id="name" maxlength="256"
+                                   name="name" type="text">
+                            <label class="form-label"
+                                   for="preferred-method-of-contact">Preferred-method-of-contact</label>
+
+                            <select class="form-select w-select" id="preferred-method-of-contact"
+                                    name="preferred-method-of-contact">
+                                <option value="">Preferred method of contact...</option>
+                                <option>Discord</option>
+                                <option>Google Meet</option>
+                                <option>Zoom</option>
+                                <option>Signal</option>
+                                <option>Telegram</option>
+                                <option>Whatsapp</option>
+                                <option>Phone</option>
+                                <option>EMail</option>
+                                <!--                            <option>Facetime</option>-->
+                                <!--                            <option>iMessage</option>-->
+                                <option>SMS</option>
+                                <option>Other</option>
+                            </select>
+                            <input class="form-input-text w-input" data-name="preferred-method-of-contact" id="contact"
+                                   maxlength="1024"
+                                   name="preferred-method-of-contact" required="" type="text">
+                            <textarea class="form-textarea w-input" data-name="text" id="text" maxlength="10000"
+                                      name="text" placeholder="Example Text"></textarea>
+                            <input class="button-primary is-form-button w-button" data-wait="Please wait..."
+                                   type="submit" value="Submit">
+                        </form>
+                        <div class="w-form-done">
+                            <div>Thank you! Your submission has been received!</div>
+                        </div>
+                        <div class="w-form-fail">
+                            <div>Oops! Something went wrong while submitting the form.</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="c-overlay-widget has-shadow">
+                <div class="text-medium margin-bottom">Lewes —16192 Coastal Highway, Lewes, DA 19958</div>
+                <div class="text-medium margin-bottom"><a href="mailto:hello@skylines.one">hello@skylines.one</a></div>
+                <div class="text-medium margin-bottom-double">+1 (646) 400-0535</div>
+            </div>
         </div>
-        <div class="c-overlay-widget has-shadow">
-          <div class="text-medium margin-bottom">Lewes —16192 Coastal Highway, Lewes, DA 19958</div>
-          <div class="text-medium margin-bottom"><a href="mailto:hello@skylines.one">hello@skylines.one</a></div>
-          <div class="text-medium margin-bottom-double">+1 (646) 400-0535</div>
-        </div>
-      </div>
     </div>
-  </div>
+</div>
 
-  <script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
-  <script src="js/webflow.js" type="text/javascript"></script>
-  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+
+<script src="threejs.js" type="module"></script>
+
+
 </body>
-<footer class="section padding-bottom-16 is-black">
-  <div class="container flex-horizontal">
-    <div class="col lg-3 flexv-space-between md-12"><img alt="" src="images/logo2.png" width="400">
-      <div class="footer-tagline">.love the hustle</div>
-    </div>
-    <div class="col lg-1 no-margin-bottom"></div>
-    <div class="col lg-8 md-12">
-      <div class="text-xlarge is-thin margin-bottom-double">Let&#x27;s build something great together<a
-              class="email-footer" href="mailto:monggo@nikisae.ninja"></a></div>
-      <div class="container container-nested is-wrapped">
-        <div class="col lg-3 no-margin-bottom-lg md-12">
-          <div class="size-h4 margin-bottom">Office</div>
-          <p class="margin-bottom">Lewes —<br>16192 Coastal Hwy<br>Lewes, DA 19958 County of Sussex<br></p>
-        </div>
-        <div class="col lg-3 md-12">
-          <div class="size-h4 margin-bottom">Let&#x27;s talk</div>
-          <p><a class="email-footer" href="mailto:hello@skylines.one">hello@skylines.one</a></p>
-          <div><a class="phone-footer" href="tel:+16464000535">(646) 400-0535</a></div>
-        </div>
-        <div class="col lg-3 no-margin-bottom-lg md-12">
-          <div class="size-h4 margin-bottom">Company</div>
-          <a class="footer-nav-link on-dark" href="#">About</a><a class="footer-nav-link on-dark" href="#">Services</a><a
-                class="footer-nav-link on-dark" href="#">Our work</a><a class="footer-nav-link on-dark"
-                                                                        href="#">Career</a>
-        </div>
-        <div class="col lg-3 no-margin-bottom-lg md-12">
-          <div class="size-h4 margin-bottom">Let&#x27;s connect</div>
-          <a class="footer-nav-link on-dark w-inline-block" href="https://linkedin.com/company/skylinesone">
-            <div><span class="fa-brand-2 w24"></span> LinkedIn</div>
-          </a>
-          <a class="footer-nav-link on-dark w-inline-block" href="https://discord.gg/fCqw8GZc5S">
-            <div><span class="fa-brand-2 w24"></span> Discord</div>
-          </a>
-          <a class="footer-nav-link on-dark w-inline-block" href="https://github.com/orgs/skylinesone">
-            <div><span class="fa-brand-2 w24"></span> Github</div>
-          </a>
-          <a class="footer-nav-link on-dark w-inline-block" href="https://wa.me/31638450573">
-            <div><span class="fa-brand-2 w24"></span> Whatsapp</div>
-          </a>
-          <a class="footer-nav-link on-dark w-inline-block" href="https://m.me/alexm888">
-            <div><span class="fa-brand-2 w24"></span> Messenger</div>
-          </a>
-          <a class="footer-nav-link on-dark w-inline-block"
-             href="https://t.me/joinchat/GdtTxhUBOd5x742Yf6Z9vA">
-            <div><span class="fa-brand-2 w24"></span> Telegram</div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="col lg-12 margin-bottom">
-      <div class="hr on-dark opacity"></div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="col lg-6 no-margin-bottom md-12 md-order-last">
-      <div class="low-text-contrast text-small flexh-space-between md-flex-vertical">
-        <div class="md-order-last on-dark">©2020 Skylines One. All rights reserved.</div>
-        <a class="footer-bottom-link on-dark" href="#">Privacy Policy</a>
-        <a class="footer-bottom-link on-dark" href="#">Terms Of Service</a>
-      </div>
-    </div>
-    <div class="col lg-6 no-margin-bottom md-12">
-      <div class="w100 text-align-right footer-bottom md-text-align-left">Made in Lewes, Delaware, USA</div>
-    </div>
-  </div>
-</footer>
+<div w3-include-html="footer.html"></div>
+<script src="includeHTML.js"></script>
 </html>
