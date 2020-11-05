@@ -26,14 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/examples/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/includeHTML.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZXhhbXBsZXM.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.ZXhhbXBsZXM.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/contact-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +95,7 @@
       <workItem from="1604303731071" duration="104000" />
       <workItem from="1604303851398" duration="735000" />
       <workItem from="1604305033888" duration="1138000" />
-      <workItem from="1604546457024" duration="4149000" />
+      <workItem from="1604546457024" duration="6073000" />
     </task>
     <task id="LOCAL-00001" summary="Landing page works">
       <created>1604128864923</created>
@@ -152,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604507928157</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Improved code separation and the UI of contact-us.html">
+      <created>1604551108067</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604551108067</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,14 +184,15 @@
     <MESSAGE value="firebase deploy&#10;rename index.htm to index.html" />
     <MESSAGE value="Fix big mobile bug and improved code quality" />
     <MESSAGE value="Finished version mobile support" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished version mobile support" />
+    <MESSAGE value="Improved code separation and the UI of contact-us.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved code separation and the UI of contact-us.html" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="567" y="83" key="CommitChangelistDialog2" timestamp="1604507927037">
+    <state x="567" y="83" key="CommitChangelistDialog2" timestamp="1604551106778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="567" y="104" key="CommitChangelistDialog2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604303190900" />
-    <state x="567" y="83" key="CommitChangelistDialog2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604507927037" />
+    <state x="567" y="83" key="CommitChangelistDialog2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604551106778" />
     <state x="93" y="93" width="3559" height="853" key="DiffContextDialog" timestamp="1604497307269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -232,11 +234,11 @@
     </state>
     <state width="500" height="434" key="SwitcherDM/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604302674171" />
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604548507822" />
-    <state x="560" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604507929746">
+    <state x="560" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604551110004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="560" y="268" key="Vcs.Push.Dialog.v2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604303193591" />
-    <state x="560" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604507929746" />
+    <state x="560" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604551110004" />
     <state x="773" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604491169738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
