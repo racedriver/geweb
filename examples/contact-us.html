@@ -62,8 +62,9 @@
                 // "Request-Id: " + VueCookies.get(contactRequestKey) + "\n" +
                 // "Fingerprint: " + this.formData.fingerprint.hash + "\n\n"
             }),
+        }).then(() => {
+            window.location.href = "success.html";
         })
-        window.location.href = "success.html";
     }
 </script>
 
