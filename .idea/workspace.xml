@@ -25,9 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="">
+    <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="Fixed backend bug in contact-us.html cursed by async">
+      <change afterPath="$PROJECT_DIR$/examples/images/alex-mittler.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/images/lars-artmann.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/contact-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/about-us.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,12 +72,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Saves\Work\GitHub\racedriver\three.js\examples\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/examples" />
       <recent name="$PROJECT_DIR$/examples/sl1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Saves\Work\GitHub\racedriver\three.js\examples\images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -95,7 +97,9 @@
       <workItem from="1604303731071" duration="104000" />
       <workItem from="1604303851398" duration="735000" />
       <workItem from="1604305033888" duration="1138000" />
-      <workItem from="1604546457024" duration="6073000" />
+      <workItem from="1604546457024" duration="6998000" />
+      <workItem from="1604925710639" duration="6518000" />
+      <workItem from="1604985933112" duration="5905000" />
     </task>
     <task id="LOCAL-00001" summary="Landing page works">
       <created>1604128864923</created>
@@ -153,7 +157,35 @@
       <option name="project" value="LOCAL" />
       <updated>1604551108067</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated contact-us.html UI">
+      <created>1604553152882</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604553152882</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added contact-us.html backend &amp;&#10;Updated 404.html">
+      <created>1604930414846</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604930414846</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fixed backend bug in contact-us.html cursed by async">
+      <created>1604930814622</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604930814622</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added google analytics">
+      <created>1604986103134</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604986103134</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,18 +217,26 @@
     <MESSAGE value="Fix big mobile bug and improved code quality" />
     <MESSAGE value="Finished version mobile support" />
     <MESSAGE value="Improved code separation and the UI of contact-us.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved code separation and the UI of contact-us.html" />
+    <MESSAGE value="Updated contact-us.html UI" />
+    <MESSAGE value="Added contact-us.html backend &amp;&#10;Updated 404.html" />
+    <MESSAGE value="Fixed backend bug in contact-us.html cursed by async" />
+    <MESSAGE value="Added google analytics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added google analytics" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="567" y="83" key="CommitChangelistDialog2" timestamp="1604551106778">
+    <state x="567" y="83" key="CommitChangelistDialog2" timestamp="1604986101564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="567" y="104" key="CommitChangelistDialog2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604303190900" />
-    <state x="567" y="83" key="CommitChangelistDialog2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604551106778" />
+    <state x="567" y="83" key="CommitChangelistDialog2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604986101564" />
     <state x="93" y="93" width="3559" height="853" key="DiffContextDialog" timestamp="1604497307269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="93" y="93" width="3559" height="853" key="DiffContextDialog/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604497307269" />
+    <state x="741" y="275" key="FileChooserDialogImpl" timestamp="1604928789850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="741" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604928789850" />
     <state x="0" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1604491213018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -229,21 +269,21 @@
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>
     <state x="1954" y="298" key="SettingsEditor/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@1920.-153.1050.1657" timestamp="1604111507916" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1604548507822">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1604991763839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="500" height="434" key="SwitcherDM/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604302674171" />
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604548507822" />
-    <state x="560" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604551110004">
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604991763839" />
+    <state x="560" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604986105058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="560" y="268" key="Vcs.Push.Dialog.v2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604303193591" />
-    <state x="560" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604551110004" />
-    <state x="773" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604491169738">
+    <state x="560" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604986105058" />
+    <state x="773" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604929846357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="773" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604224903901" />
-    <state x="773" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604491169738" />
+    <state x="773" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604929846357" />
     <state x="4613" y="425" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@3840.-13.1920.1040" timestamp="1604292163289" />
     <state x="2152" y="291" width="586" height="735" key="find.popup" timestamp="1604051016672">
       <screen x="1920" y="-153" width="1050" height="1657" />
@@ -261,9 +301,9 @@
       <screen x="1920" y="-153" width="1050" height="1657" />
     </state>
     <state x="2110" y="309" key="run.anything.popup/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@1920.-153.1050.1657" timestamp="1604054657016" />
-    <state x="624" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1604548494598">
+    <state x="626" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1604929021796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="624" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604548494598" />
+    <state x="626" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604929021796" />
   </component>
 </project>
