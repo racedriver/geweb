@@ -26,23 +26,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/examples/images/logo v4.1 arrows only.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/images/logo v4.1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZXhhbXBsZXM.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.ZXhhbXBsZXM.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/textures/cube/Bridge2/nx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/textures/cube/Bridge2/ny.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/textures/cube/Bridge2/nz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/textures/cube/Bridge2/px.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/textures/cube/Bridge2/py.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/textures/cube/Bridge2/pz.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/css/skylinesone.css" beforeDir="false" afterPath="$PROJECT_DIR$/examples/css/skylinesone.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/css/webflow.css" beforeDir="false" afterPath="$PROJECT_DIR$/examples/css/webflow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/images/Maintenance &amp; Support.png" beforeDir="false" afterPath="$PROJECT_DIR$/examples/images/Maintenance &amp; Support.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/images/TESTIMONIALS.png" beforeDir="false" afterPath="$PROJECT_DIR$/examples/images/TESTIMONIALS.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/images/industries.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/examples/images/industries.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/images/logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/examples/images/logo2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/images/patrick.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/examples/images/patrick.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/images/software.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/examples/images/software.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/images/ux design.png" beforeDir="false" afterPath="$PROJECT_DIR$/examples/images/ux design.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/examples/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/textures/cube/Bridge2/negx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/textures/cube/Bridge2/negy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/textures/cube/Bridge2/negz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/textures/cube/Bridge2/posx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/textures/cube/Bridge2/posy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/textures/cube/Bridge2/posz.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/threejs.js" beforeDir="false" afterPath="$PROJECT_DIR$/examples/threejs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +57,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1jaE3szH5ZpEVR7nNMdBxXAQhzZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -255,6 +253,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Minified images and tree.module.js" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="701" y="332" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606693208976">
+      <screen x="0" y="25" width="1920" height="1003" />
+    </state>
+    <state x="701" y="332" key="#com.intellij.fileTypes.FileTypeChooser/-1440.205.1440.875/1920.111.1680.1025/0.25.1920.1003@0.25.1920.1003" timestamp="1606693208976" />
     <state x="4407" y="70" key="CommitChangelistDialog2" timestamp="1605247000555">
       <screen x="3840" y="-13" width="1920" height="1040" />
     </state>
@@ -312,10 +314,11 @@
     </state>
     <state x="560" y="268" key="Vcs.Push.Dialog.v2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604303193591" />
     <state x="560" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604993130310" />
-    <state x="4613" y="425" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605246964212">
-      <screen x="3840" y="-13" width="1920" height="1040" />
+    <state x="773" y="447" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606473031330">
+      <screen x="0" y="25" width="1920" height="1003" />
     </state>
     <state x="773" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604224903901" />
+    <state x="773" y="447" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1440.205.1440.875/1920.111.1680.1025/0.25.1920.1003@0.25.1920.1003" timestamp="1606473031330" />
     <state x="773" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604929846357" />
     <state x="4613" y="425" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@3840.-13.1920.1040" timestamp="1605246964212" />
     <state x="2152" y="291" width="586" height="735" key="find.popup" timestamp="1604051016672">
