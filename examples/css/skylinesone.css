@@ -7342,3 +7342,8 @@ strong {
   font-weight: 300;
   font-style: normal;
 }
+
+.section.aboutus {
+  padding-top: 48px;
+  padding-bottom: 0px;
+}
