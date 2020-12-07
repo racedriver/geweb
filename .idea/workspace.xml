@@ -25,14 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="portfolio.html&#10;&#10;missing video bg and smooth pictures">
+    <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/about-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/career.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/career.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/contact-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/css/skylinesone.css" beforeDir="false" afterPath="$PROJECT_DIR$/examples/css/skylinesone.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/images/lars-artmann.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/examples/images/lars-artmann.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607320322322</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Improvements...">
+      <created>1607372292838</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1607372292838</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +320,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/three.js" />
     </ignored-roots>
-    <MESSAGE value="Website body text updated, moving to footer" />
     <MESSAGE value="Site complete w/o images" />
     <MESSAGE value="site v1.9&#10;three.js, wireframe, text, body and footer ok&#10;still missing detail text and images" />
     <MESSAGE value="last fixes before initial release-alex" />
@@ -342,6 +344,7 @@
     <MESSAGE value="Added background gradient" />
     <MESSAGE value="Improved Skylines numbers background" />
     <MESSAGE value="Changed the default extend color to skylines greens" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed the default extend color to skylines greens" />
+    <MESSAGE value="Improvements..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Improvements..." />
   </component>
 </project>
