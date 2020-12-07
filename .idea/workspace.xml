@@ -25,10 +25,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="Added Marlon Stanton to about-us.html">
-      <change afterPath="$PROJECT_DIR$/examples/images/amy-stanton.jpg" afterDir="false" />
+    <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/examples/images/eCommerce.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/images/eCommerce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/images/fintech.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZXhhbXBsZXM.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.ZXhhbXBsZXM.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/about-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/images/amy-stanton.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/examples/images/amy-ross.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -318,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607375503801</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Added Amy Stanton to about-us.html">
+      <created>1607376610752</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1607376610752</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +354,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/three.js" />
     </ignored-roots>
-    <MESSAGE value="Fix big mobile bug and improved code quality" />
     <MESSAGE value="Finished version mobile support" />
     <MESSAGE value="Improved code separation and the UI of contact-us.html" />
     <MESSAGE value="Updated contact-us.html UI" />
@@ -366,6 +378,7 @@
     <MESSAGE value="Fixed mobile header.html" />
     <MESSAGE value="Fixed About, Our work and Career link in the footer.html" />
     <MESSAGE value="Added Marlon Stanton to about-us.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Marlon Stanton to about-us.html" />
+    <MESSAGE value="Added Amy Stanton to about-us.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Amy Stanton to about-us.html" />
   </component>
 </project>
