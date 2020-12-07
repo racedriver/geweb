@@ -22,6 +22,13 @@ button {
 	text-transform: uppercase;
 }
 
+.background {
+
+	background: rgba(48,196,126, .95);
+	background: linear-gradient(90deg, rgba(44,72,69,.95) 0%, /*rgba(45,103,84,.95) 33%, rgba(46,134,98,.95) 66%,*/rgba(48,196,126,.95) 50%, rgba(44,72,69,.95) 100%);
+
+}
+
 a, button, input, select {
 	pointer-events: auto;
 }

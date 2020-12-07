@@ -7346,6 +7346,15 @@ strong {
   font-style: normal;
 }
 
+@media screen and (max-width: 992px){
+
+  .section.aboutus {
+    padding-bottom: 24px!important;
+  }
+
+}
+
+
 .section.aboutus {
   padding-top: 48px;
   padding-bottom: 0px;
