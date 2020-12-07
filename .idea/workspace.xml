@@ -25,11 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZXhhbXBsZXM.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.ZXhhbXBsZXM.cache" afterDir="false" />
+    <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="Added Marlon Stanton to about-us.html">
+      <change afterPath="$PROJECT_DIR$/examples/images/amy-stanton.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/about-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/footer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607374405080</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Fixed About, Our work and Career link in the footer.html">
+      <created>1607375503801</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1607375503801</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,8 +341,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/three.js" />
     </ignored-roots>
-    <MESSAGE value="last fixes before initial release-alex" />
-    <MESSAGE value="firebase deploy&#10;rename index.htm to index.html" />
     <MESSAGE value="Fix big mobile bug and improved code quality" />
     <MESSAGE value="Finished version mobile support" />
     <MESSAGE value="Improved code separation and the UI of contact-us.html" />
@@ -360,6 +364,8 @@
     <MESSAGE value="Improvements..." />
     <MESSAGE value="Fixed Ron's LinkedIn link and changed lars picture" />
     <MESSAGE value="Fixed mobile header.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed mobile header.html" />
+    <MESSAGE value="Fixed About, Our work and Career link in the footer.html" />
+    <MESSAGE value="Added Marlon Stanton to about-us.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Marlon Stanton to about-us.html" />
   </component>
 </project>
