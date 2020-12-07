@@ -26,8 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZXhhbXBsZXM.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.ZXhhbXBsZXM.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/about-us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/css/skylinesone.css" beforeDir="false" afterPath="$PROJECT_DIR$/examples/css/skylinesone.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +105,7 @@
       <workItem from="1607251883371" duration="182000" />
       <workItem from="1607260422249" duration="157000" />
       <workItem from="1607280660698" duration="15869000" />
-      <workItem from="1607307747673" duration="6388000" />
+      <workItem from="1607307747673" duration="7248000" />
     </task>
     <task id="LOCAL-00001" summary="Landing page works">
       <created>1604128864923</created>
@@ -275,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607315671618</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Improved Skylines numbers background">
+      <created>1607319655759</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1607319655759</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +329,7 @@
     <MESSAGE value="portfolio.html&#10;&#10;missing video bg and smooth pictures" />
     <MESSAGE value="Updated User Centered image and added round-border's" />
     <MESSAGE value="Added background gradient" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added background gradient" />
+    <MESSAGE value="Improved Skylines numbers background" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved Skylines numbers background" />
   </component>
 </project>
