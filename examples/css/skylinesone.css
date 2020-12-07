@@ -523,6 +523,9 @@ strong {
   width: 100%;
 }
 
+.round-border {
+  border-radius: 12px;
+}
 
 
 .brand3 {
