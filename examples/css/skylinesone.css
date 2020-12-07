@@ -394,7 +394,7 @@ strong {
 }
 
 .bg-accent {
-  background-color: #f7f7f7;
+  background-color: #fffcff;
 }
 
 .button-primary {
@@ -537,6 +537,9 @@ strong {
   border-radius: 16px;
 }
 
+.round-border-xl {
+  border-radius: 128px;
+}
 
 .brand3 {
   padding-top: 48px;
