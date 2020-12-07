@@ -26,10 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZXhhbXBsZXM.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.ZXhhbXBsZXM.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/portfolio-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/portfolio-detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +102,7 @@
       <workItem from="1606713546523" duration="9233000" />
       <workItem from="1607251883371" duration="182000" />
       <workItem from="1607260422249" duration="157000" />
-      <workItem from="1607280660698" duration="15751000" />
+      <workItem from="1607280660698" duration="15869000" />
     </task>
     <task id="LOCAL-00001" summary="Landing page works">
       <created>1604128864923</created>
@@ -254,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607300058087</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="portfolio.html&#10;&#10;missing video bg and smooth pictures">
+      <created>1607302545756</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1607302545757</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,19 +302,20 @@
     <MESSAGE value="about-us" />
     <MESSAGE value="about-us&#10;missing video bg" />
     <MESSAGE value="home&#10;about us&#10;careers&#10;contact us&#10;missing video bg and smooth pictured" />
-    <option name="LAST_COMMIT_MESSAGE" value="home&#10;about us&#10;careers&#10;contact us&#10;missing video bg and smooth pictured" />
+    <MESSAGE value="portfolio.html&#10;&#10;missing video bg and smooth pictures" />
+    <option name="LAST_COMMIT_MESSAGE" value="portfolio.html&#10;&#10;missing video bg and smooth pictures" />
   </component>
   <component name="WindowStateProjectService">
     <state x="701" y="332" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606693208976">
       <screen x="0" y="25" width="1920" height="1003" />
     </state>
     <state x="701" y="332" key="#com.intellij.fileTypes.FileTypeChooser/-1440.205.1440.875/1920.111.1680.1025/0.25.1920.1003@0.25.1920.1003" timestamp="1606693208976" />
-    <state x="631" y="126" key="CommitChangelistDialog2" timestamp="1607300057184">
+    <state x="631" y="126" key="CommitChangelistDialog2" timestamp="1607302543622">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="567" y="104" key="CommitChangelistDialog2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604303190900" />
     <state x="631" y="121" key="CommitChangelistDialog2/-1440.205.1440.875/1920.111.1680.1025/0.25.1920.1003@0.25.1920.1003" timestamp="1606693931702" />
-    <state x="631" y="126" key="CommitChangelistDialog2/-1440.205.1440.875/1920.111.1680.1025/0.25.1920.1055@0.25.1920.1055" timestamp="1607300057184" />
+    <state x="631" y="126" key="CommitChangelistDialog2/-1440.205.1440.875/1920.111.1680.1025/0.25.1920.1055@0.25.1920.1055" timestamp="1607302543622" />
     <state x="567" y="83" key="CommitChangelistDialog2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604993127340" />
     <state x="4407" y="70" key="CommitChangelistDialog2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@3840.-13.1920.1040" timestamp="1605247000555" />
     <state x="93" y="93" width="3559" height="853" key="DiffContextDialog" timestamp="1604497307269">
@@ -359,12 +364,12 @@
     <state width="500" height="434" key="SwitcherDM/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604302674171" />
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1605251775540" />
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@3840.-13.1920.1040" timestamp="1605249282593" />
-    <state x="560" y="281" key="Vcs.Push.Dialog.v2" timestamp="1607300065065">
+    <state x="560" y="281" key="Vcs.Push.Dialog.v2" timestamp="1607302553238">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="560" y="268" key="Vcs.Push.Dialog.v2/-1440.203.1440.877/1920.-153.1050.1657/0.23.1920.1011@0.23.1920.1011" timestamp="1604303193591" />
     <state x="560" y="268" key="Vcs.Push.Dialog.v2/-1440.205.1440.875/1920.111.1680.1025/0.25.1920.1003@0.25.1920.1003" timestamp="1606693937771" />
-    <state x="560" y="281" key="Vcs.Push.Dialog.v2/-1440.205.1440.875/1920.111.1680.1025/0.25.1920.1055@0.25.1920.1055" timestamp="1607300065065" />
+    <state x="560" y="281" key="Vcs.Push.Dialog.v2/-1440.205.1440.875/1920.111.1680.1025/0.25.1920.1055@0.25.1920.1055" timestamp="1607302553238" />
     <state x="560" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-2160.-755.1080.1880/3840.-13.1920.1040@0.0.1920.1040" timestamp="1604993130310" />
     <state x="773" y="447" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606693872958">
       <screen x="0" y="25" width="1920" height="1003" />
