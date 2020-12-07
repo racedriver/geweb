@@ -25,10 +25,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZXhhbXBsZXM.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.ZXhhbXBsZXM.cache" afterDir="false" />
+    <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="portfolio.html&#10;&#10;missing video bg and smooth pictures">
+      <change afterPath="$PROJECT_DIR$/examples/images/portfolio.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/css/skylinesone.css" beforeDir="false" afterPath="$PROJECT_DIR$/examples/css/skylinesone.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
