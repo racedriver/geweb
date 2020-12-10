@@ -26,15 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e46eb8c5-d1b6-40f5-9718-3e306ba89534" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/examples/images/eCommerce.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/images/eCommerce.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/images/fintech.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZXhhbXBsZXM.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.ZXhhbXBsZXM.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/about-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/images/amy-stanton.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/examples/images/amy-ross.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +107,7 @@
       <workItem from="1607280660698" duration="15869000" />
       <workItem from="1607307747673" duration="7705000" />
       <workItem from="1607368157600" duration="2164000" />
+      <workItem from="1607609546085" duration="1103000" />
     </task>
     <task id="LOCAL-00001" summary="Landing page works">
       <created>1604128864923</created>
@@ -380,5 +375,11 @@
     <MESSAGE value="Added Marlon Stanton to about-us.html" />
     <MESSAGE value="Added Amy Stanton to about-us.html" />
     <option name="LAST_COMMIT_MESSAGE" value="Added Amy Stanton to about-us.html" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="766" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607609741870">
+      <screen x="0" y="25" width="1920" height="1003" />
+    </state>
+    <state x="766" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1440.205.1440.875/1920.111.1680.1025/0.25.1920.1003@0.25.1920.1003" timestamp="1607609741870" />
   </component>
 </project>
