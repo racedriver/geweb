@@ -28,7 +28,7 @@ function init() {
 	camera.position.z = 3;
 	camera.focalLength = 3;
 
-	const path = "textures/cube/Bridge2/";
+	const path = "textures/cube/SwedishRoyalCastle/";
 	const format = '.jpg';
 	const urls = [
 		path + 'px' + format, path + 'nx' + format,
@@ -60,7 +60,6 @@ function init() {
 
 	}
 
-	//
 
 	var canvas = document.querySelector("canvas");
 	var renderer = new THREE.WebGLRenderer({canvas: canvas});
@@ -75,7 +74,6 @@ function init() {
 	effect = new AnaglyphEffect( renderer );
 	effect.setSize( width, height );
 
-	//
 
 	window.addEventListener( 'resize', onWindowResize, false );
 
@@ -100,7 +98,6 @@ function onDocumentMouseMove( event ) {
 
 }
 
-//
 
 function animate() {
 
