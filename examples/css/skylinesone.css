@@ -7295,6 +7295,42 @@ strong {
 }
 
 @font-face {
+  font-family: 'Fa brands 400';
+  src: url('../fonts/fa-brands-400.woff2') format('woff2'), url('../fonts/fa-brands-400.eot') format('embedded-opentype'), url('../fonts/fa-brands-400.woff') format('woff'), url('../fonts/fa-brands-400.ttf') format('truetype'), url('../fonts/fa-brands-400.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fa 400';
+  src: url('../fonts/fa-regular-400.woff2') format('woff2'), url('../fonts/fa-regular-400.eot') format('embedded-opentype'), url('../fonts/fa-regular-400.woff') format('woff'), url('../fonts/fa-regular-400.ttf') format('truetype'), url('../fonts/fa-regular-400.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fa solid 900';
+  src: url('../fonts/fa-solid-900.woff2') format('woff2'), url('../fonts/fa-solid-900.eot') format('embedded-opentype'), url('../fonts/fa-solid-900.woff') format('woff'), url('../fonts/fa-solid-900.ttf') format('truetype'), url('../fonts/fa-solid-900.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fontello';
+  src: url('../fonts/fontello.woff2') format('woff2'), url('../fonts/fontello.eot') format('embedded-opentype'), url('../fonts/fontello.eot') format('embedded-opentype'), url('../fonts/fontello.woff') format('woff'), url('../fonts/fontello.ttf') format('truetype'), url('../fonts/fontello.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Icomoon';
+  src: url('../fonts/icomoon.eot') format('embedded-opentype'), url('../fonts/icomoon.woff') format('woff'), url('../fonts/icomoon.ttf') format('truetype'), url('../fonts/icomoon.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Asas';
+  src: url('../fonts/asas.eot') format('embedded-opentype'), url('../fonts/asas.woff') format('woff'), url('../fonts/asas.ttf') format('truetype'), url('../fonts/asas.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
   font-family: 'Metropolis';
   src: url('../fonts/Metropolis-Black.otf') format('opentype');
   font-weight: 900;
