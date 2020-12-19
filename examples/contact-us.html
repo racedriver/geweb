@@ -73,7 +73,7 @@
                     <div class="w-form">
                         <form data-name="Contact" id="contact-form" name="contact" onsubmit="return false">
                             <div hidden></div> <!--Fixes a javascript bug! Do not delete-->
-                            <input class="form-input-text w-input" id="name" maxlength="256" type="text" placeholder="Your name">
+                            <input class="form-input-text w-input" autocomplete="Name" id="name" maxlength="256" type="text" placeholder="Your name">
 
 
                             <select class="form-select w-select" id="preferred-method-of-contact"
@@ -92,7 +92,7 @@
                                 <option>SMS</option>
                                 <option>Other</option>
                             </select>
-                            <input class="form-input-text w-input" data-name="preferred-method-of-contact" id="contact" maxlength="1024" required="" type="text" placeholder="Contact method">
+                            <input class="form-input-text w-input" data-name="preferred-method-of-contact" id="contact" maxlength="1024" required autocomplete="email" type="text" placeholder="Contact method">
                             <textarea class="form-textarea w-input" data-name="text" id="text" maxlength="10000" placeholder="Let's make something incredible together!"></textarea>
                             <button onclick="sendContact();" class="button-primary is-form-button w-button" data-wait="Please wait..." type="submit">Submit</button>
                         </form>
