@@ -285,7 +285,7 @@ SETTINGS
 =====
 */
 #mobile-navigation :root {
-    --colorWhite: #fff;
+    --colorWhite: #31c482;
     --colorMain: #4557bb;
     --menuCircleBackgroundColor: var(--colorMain);
     --menuHamburgerBackgroundColor: var(--colorWhite);
