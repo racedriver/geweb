@@ -1,5 +1,5 @@
 
-(function(){
+export function mobileMenu(){
     'use strict';
 
     class Menu {
@@ -50,4 +50,6 @@
     }
 
     jsMenuNode.querySelector('.menu__toggle').addEventListener('click', callMenuToggle);
-})();
+}
+
+mobileMenu();
