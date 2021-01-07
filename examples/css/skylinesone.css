@@ -404,14 +404,17 @@ strong {
 }
 
 .button-primary {
+  min-width: inherit;
+  width: 100%;
+  max-width: inherit;
+
   display: inline-block;
-  min-width: 180px;
   padding: 16px 40px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  border-radius: 40px;
+  /*border-radius: 40px;*/
   background-color: #30C47E;
   font-family: Montserrat, sans-serif;
   color: #fff;
@@ -465,13 +468,16 @@ strong {
 }
 
 .button-primary.animated {
+  min-width: inherit;
+  width: 100%;
+  max-width: inherit;
+
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  max-width: 260px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
