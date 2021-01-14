@@ -1,8 +1,6 @@
 <template>
   <div class="section bg-accent position-relative overflow-hidden">
-    <div class="c-shadowing-text is-white xs-hidden" style="color: #30c47e">
-      testimonials
-    </div>
+    <Title>testimonials</Title>
     <div class="container flexh-justify-center">
       <div class="col lg-8 md-12">
         <div class="flexh-justify-center margin-bottom margin-top">

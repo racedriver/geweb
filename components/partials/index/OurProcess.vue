@@ -1,8 +1,6 @@
 <template>
   <div class="section position-relative overflow-hidden no-padding-bottom">
-    <div class="c-shadowing-text is-smaller" style="color: #30c47e">
-      our process
-    </div>
+    <Title>our process</Title>
     <div class="container margin-bottom">
       <div class="col text-align-center block-centered lg-8 md-12">
         <div class="text-medium-white margin-top">

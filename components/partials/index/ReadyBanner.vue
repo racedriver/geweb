@@ -11,8 +11,8 @@
           </div>
         </div>
       </div>
-      <div class="col lg-1"></div>
-      <div class="col no-margin-bottom-lg md-12 md-text-align-center">
+      <div class="col lg-1 hidden-md"></div>
+      <div class="col no-margin-bottom-lg md-12 md-text-align-center hidden-md">
         <div class="iconfont is-100px">
           <em class="iconfont__no-italize"></em>
         </div>

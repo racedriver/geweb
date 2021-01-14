@@ -3,9 +3,7 @@
     class="section bg-accent position-relative overflow-hidden"
     style="background-color: transparent"
   >
-    <div class="c-shadowing-text is-white" style="color: #30c47e">
-      what we do
-    </div>
+    <Title>what we do</Title>
     <div class="container margin-bottom">
       <div class="col text-align-center block-centered lg-8 md-12">
         <h2 style="color: #fff">Unique software solutions</h2>
