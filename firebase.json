@@ -1,12 +1,21 @@
 {
   "hosting": {
-    "public": "examples",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ],
     "cleanUrls": true,
-    "trailingSlash": false
+    "trailingSlash": false,
+    "rewrites": [
+      {
+        "source": "**",
+        "run": {
+          "serviceId": "web",
+          "region": "us-east1"
+        }
+      }
+    ]
   }
 }
