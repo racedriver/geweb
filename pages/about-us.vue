@@ -1,0 +1,179 @@
+<template>
+  <div class="color-white">
+    <div class="section aboutus margin-top background">
+      <div class="container">
+        <div class="col lg-12 text-align-center">
+          <h1 style="margin-bottom: 0;">About Us</h1>
+        </div>
+      </div>
+    </div>
+    <div class="section no-padding-bottom">
+      <div class="container flexh-align-center">
+        <div class="col lg-6 xs-12 color-white">
+          <div class="pre-title color-white">.Love the hustle</div>
+          <h2 class="margin-bottom">Our Company</h2>
+          <div class="w-richtext">
+            <p><b>Skylines One is a high-tech, cloud-first software company focusing on cutting edge
+              technologies. Moving the needle that bit further for our clients. The company’s name resembles its
+              tradition of flying high in the sky, using only the very best lines of code - Skylines One</b></p>
+            <p>We are a bunch of ex-Apple engineers with a combined 30+ years experience in software architecture
+              and technology.<br></p>
+          </div>
+        </div>
+        <div class="col lg-1"></div>
+        <div class="col lg-6 xs-12 no-margin-bottom"><img alt="Skylines One - About Us" class="round-border"
+                                                          src="../static/images/aboutus.jpg?text=Skylines One">
+        </div>
+      </div>
+    </div>
+    <div class="section no-padding-top-bottom">
+      <div class="container">
+        <div class="col lg-12 no-margin-bottom">
+          <div class="hr"></div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="col">
+          <h2>Management Team</h2>
+
+          <div class="color-white"><b>Where innovation meets experience</b></div>
+
+        </div>
+      </div>
+      <div class="container">
+        <div class="col lg-5 md-12">
+          <div class="flex-horizontal position-relative">
+            <img alt="Alex Mittler" class="margin-right round-border" src="../static/images/alex-mittler.jpg"
+                 width="300">
+            <div class="c-team1__info">
+              <div class="c-team1__name">Alex<br>Mittler</div>
+              <div class="size-h4 margin-bottom-quad">CEO</div>
+              <div class="c-team1__social">
+                <a class="fa-brand margin-right-small" href="https://www.linkedin.com/in/alexmittler/"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col lg-5 md-12">
+          <div class="flex-horizontal position-relative">
+            <img alt="Lars Artmann" class="margin-right round-border" src="../static/images/lars-artmann.jpg"
+                 width="300">
+            <div class="c-team1__info">
+              <div class="c-team1__name">Lars<br>Artmann</div>
+              <div class="size-h4 margin-bottom-quad">CTO</div>
+              <div class="c-team1__social">
+                <a class="fa-brand margin-right-small" href="https://www.linkedin.com/in/larsartmann/"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="col lg-5 md-12">
+          <div class="flex-horizontal position-relative">
+            <img alt="Alexandra Obendorfer" class="margin-right round-border"
+                 src="../static/images/alexa-obendorfer.jpg" width="300">
+            <div class="c-team1__info">
+              <div class="c-team1__name">Alexandra<br>Obendorfer</div>
+              <div class="size-h4 margin-bottom-quad">Operations Manager</div>
+              <div class="c-team1__social">
+                <a class="fa-brand margin-right-small"
+                   href="https://www.linkedin.com/in/alexandra-obendorfer-963522120/"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col lg-5 md-12">
+          <div class="flex-horizontal position-relative">
+            <img alt="" class="margin-right round-border" src="../static/images/ron-sumay.jpg" width="300">
+            <div class="c-team1__info">
+              <div class="c-team1__name">Ron<br>Sumay</div>
+              <div class="size-h4 margin-bottom-quad">Regional Sales Manager</div>
+              <div class="c-team1__social">
+                <a class="fa-brand margin-right-small" href="https://www.linkedin.com/in/roniel-sumay-73b3401ba/"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container flex-horizontal">
+        <div class="col lg-5 md-12">
+          <div class="flex-horizontal position-relative">
+            <img alt="Amy Ross" class="margin-right round-border" src="../static/images/amy-ross.jpg" width="300">
+            <div class="c-team1__info">
+              <div class="c-team1__name">Amy<br>Ross</div>
+              <div class="size-h4 margin-bottom-quad">Lead Developer</div>
+              <div class="c-team1__social">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col lg-5 md-12">
+          <div class="flex-horizontal position-relative">
+            <img alt="Malek Anderson" class="margin-right round-border" src="../static/images/malek-anderson.jpg"
+                 width="300">
+            <div class="c-team1__info">
+              <div class="c-team1__name">Malek<br>Anderson</div>
+              <div class="size-h4 margin-bottom-quad">Backend Engineer</div>
+              <div class="c-team1__social">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section background centered">
+      <div class="container margin-bottom">
+        <div class="col text-align-center block-centered lg-8 md-12">
+          <div class="pre-title">Our Experience</div>
+          <h2>Skylines One in numbers</h2>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="col text-align-center lg-3 ">
+          <div class="heading-alpha is-plus margin-bottom ">12</div>
+          <div class="is-bold">Custom Projects</div>
+        </div>
+        <div class="col text-align-center lg-3 ">
+          <div class="heading-alpha is-plus margin-bottom ">39</div>
+          <div class="is-bold">Digital Products</div>
+        </div>
+        <div class="col text-align-center lg-3">
+          <div class="heading-alpha is-plus margin-bottom">4960</div>
+          <div class="is-bold">Cups of coffee</div>
+        </div>
+        <div class="col text-align-center lg-3">
+          <div class="heading-alpha is-plus margin-bottom ">98%</div>
+          <div class="is-bold">Customer satisfaction</div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="col lg-12 text-align-center">
+          <h2>Interested in joining our team?</h2>
+          <div class="color-white margin-bottom-double">Come join our team at Skylines One and make awesome digital
+            products!
+          </div>
+          <a class="button-primary w-inline-block" href="contact-us.html">
+            <div class="button-primary-text">Join Us</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "AboutUs"
+}
+</script>
+
+<style scoped>
+
+</style>
