@@ -1,7 +1,7 @@
 <template>
   <div class="section is-hero">
     <h1 class="container">
-      <div class="col on-dark lg-6 md-12">
+      <div class="col on-dark lg-6 md-12" style="background-color: rgba(0, 0, 0, .90); padding: 48px 32px;">
 
         <h1 class="size-h1">
           <div class="size-h2-title">Our Team of</div>
@@ -16,7 +16,7 @@
         <div class="flexh-align-center xs-is-wrapping">
           <a class="button-primary animated w-inline-block"
              data-w-id="a73c96af-ffb4-8180-7dce-65d3db4801bd"
-             href="contact-us"
+             href="/contact-us"
              style="padding: 30px 0px;">
             <div class="button-primary-text"
                  style="-webkit-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:1">
