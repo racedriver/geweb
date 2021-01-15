@@ -33,8 +33,8 @@
           camera.position.z = 3;
           camera.focalLength = 3;
 
-          const path = 'textures/cube/Bridge2/';
-          const format = '.jpg';
+          const path = 'textures/cube/pisa/';
+          const format = '.png';
           const urls = [
             path + 'px' + format, path + 'nx' + format,
             path + 'py' + format, path + 'ny' + format,
@@ -49,7 +49,7 @@
           const geometry = new THREE.SphereBufferGeometry(0.1, 32, 16);
           const material = new THREE.MeshBasicMaterial({color: 0xffffff, envMap: textureCube});
 
-          for (let i = 0; i < 500; i++) {
+          for (let i = 0; i < 100; i++) {
 
             const mesh = new THREE.Mesh(geometry, material);
 
