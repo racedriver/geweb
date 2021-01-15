@@ -7,10 +7,11 @@
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
     "generate": "nuxt-ts generate",
-    "test": "jest"
+    "test": "jest",
+    "rerun": "npm ci && npm install && npm run generate && npm run build && npm run start"
   },
   "dependencies": {
-    "@nuxt/content": "^1.9.0",
+    "@nuxt/content": "^1.11.1",
     "@nuxt/typescript-runtime": "^2.0.0",
     "@nuxtjs/axios": "^5.12.2",
     "@nuxtjs/pwa": "^3.0.2",
@@ -26,6 +27,7 @@
     "babel-jest": "^26.5.0",
     "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "install-peers": "^1.0.3",
     "jest": "^26.5.0",
     "prettier": "^2.1.2",
     "ts-jest": "^26.4.1",

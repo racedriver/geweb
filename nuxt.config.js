@@ -1,6 +1,6 @@
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
-  target: 'static',
+  // target: 'static',
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -49,7 +49,19 @@ export default {
   axios: {},
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
-  content: {},
+  content: {
+    dir: 'content',
+  },
+
+  hooks: {
+    'content:file:beforeInsert': async (document, database) => {
+      if (document.extension === '.json' && document.body) {
+        const data = await database.markdown.toJSON(document.body)
+
+        Object.assign(document, data)
+      }
+    },
+  },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
