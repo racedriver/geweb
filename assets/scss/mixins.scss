@@ -17,11 +17,11 @@
   }
 }
 
-@mixin wrapper-Xto9($x) {
+@mixin wrapper-XtoY($x, $y: 9) {
   text-align: start;
   display: block;
   position: relative;
-  padding-bottom: calc(100% * 9 / #{$x});
+  padding-bottom: calc(100% * #{$y} / #{$x});
   img {
     position: absolute;
     object-fit: cover;

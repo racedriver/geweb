@@ -13,9 +13,17 @@
 }
 
 .wrapper-16to9 {
-  @include wrapper-Xto9(16)
+  @include wrapper-XtoY(16)
 }
 
 .wrapper-21to9 {
-  @include wrapper-Xto9(21)
+  @include wrapper-XtoY(21)
+}
+
+.wrapper-9to16 {
+  @include wrapper-XtoY(9, 16)
+}
+
+.wrapper-9to21 {
+  @include wrapper-XtoY(9, 21)
 }
