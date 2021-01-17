@@ -1,5 +1,21 @@
 @import 'mixins.scss';
 
 .pop-out-default {
-  @include pop-out
+  @include pop-out;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.wrapper-16to9 {
+  @include wrapper-Xto9(16)
+}
+
+.wrapper-21to9 {
+  @include wrapper-Xto9(21)
 }

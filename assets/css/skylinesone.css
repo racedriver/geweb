@@ -2502,7 +2502,7 @@ strong {
   z-index: 9;
   display: inline-block;
   padding-right: 40px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.95);
   color: #9b9b9b;
   font-size: 14px;
   font-weight: 400;

@@ -1,5 +1,19 @@
+<!--suppress HtmlRequiredAltAttribute, JSUnresolvedVariable -->
 <template>
-  <nuxt-content :document="article" class="col color-white"/>
+  <div class="section dark-box color-white" style="margin: 0 10%">
+    <small class="margin-bottom" style="color: gray">
+      {{ new Date(Date.parse(article.createdAt)).toISOString().slice(0, 10) }}
+    </small>
+
+    <h1 class="underline">{{ article.title }}</h1>
+    <p class="margin-bottom">{{ article.short }}</p>
+
+    <div class="wrapper-21to9 margin-bottom">
+      <img :src="article.thumbnail"/>
+    </div>
+
+    <nuxt-content :document="article"/>
+  </div>
 </template>
 
 <script>
@@ -18,4 +32,8 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped>
+h1 {
+  text-decoration-color: #2e8662;
+}
+</style>

@@ -1,5 +1,4 @@
 @mixin pop-out($scale: 1.1) {
-
   //background-color:yellow;
 
   transition: all 500ms;
@@ -16,6 +15,17 @@
     //background-color:orangered;
     transform: translateY(-3px) scale($scale);
   }
-
 }
 
+@mixin wrapper-Xto9($x) {
+  text-align: start;
+  display: block;
+  position: relative;
+  padding-bottom: calc(100% * 9 / #{$x});
+  img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}

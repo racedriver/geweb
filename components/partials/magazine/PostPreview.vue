@@ -1,8 +1,8 @@
 <!--suppress HtmlRequiredAltAttribute -->
 <template>
   <div class="PostPreview col lg-4 md-12 pop-out-default">
-    <a :href="url" class="w-inline-block image-wrapper">
-      <img :src="entry.thumbnail"/>
+    <a :href="url" class="w-inline-block wrapper-16to9">
+      <img :src="entry.thumbnail" style="max-width: 500px;"/>
     </a>
     <!--    <div class="c-gridpost__category">-->
     <!--      <a href="#">Design</a> / <a href="#">Technology</a>-->
@@ -42,20 +42,4 @@ export default {
 }
 </script>
 
-<style scoped>
-img {
-  max-width: 500px;
-}
-
-.image-wrapper {
-  display: block;
-  position: relative;
-//padding-bottom: 56.2%;
-}
-
-.image-wrapper img {
-//position: absolute; object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-</style>
+<style scoped></style>
