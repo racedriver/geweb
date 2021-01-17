@@ -1,6 +1,6 @@
 <!--suppress HtmlRequiredAltAttribute, JSUnresolvedVariable -->
 <template>
-  <div class="section dark-box color-white" style="margin: 0 10%">
+  <div class="section dark-box color-white" style="padding: 0 10%">
     <small class="margin-bottom" style="color: gray">
       {{ new Date(Date.parse(article.createdAt)).toISOString().slice(0, 10) }}
     </small>
