@@ -6,7 +6,7 @@
 export default {
   name: 'post',
   async asyncData({$content}) {
-    const page = await $content('hello').fetch()
+    const page = await $content('first').fetch()
 
     return {
       page

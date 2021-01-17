@@ -1,5 +1,7 @@
+<!--suppress HtmlRequiredAltAttribute -->
 <template>
-  <div class="container margin-bottom-double position-relative padding-top-bottom-double">
+  <div
+    :class="'container position-relative padding-top-bottom-double' + (entry.special ? '' : ' margin-bottom-double')">
     <div class="c-step-decoration__left"></div>
     <div
       class="col lg-6 md-12 order-first flexh-align-center padding-top-bottom-double no-margin-bottom-lg flexh-space-between position-relative">
@@ -9,7 +11,7 @@
     </div>
     <div class="col lg-7 md-12 alignself-center no-margin-bottom-lg2">
       <h3>{{ entry.title }}</h3>
-      <div class="margin-bottom">{{ entry.text }}</div>
+      <div>{{ entry.text }}</div>
     </div>
   </div>
 </template>

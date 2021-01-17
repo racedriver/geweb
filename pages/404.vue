@@ -1,7 +1,6 @@
 <template>
-  <div class="w-layout-grid c-grid-services" style="margin-top: 48px">
-    <div class="has-shadow c-grid-services__item round-border hidden-md" style="background-color: transparent"></div>
-    <div id="message" class="has-shadow c-grid-services__item round-border">
+  <div class="w-layout-grid c-grid-services">
+    <div id="message" class="has-shadow c-grid-services__item">
       <h2>404</h2>
       <h1>Page Not Found</h1>
       <h2>You should go back to the home page</h2>
@@ -16,5 +15,7 @@ export default {
 </script>
 
 <style scoped>
-
+#message {
+  grid-column-start: 2;
+}
 </style>

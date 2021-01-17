@@ -17,22 +17,22 @@ export default {
         },
         {
           name: "About Us",
-          link: "about-us"
+          link: "/about-us"
         }, {
           name: "Magazine",
-          link: "magazine"
+          link: "/magazine"
         },
         {
           name: "Portfolio",
-          link: "portfolio"
+          link: "/portfolio"
         },
         {
           name: "Career",
-          link: "career"
+          link: "/career"
         },
         {
           name: "Contact Us",
-          link: "contact-us"
+          link: "/contact-us"
         },
       ]
     }

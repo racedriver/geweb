@@ -1,0 +1,21 @@
+@mixin pop-out($scale: 1.1) {
+
+  //background-color:yellow;
+
+  transition: all 500ms;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  animation: cardEntrance 700ms ease-out;
+  animation-fill-mode: backwards;
+
+  &:hover {
+    //background-color:orangered;
+    transform: translateY(-3px) scale($scale);
+  }
+
+}
+
