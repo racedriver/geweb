@@ -1,18 +1,20 @@
 <!--suppress HtmlRequiredAltAttribute, JSUnresolvedVariable -->
 <template>
-  <div class="section dark-box color-white" style="padding: 0 10%">
-    <small class="margin-bottom" style="color: gray">
-      {{ new Date(Date.parse(article.createdAt)).toISOString().slice(0, 10) }}
-    </small>
+  <div style="margin: 0 10%">
+    <div class="section dark-box color-white">
+      <small class="margin-bottom" style="color: gray">
+        {{ new Date(Date.parse(article.createdAt)).toISOString().slice(0, 10) }}
+      </small>
 
-    <h1 class="underline">{{ article.title }}</h1>
-    <p class="margin-bottom">{{ article.short }}</p>
+      <h1 class="underline">{{ article.title }}</h1>
+      <p class="margin-bottom">{{ article.short }}</p>
 
-    <div class="wrapper-21to9 margin-bottom">
-      <img :src="article.thumbnail"/>
+      <div class="wrapper-21to9 margin-bottom">
+        <img :src="article.thumbnail"/>
+      </div>
+
+      <nuxt-content :document="article"/>
     </div>
-
-    <nuxt-content :document="article"/>
   </div>
 </template>
 
