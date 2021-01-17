@@ -104,7 +104,7 @@
             <img alt="Amy Ross" class="margin-right round-border" src="../static/images/amy-ross.jpg" width="300">
             <div class="c-team1__info">
               <div class="c-team1__name">Amy<br>Ross</div>
-              <div class="size-h4 margin-bottom-quad">Lead Developer</div>
+              <div class="size-h4 margin-bottom-quad">Lead Engineer</div>
               <div class="c-team1__social">
               </div>
             </div>

@@ -1,5 +1,15 @@
 <template>
   <div id="mobile-navigation">
+    <div class="mobile-navigation-bar margin-top margin-bottom-double">
+      <a class="brand-2 w-inline-block" href="/">
+        <img
+          alt=""
+          class="logo-image-2"
+          height="100"
+          src="/images/logo%20v4.1%20arrows%20only.svg"
+        />
+      </a>
+    </div>
     <div class="menu color-white">
       <nav class="menu__nav">
         <ul class="menu__list r-list">

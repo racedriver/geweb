@@ -18,6 +18,9 @@ export default {
         {
           name: "About Us",
           link: "about-us"
+        }, {
+          name: "Magazine",
+          link: "magazine"
         },
         {
           name: "Portfolio",

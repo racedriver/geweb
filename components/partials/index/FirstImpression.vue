@@ -1,7 +1,7 @@
 <template>
   <div class="section is-hero">
     <h1 class="container">
-      <div class="col on-dark lg-6 md-12" style="background-color: rgba(0, 0, 0, .90); padding: 48px 32px;">
+      <div class="col on-dark lg-6 md-12" style="background-color: rgba(0, 0, 0, .95); padding: 48px 32px;">
 
         <h1 class="size-h1">
           <div class="size-h2-title">Our Team of</div>

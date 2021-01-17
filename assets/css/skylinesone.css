@@ -220,7 +220,7 @@ strong {
 
 
 .section {
-  padding-top: 96px;
+  padding-top: 48px;
   padding-bottom: 48px;
 }
 
@@ -553,25 +553,6 @@ strong {
   border-radius: 128px;
 }
 
-.brand3 {
-  padding-top: 48px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-}
-
 .col.lg-2 {
   -webkit-flex-basis: 16.66%;
   -ms-flex-preferred-size: 16.66%;
@@ -645,25 +626,6 @@ strong {
 }
 
 .brand {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-}
-
-.brand3 {
-  padding-top: 48px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4295,34 +4257,6 @@ strong {
   border-top: 3px solid #ccc;
 }
 
-.c-nav__link {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 48px;
-  margin-right: 24px;
-  margin-left: 24px;
-  padding: 16px 0;
-  -webkit-transition: color 200ms ease;
-  transition: color 200ms ease;
-  color: #ffffff;
-  font-weight: 700;
-}
-
-.c-nav__link:hover {
-  color: #30C47E;
-}
-
-.c-nav__link.w--current {
-  border-bottom: 1px solid #30C47E;
-  color: #30C47E;
-}
-
-.c-nav__link.w--open:hover {
-  color: #866adb;
-}
-
 .c-search-popup {
   position: absolute;
   left: auto;
@@ -5698,14 +5632,6 @@ strong {
     margin-right: 0;
     margin-left: 0;
     border-bottom: 1px solid #e0e0e0;
-  }
-  .c-nav__link {
-    margin-right: 0;
-    margin-left: 0;
-    border-bottom: 1px solid #e0e0e0;
-  }
-  .c-nav__link.w--current {
-    border-bottom-style: none;
   }
   .c-search-popup {
     left: 0%;
