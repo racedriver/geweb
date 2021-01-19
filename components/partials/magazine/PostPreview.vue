@@ -2,7 +2,7 @@
 <template>
   <div class="PostPreview col lg-4 md-12 pop-out-default">
     <a :href="url" class="w-inline-block wrapper-16to9">
-      <img :src="entry.thumbnail" style="max-width: 500px;"/>
+      <img :src="entry.thumbnail"/>
     </a>
     <!--    <div class="c-gridpost__category">-->
     <!--      <a href="#">Design</a> / <a href="#">Technology</a>-->
