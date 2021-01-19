@@ -13,11 +13,28 @@
           <div class="pre-title color-white">.Love the hustle</div>
           <h2 class="margin-bottom">Our Company</h2>
           <div class="w-richtext">
-            <p><b>Skylines One is a high-tech, cloud-first software company focusing on cutting edge
-              technologies. Moving the needle that bit further for our clients. The company’s name resembles its
-              tradition of flying high in the sky, using only the very best lines of code - Skylines One</b></p>
-            <p>We are a bunch of ex-Apple engineers with a combined 30+ years experience in software architecture
-              and technology.<br></p>
+            <p><b>Skylines One is a high-tech, cloud-first software company focusing on cutting edge technologies.
+              Our focus is user experience (UX/UI), Kotlin and cloud-first with Google Cloud and Firebase.
+              We always strive for excellence and only the Sky(lines One) is the limit!
+            </b></p>
+            <p>We are a team of ex-Apple engineers who want to make technology available to everyone.
+              “You gotta place the user experience first and then reverse engineer the technology from there”
+              This quote from Steve Jobs has made a great impact on the way we think about and engineer our software.
+              Working alongside Steve, the master of user experience, has undoubtedly prepared us to take on your engineering challenge.
+            </p>
+            <p>Our CTO, 17-year-old Lars Artmann, is an accomplished engineer and author of his book on software engineering with Kotlin.
+                With a high-level certification in Java, which is not typical for anyone his age, he quickly found that Kotlin has many
+                advantages over Java and other programming languages.
+            </p>
+            <p>
+              Since serverless applications and cloud-first development is the cutting edge of technology, we have decided that the best
+              use case is usually achieved with Google Cloud and Firebase. We are a Google Cloud Solutions provider and will be happy to
+              guide you through deployment on Google Cloud, AWS or Azure.
+            </p>
+            <p>
+              Our Team consists of people at all levels of life and career, but we have one thing in common: We will never accept that 100%
+              customer satisfaction is impossible. Because it is possible. We invite you to try us out: book an exploration call with us today!
+              <br></p>
           </div>
         </div>
         <div class="col lg-1"></div>
