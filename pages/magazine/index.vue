@@ -1,31 +1,24 @@
 <template>
-  <div class="section position-relative overflow-hidden">
-    <Title>Magazine</Title>
-    <div class="container">
-      <div class="col lg-7 block-centered md-12 text-align-center color-white">
-        <h2>All articles</h2>
-      </div>
-    </div>
-    <div class="container is-wrapping">
-      <PostPreview v-for="entry in articles" :entry="entry"/>
-    </div>
-  </div>
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+      Tawk_LoadStart = new Date()
+    ;(function () {
+      var s1 = document.createElement('script'),
+        s0 = document.getElementsByTagName('script')[0]
+      s1.async = true
+      s1.src = 'https://embed.tawk.to/60083fc6c31c9117cb70a4f3/1esg3i8im'
+      s1.charset = 'UTF-8'
+      s1.setAttribute('crossorigin', '*')
+      s0.parentNode.insertBefore(s1, s0)
+    })()
+  </script>
+  <!--End of Tawk.to Script-->
 </template>
 
 <script>
 export default {
-  async asyncData({$content, redirect, params}) {
-    let articles
-    try {
-      articles = await $content('articles').fetch()
-    } catch (e) {
-      redirect(404, '/404')
-    }
-    console.log(articles)
-    return {
-      articles,
-    }
-  },
+  name: 'Tawk',
 }
 </script>
 
