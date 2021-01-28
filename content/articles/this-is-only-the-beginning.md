@@ -1,7 +1,7 @@
 ---
 title: This is only the beginning
 thumbnail: https://cdn.discordapp.com/attachments/693696782462615633/800384159340167258/ACtC-3eGhMbGoecOq-d_Y8-nkyQ-HdZSHkXNspENln3fS5KQW5qJbKCBhx-68WejcWSUKuCt3fbmEVQKr_geIGoAQcjz6fGQnplI.png
-short: With the thought of uniqueness and limitlessness Skylines One LLC was founded
+short: With the thought of uniqueness and limitlessness Skylines One was founded
 ---
 
 # "In March 2020, Alex Mittler and Lars Artmann met at a deep-tech conference. They had no idea at the time what would happen..."
