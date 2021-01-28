@@ -1,7 +1,7 @@
 <template>
   <div class="section is-hero">
     <h1 class="container">
-      <div class="col on-dark lg-6 md-12 dark-box">
+      <div class="col on-dark lg-7 md-12 dark-box">
         <h1 class="size-h1">
           <div class="size-h2-title">{{ $t('FirstImpression.PreTitle') }}</div>
           <div class="size-h1-title" style="color: #30c47e">
