@@ -33,6 +33,7 @@ export default {
     '@nuxt/typescript-build',
     // // https://go.nuxtjs.dev/tailwindcss
     // '@nuxtjs/tailwindcss',
+    'nuxt-i18n',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -67,5 +68,30 @@ export default {
   server: {
     port: 3000,
     host: '0.0.0.0',
+  },
+
+  i18n: {
+    locales: [
+      {
+        icon:
+          'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/259/flag-united-states_1f1fa-1f1f8.png',
+        name: 'English',
+        code: 'en',
+        iso: 'en',
+        file: 'en.js',
+      },
+      {
+        icon:
+          'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/259/flag-germany_1f1e9-1f1ea.png',
+        name: 'Deutsch',
+        code: 'de',
+        iso: 'de',
+        file: 'de.js',
+      },
+    ],
+    lazy: true,
+    langDir: 'locales/',
+    defaultLocale: 'en',
+    // vueI18nLoader: true,
   },
 }
