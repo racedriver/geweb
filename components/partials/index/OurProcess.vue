@@ -48,7 +48,7 @@ export default {
           text:
             'The Wireframe Will Ensure The Ideas And Concepts Are Brought To \n' +
             'Paper Correctly And The Application Architecture In The Early Stage \n' +
-            'Meand Less Surprises In The Development Phase. You Will Thank Us For \n' +
+            'Meant Less Surprises In The Development Phase. You Will Thank Us For \n' +
             'It.',
         },
         {

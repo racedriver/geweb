@@ -9,14 +9,14 @@
       <FooterLinkBlock title="Office">
         <p class="margin-bottom">
           16192 Coastal Highway<br/>
-          Lewes DA 19958<br/>
+          Lewes DE 19958<br/>
           County of Sussex<br/>
         </p>
       </FooterLinkBlock>
 
       <FooterLinkBlock title="Let's talk">
         <a class="email-footer" href="mailto:hello@skylines.one">hello@skylines.one</a><br/>
-        <a class="phone-footer" href="tel:+16464000535">(646) 400-0535</a>
+        <a class="phone-footer" href="tel:+16464000535">(302) 747-1888</a>
       </FooterLinkBlock>
 
       <FooterLinkBlock title="Company">
