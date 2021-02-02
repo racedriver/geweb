@@ -9,7 +9,7 @@
     <Magazine :articles="articles"/>
     <Testimonials/>
     <div style="padding: 100px 0"/>
-    <Partners/>
+    <!--   Partners/>-->
   </div>
 </template>
 
