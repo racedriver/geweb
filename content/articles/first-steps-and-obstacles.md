@@ -1,6 +1,6 @@
 ---
 title: First Steps and Obstacles
-thumbnail: ../static/images/steps.jpg
+thumbnail: ../../static/images/steps.jpg
 short: #Letscreatethefuture
 ---
 
