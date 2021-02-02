@@ -11,7 +11,7 @@
             width="196"
           />
         </div>
-        <div class="quote style2 text-align-center margin-bottom-double">
+        <div class="quote style2 text-align-center">
           "We have been working on an automotive project with the Skylines One
           team. The initial project is complete on time after 6 months, and
           we&#x27;re very happy with the customer experience both for us and

@@ -1,10 +1,12 @@
 ---
-title: Roadmap to success
-thumbnail: ~/images/road.jpg
-short: More options for the online world
+title: Planning the roadmap to success
+thumbnail: /images/road.jpg
+short: "#Letscreatethefuture: Imagine the impossible"
 ---
 
-As a startup one statement is not enough to define, where we want to go and what we want to achieve. It is a journey and its goals are as widespread as its customer. The primary goal, however, is to make software and apps accessible and manageable by every business owner, even though they are no tech pros!
+###As a startup one statement is not enough to define where we want to go and what we want to achieve. 
+
+It is a journey and its goals are as widespread as its customer. The primary goal, however, is to make software and apps accessible and manageable by every business owner, even though they are no tech pros!
 
 In times like these improving online options for the clients is essential for businesses to survive. However, we did not start our journey because of necessity but out of passion. Therefore, we also want to get it across to our customer, that software and Apps are not just an instrument to improve business but a useful tool that is able to adjusts to the constant changing business goals and their customer needs.
 
