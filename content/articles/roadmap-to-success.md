@@ -1,6 +1,6 @@
 ---
 title: Roadmap to success
-thumbnail: ../../static/images/road.jpg
+thumbnail: ~/images/road.jpg
 short: More options for the online world
 ---
 

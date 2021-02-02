@@ -1,6 +1,6 @@
 ---
 title: This is only the beginning
-thumbnail: ../../static/images/time.jpg
+thumbnail: ~/images/time.jpg
 short: With the thought of uniqueness and limitlessness Skylines One was founded
 ---
 
