@@ -1,10 +1,10 @@
 ---
 title: Planning the roadmap to success
 thumbnail: /images/road.jpg
-short: "#Letscreatethefuture: Imagine the impossible"
+short: "#LetsCreateTheFuture: Imagine the impossible"
 ---
 
-###As a startup one statement is not enough to define where we want to go and what we want to achieve. 
+### As a startup one statement is not enough to define where we want to go and what we want to achieve. 
 
 It is a journey and its goals are as widespread as its customer. The primary goal, however, is to make software and apps accessible and manageable by every business owner, even though they are no tech pros!
 

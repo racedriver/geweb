@@ -4,7 +4,7 @@ thumbnail: /images/steps.jpg
 short: Delivering state of the art tech with an Apple-like UX
 ---
 
-###Since its foundation, the Skylines One team made sure to deliver on its promise to offer building the greatest user experience out there. 
+### Since its foundation, the Skylines One team made sure to deliver on its promise to offer building the greatest user experience out there. 
 
 We are firm believers in quality as opposed to quantity. In other words, we find it extraordinarily fulfilling to be laser-focused on providing a hundred percent guaranteed satisfaction to our clients. Therefore, we want to be nothing but the best in the software market and gladly go the extra mile for our customers.
 
