@@ -5,7 +5,7 @@
         <h1 class="size-h1">
           <div class="size-h2-title">{{ $t('FirstImpression.PreTitle') }}</div>
           <div class="size-h1-title" style="color: #30c47e">
-            {{ $t('FirstImpression.Ex') }}<span style="color: #fff">{{ $t('FirstImpression.Split') }}</span>{{ $t('FirstImpression.AppleEngineers') }}
+            {{ $t('FirstImpression.Ex') }}<span class="text-white">{{ $t('FirstImpression.Split') }}</span>{{ $t('FirstImpression.AppleEngineers') }}
           </div>
           <div class="size-h2-title">{{ $t('FirstImpression.SubTitle') }}</div>
 <!--          <div class="size-h2-title">High-tech Cloud Software</div>-->
@@ -14,7 +14,7 @@
           </div>
         </h1>
 
-        <div class="flexh-align-center xs-is-wrapping">
+        <div class="flex items-center xs-is-wrapping">
           <a
             class="button-primary animated w-inline-block"
             data-w-id="a73c96af-ffb4-8180-7dce-65d3db4801bd"
@@ -22,18 +22,7 @@
             style="padding: 30px 0px"
           >
             <div
-              class="button-primary-text"
-              style="
-                -webkit-transform: translate3d(0, 0px, 0) scale3d(1, 1, 1)
-                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                -moz-transform: translate3d(0, 0px, 0) scale3d(1, 1, 1)
-                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                -ms-transform: translate3d(0, 0px, 0) scale3d(1, 1, 1)
-                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                transform: translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0)
-                  rotateY(0) rotateZ(0) skew(0, 0);
-                opacity: 1;
-              "
+              class="button-primary-text text-sm"
             >
               {{ $t('FirstImpression.Button') }}
             </div>

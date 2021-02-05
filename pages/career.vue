@@ -8,7 +8,7 @@
       </div>
     </div>
     <div class="section no-padding-bottom">
-      <div class="container flexh-align-center">
+      <div class="container flex items-center">
         <div class="col lg-6 xs-12 color-white">
           <div class="pre-title color-white">.Love the hustle</div>
           <h2 class="margin-bottom">Our Company</h2>

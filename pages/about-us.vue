@@ -2,7 +2,7 @@
   <div class="color-white">
     <HeadText title="About Us"/>
     <div class="section no-padding-bottom">
-      <div class="container flexh-align-center">
+      <div class="container flex items-center">
         <div class="color-white">
           <div class="pre-title color-white">.Love the hustle</div>
           <h2 class="margin-bottom">Our Company</h2>

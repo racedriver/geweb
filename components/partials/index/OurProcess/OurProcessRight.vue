@@ -7,7 +7,7 @@
       <div class="margin-bottom">{{ entry.text }}</div>
     </div>
     <div
-      class="col lg-6 md-12 order-first flexh-align-center flexh-space-between padding-top-bottom-double no-margin-bottom-lg position-relative"
+      class="col lg-6 md-12 order-first flex items-center flexh-space-between padding-top-bottom-double no-margin-bottom-lg position-relative"
     >
       <div class="c-step">
         {{
