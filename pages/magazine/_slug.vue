@@ -13,7 +13,7 @@
         <img :src="article.thumbnail"/>
       </div>
 
-      <nuxt-content :document="article"/>
+      <nuxt-content :document="article" style="font-size: 20px"/>
     </div>
   </div>
 </template>

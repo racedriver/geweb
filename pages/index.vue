@@ -8,7 +8,7 @@
     <!--    <div style="padding: 100px 0" />-->
     <Magazine :articles="articles"/>
     <Testimonials/>
-    <!--    div style="padding: 100px 0"/>-->
+    <!--    <div style="padding: 100px 0" />-->
     <!--   Partners/>-->
   </div>
 </template>

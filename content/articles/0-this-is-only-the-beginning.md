@@ -1,10 +1,10 @@
 ---
 title: This is only the beginning
-thumbnail: ~/images/time.jpg
-short: With the thought of uniqueness and limitlessness Skylines One was founded
+thumbnail: /images/time.jpg
+short: Founded with the thought of uniqueness and limitlessness
 ---
 
-# "In March 2020, Alex Mittler and Lars Artmann met at a deep-tech conference. They had no idea at the time what would happen..."
+### "In March 2020, Alex Mittler and Lars Artmann met at a deep-tech conference. They had no idea at the time what would happen..."
 
 Now, more than ever, online business is booming. With new technologies and the need of social distancing it is getting increasingly important to stand out of the crowd and be unique.
 With the thought of uniqueness and limitlessness Skylines One LLC was founded.
