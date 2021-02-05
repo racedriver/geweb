@@ -24,7 +24,6 @@ export default Vue.extend({
     } catch (e) {
       redirect(404, '/404')
     }
-    console.log(articles)
     return {
       articles,
     }
