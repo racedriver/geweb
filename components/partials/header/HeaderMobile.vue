@@ -5,7 +5,7 @@
         <img
           alt=""
           class="logo-image-2"
-          height="100"
+          width="100"
           src="/images/logo%20v4.1%20arrows%20only.svg"
         />
       </a>
