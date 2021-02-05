@@ -45,15 +45,15 @@
             </div>
           </a>
         </div>
-        <a
-          class="cta-link is-white"
-          href="portfolio"
-          style="margin-top: 30px; font-size: 42px"
-        >
-          <span>{{ $t('FirstImpression.OurPortfolio') }}</span>
-          <span class="fa c-cta1_arrow-hovered"></span>
-          <span class="fa c-cta1__arrow-normal"></span>
-        </a>
+<!--        <a-->
+<!--          class="cta-link is-white"-->
+<!--          href="portfolio"-->
+<!--          style="margin-top: 30px; font-size: 42px"-->
+<!--        >-->
+<!--          <span>{{ $t('FirstImpression.OurPortfolio') }}</span>-->
+<!--          <span class="fa c-cta1_arrow-hovered"></span>-->
+<!--          <span class="fa c-cta1__arrow-normal"></span>-->
+<!--        </a>-->
       </div>
       <!--        <div class="col lg-9"></div>-->
     </h1>
