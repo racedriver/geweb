@@ -1,7 +1,7 @@
 <template>
   <div class="col">
     <div class="text-xlarge is-thin margin-bottom-double">
-      Let&#x27;s build something great together
+      {{ title }}
       <a class="email-footer" href="mailto:hello@skylines.one"/>
     </div>
     <div class="container container-nested is-wrapped">
@@ -16,15 +16,15 @@
 
       <FooterLinkBlock title="Let's talk">
         <a class="email-footer" href="mailto:hello@skylines.one">hello@skylines.one</a><br/>
-        <a class="phone-footer" href="tel:+16464000535">(302) 747-1888</a>
+        <a class="phone-footer" href="tel:+13027471888">+1 (302) 747-1888</a>
       </FooterLinkBlock>
 
       <FooterLinkBlock title="Company">
-        <OtherSiteLink v-for="(site, i) in Company" :site="site" :key="i"/>
+        <OtherSiteLink v-for="(site, i) in this.company" :site="site" :key="i"/>
       </FooterLinkBlock>
 
       <FooterLinkBlock title="Let's connect">
-        <OtherSiteLink v-for="(site, i) in Connections" :site="site" :key="i"/>
+        <OtherSiteLink v-for="(site, i) in this.connections" :site="site" :key="i"/>
       </FooterLinkBlock>
 
     </div>
@@ -32,61 +32,11 @@
 </template>
 
 <script>
+import data from "/static/data/footer-links"
 export default {
   name: 'FooterLinks',
   data() {
-    return {
-      Company: [
-        {
-          name: 'About',
-          link: 'about-us',
-        },
-        {
-          name: 'Our work',
-          link: 'portfolio',
-        },
-        {
-          name: 'Career',
-          link: 'career',
-        },
-        {
-          name: 'Privacy Policy',
-          link: 'privacy',
-        },
-      ],
-      Connections: [
-        {
-          link: 'https://linkedin.com/company/skylinesone',
-          icon: '',
-          name: 'LinkedIn',
-        },
-        {
-          link: 'https://discord.skylines.one',
-          icon: '',
-          name: 'Discord',
-        },
-        {
-          link: 'https://github.com/orgs/skylinesone',
-          icon: '',
-          name: 'Github',
-        },
-        {
-          link: 'https://wa.me/31638450573',
-          icon: '',
-          name: 'Whatsapp',
-        },
-        {
-          link: 'https://m.me/alexm888',
-          icon: '',
-          name: 'Messenger',
-        },
-        {
-          link: 'https://t.me/joinchat/GdtTxhUBOd5x742Yf6Z9vA',
-          icon: '',
-          name: 'Telegram',
-        },
-      ],
-    }
+    return data
   },
 }
 </script>
