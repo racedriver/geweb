@@ -1,5 +1,5 @@
 .our-approach {
-  max-height: 130px
+  max-height: 130px;
 }
 
 @media (max-width: 575.98px) {
@@ -13,7 +13,10 @@
 }
 
 .dark-box {
-  background-color: rgba(16, 16, 16, .975);
+  background-color: rgba(16, 16, 16, 0.975);
   padding: 48px 32px;
 }
 
+*:focus {
+  outline: none;
+}

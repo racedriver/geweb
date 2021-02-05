@@ -1,45 +1,16 @@
 <template>
   <div>
-    <HeaderDesktop :sites="sites"/>
-    <HeaderMobile :sites="sites"/>
+    <HeaderDesktop :sites="this.sites"/>
+    <HeaderMobile :sites="this.sites"/>
   </div>
 </template>
 
 <script>
+import data from "/static/data/header"
 export default {
   name: "Header",
   data() {
-    return {
-      sites: [
-        {
-          name: "Home",
-          link: "/"
-        },
-        {
-          name: "About Us",
-          link: "/about-us"
-        }, {
-          name: "Magazine",
-          link: "/magazine"
-        },
-        {
-          name: "Portfolio",
-          link: "/portfolio"
-        },
-        {
-          name: "Career",
-          link: "/career"
-        },
-        {
-          name: "Contact Us",
-          link: "/contact-us"
-        },
-      ]
-    }
+    return data
   }
 }
 </script>
-
-<style scoped>
-
-</style>

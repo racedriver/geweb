@@ -1,5 +1,5 @@
 export default {
-  title: "Testimonials",
+  title: "Customers",
   entries: [
     {
       name: "Patrick Brenndoerfer",

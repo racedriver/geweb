@@ -1,21 +1,23 @@
 <template>
-    <div class="HeaderDesktop navigation-and-offcanvas">
-      <div class="col lg-2 no-margin-bottom-lg md-basis-auto">
-        <a class="brand3 w-inline-block" href="/">
+    <div class="w-full relative flex justify-center items-center">
+      <div class="absolute inset-0" v-if="this.$route.path !== '/'">
+        <img class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100" alt="People working on laptops">
+        <div class="absolute inset-0 bg-green-700" style="mix-blend-mode: multiply;"></div>
+      </div>
+        <a class="relative my-8" href="/">
           <img
+            class="h-32"
             alt="Skylines One"
             src="/images/logo%20v4.1%20arrows%20only.svg"
           />
         </a>
-      </div>
       <div class="col lg-8 no-margin-bottom md-basis-auto md-order-last">
-        <nav class="navigation-menu flexh-justify-center position-relative">
-          <a v-for="site in sites" :href="site.link" class="c-nav__link">
+        <nav class="navigation-menu flex justify-center position-relative">
+          <a v-for="site in sites" :href="site.link" class="flex m-auto py-4 font-bold text-white hover:text-green-300">
             {{ site.name }}
           </a>
         </nav>
       </div>
-      <a class="c-navbar-icon is-19px" href="#"></a>
     </div>
 </template>
 
@@ -30,55 +32,3 @@ export default {
   },
 }
 </script>
-
-<style scoped>
-.HeaderDesktop {
-  margin: 48px auto;
-}
-
-.brand3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-}
-
-.c-nav__link {
-//border-bottom: 1px solid #e0e0e0; display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin: auto auto;
-  padding: 16px 0;
-  -webkit-transition: color 200ms ease;
-  transition: color 200ms ease;
-  color: #ffffff;
-  font-weight: 700;
-}
-
-.c-nav__link:hover {
-  color: #30C47E;
-}
-
-/*.c-nav__link.w--current {
-  border-bottom: 1px solid #30C47E;
-  color: #30C47E;
-}
-.c-nav__link.w--open:hover {
-  color: #866adb;
-}
-.c-nav__link.w--current {
-  border-bottom-style: none;
-}*/
-</style>

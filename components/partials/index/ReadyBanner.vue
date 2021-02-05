@@ -1,7 +1,7 @@
 <template>
   <div class="section is-dark bg-memphis position-relative overflow-hidden">
     <div class="container is-narrow position-relative">
-      <div class="col flexh-justify-center flex items-center">
+      <div class="col flex items-center justify-center">
         <div>
           <div class="size-h2">
             Are you ready to improve your business processes today?<br/>
