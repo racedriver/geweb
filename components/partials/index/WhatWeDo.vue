@@ -18,7 +18,7 @@
     <div class="container is-fullwidth padding-left padding-right">
       <div class="col lg-12 xs-no-padding-left-right">
         <div class="w-layout-grid c-grid-services">
-          <WhatWeDoEntry v-for="entry in entries" :entry="entry"/>
+          <WhatWeDoEntry v-for="(entry, i) in entries" :entry="entry" :key="i"/>
         </div>
       </div>
     </div>

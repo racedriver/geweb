@@ -1,9 +1,7 @@
 <template>
-  <div class="Title">
-    <div class="c-shadowing-text is-white" style="color: #30c47e">
+    <div class="c-shadowing-text is-white mx-auto" style="color: #30c47e">
       <slot></slot>
     </div>
-  </div>
 </template>
 
 <script>

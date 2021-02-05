@@ -2,7 +2,7 @@
   <div class="col lg-6 md-12">
     <div class="pre-title margin-bottom-double">Our approach</div>
     <div class="container container-nested">
-      <OurApproachEntry v-for="entry in entries" :entry="entry"/>
+      <OurApproachEntry v-for="(entry, i) in entries" :entry="entry" :key="i"/>
     </div>
   </div>
 </template>

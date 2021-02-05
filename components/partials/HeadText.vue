@@ -1,6 +1,6 @@
 <template>
   <div class="background py-12 text-center align-center">
-    <h1 class="m-0 text-white">{{ title }}</h1>
+    <h1 class="m-0 text-white text-3xl sm:text-4xl md:text-5xl">{{ title }}</h1>
   </div>
 </template>
 

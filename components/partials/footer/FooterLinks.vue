@@ -20,11 +20,11 @@
       </FooterLinkBlock>
 
       <FooterLinkBlock title="Company">
-        <OtherSiteLink v-for="site in Company" :site="site"/>
+        <OtherSiteLink v-for="(site, i) in Company" :site="site" :key="i"/>
       </FooterLinkBlock>
 
       <FooterLinkBlock title="Let's connect">
-        <OtherSiteLink v-for="site in Connections" :site="site"/>
+        <OtherSiteLink v-for="(site, i) in Connections" :site="site" :key="i"/>
       </FooterLinkBlock>
 
     </div>

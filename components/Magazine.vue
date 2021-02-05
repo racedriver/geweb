@@ -7,7 +7,7 @@
       </div>
     </div>
     <div class="container is-wrapping">
-      <PostPreview v-for="entry in articles" :entry="entry" />
+      <PostPreview v-for="(entry, i) in articles" :entry="entry" :key="i" />
     </div>
   </div>
 </template>
