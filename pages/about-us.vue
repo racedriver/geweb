@@ -1,12 +1,6 @@
 <template>
   <div class="color-white">
-    <div class="section aboutus margin-top background">
-      <div class="container">
-        <div class="col lg-12 text-align-center">
-          <h1 style="margin-bottom: 0">About Us</h1>
-        </div>
-      </div>
-    </div>
+    <HeadText title="About Us"/>
     <div class="section no-padding-bottom">
       <div class="container flexh-align-center">
         <div class="color-white">
