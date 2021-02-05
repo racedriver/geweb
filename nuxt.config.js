@@ -94,4 +94,20 @@ export default {
     defaultLocale: 'en',
     // vueI18nLoader: true,
   },
+  pwa: {
+    manifest: {
+      name: 'Skylines One',
+      description:
+        'ex-Apple engineers working on the best *user experience* possible! with Kotlin, Nuxt.js, Tailwind and the safety of the Google Cloud',
+      display: 'fullscreen',
+      background_color: '#000',
+      short_name: 'Skylines One',
+      lang: 'en',
+      useWebmanifestExtension: false,
+      icons: [],
+    },
+    meta: {
+      ogHost: 'https://skylines.one/',
+    },
+  },
 }
