@@ -11,9 +11,3 @@ export default {
   name: 'Title',
 }
 </script>
-
-<style scoped>
-.Title {
-  margin-top: 48px;
-}
-</style>
