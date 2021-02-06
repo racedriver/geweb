@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <HeadText title="Magazine"/>
-    <Magazine :articles="articles" />
+    <Magazine class="py-12" :articles="this.articles" />
   </div>
 </template>
 
