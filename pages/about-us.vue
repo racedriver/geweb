@@ -1,10 +1,10 @@
 <template>
-  <div class="color-white">
+  <div class="text-white">
     <HeadText title="About Us"/>
     <div class="section no-padding-bottom">
       <div class="container flex items-center">
-        <div class="color-white">
-          <div class="pre-title color-white">.Love the hustle</div>
+        <div class="text-white">
+          <div class="pre-title text-white">.Love the hustle</div>
           <h2 class="margin-bottom">Our Company</h2>
           <!--          <div class="w-richtext col-12">-->
           <p>
@@ -70,14 +70,14 @@
         <div class="col">
           <h2>Management Team</h2>
 
-          <div class="color-white">
+          <div class="text-white">
             <b>Where innovation meets experience</b>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="col lg-5 md-12">
-          <div class="flex-horizontal position-relative">
+          <div class="flex relative">
             <img
               alt="Alex Mittler"
               class="margin-right round-border"
@@ -89,7 +89,7 @@
               <div class="size-h4 margin-bottom-quad">CEO</div>
               <div class="c-team1__social">
                 <a
-                  class="fa-brand margin-right-small"
+                  class="fa-brand mr-2"
                   href="https://www.linkedin.com/in/alexmittler/"
                 ></a
                 >
@@ -98,7 +98,7 @@
           </div>
         </div>
         <div class="col lg-5 md-12">
-          <div class="flex-horizontal position-relative">
+          <div class="flex relative">
             <img
               alt="Lars Artmann"
               class="margin-right round-border"
@@ -110,7 +110,7 @@
               <div class="size-h4 margin-bottom-quad">CTO</div>
               <div class="c-team1__social">
                 <a
-                  class="fa-brand margin-right-small"
+                  class="fa-brand mr-2"
                   href="https://www.linkedin.com/in/larsartmann/"
                 ></a
                 >
@@ -121,7 +121,7 @@
       </div>
       <div class="container">
         <div class="col lg-5 md-12">
-          <div class="flex-horizontal position-relative">
+          <div class="flex relative">
             <img
               alt="Alexandra Obendorfer"
               class="margin-right round-border"
@@ -133,7 +133,7 @@
               <div class="size-h4 margin-bottom-quad">Operations Manager</div>
               <div class="c-team1__social">
                 <a
-                  class="fa-brand margin-right-small"
+                  class="fa-brand mr-2"
                   href="https://www.linkedin.com/in/alexandra-obendorfer-963522120/"
                 ></a
                 >
@@ -142,7 +142,7 @@
           </div>
         </div>
         <div class="col lg-5 md-12">
-          <div class="flex-horizontal position-relative">
+          <div class="flex relative">
             <img
               alt=""
               class="margin-right round-border"
@@ -156,7 +156,7 @@
               </div>
               <div class="c-team1__social">
                 <a
-                  class="fa-brand margin-right-small"
+                  class="fa-brand mr-2"
                   href="https://www.linkedin.com/in/roniel-sumay-73b3401ba/"
                 ></a
                 >
@@ -165,9 +165,9 @@
           </div>
         </div>
       </div>
-      <div class="container flex-horizontal">
+      <div class="container flex">
         <div class="col lg-5 md-12">
-          <div class="flex-horizontal position-relative">
+          <div class="flex relative">
             <img
               alt="Amy Ross"
               class="margin-right round-border"
@@ -182,7 +182,7 @@
           </div>
         </div>
         <div class="col lg-5 md-12">
-          <div class="flex-horizontal position-relative">
+          <div class="flex relative">
             <img
               alt="Malek Anderson"
               class="margin-right round-border"
@@ -199,42 +199,15 @@
       </div>
     </div>
 
-    <div class="section background centered">
-      <div class="container margin-bottom">
-        <div class="col text-align-center block-centered lg-8 md-12">
-          <div class="pre-title">Our Experience</div>
-          <h2>Skylines One in numbers</h2>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="col text-align-center lg-3">
-          <div class="heading-alpha is-plus margin-bottom">12</div>
-          <div class="is-bold">Custom Projects</div>
-        </div>
-        <div class="col text-align-center lg-3">
-          <div class="heading-alpha is-plus margin-bottom">39</div>
-          <div class="is-bold">Digital Products</div>
-        </div>
-        <div class="col text-align-center lg-3">
-          <div class="heading-alpha is-plus margin-bottom">4960</div>
-          <div class="is-bold">Cups of coffee</div>
-        </div>
-        <div class="col text-align-center lg-3">
-          <div class="heading-alpha is-plus margin-bottom">98%</div>
-          <div class="is-bold">Customer satisfaction</div>
-        </div>
-      </div>
-    </div>
     <div class="section">
       <div class="container">
         <div class="col lg-12 text-align-center">
           <h2>Interested in joining our team?</h2>
-          <div class="color-white margin-bottom-double">
+          <div class="text-white margin-bottom-double">
             Come join our team at Skylines One and make awesome digital
             products!
           </div>
-          <a class="button-primary w-inline-block" href="contact-us.html">
+          <a class="button-primary inline-block max-w-full" href="/contact-us">
             <div class="button-primary-text">Join Us</div>
           </a>
         </div>

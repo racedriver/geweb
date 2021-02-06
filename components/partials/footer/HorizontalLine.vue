@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="col lg-12 margin-bottom">
-      <div class="hr on-dark opacity"></div>
+      <div class="hr text-white opacity"></div>
     </div>
   </div>
 </template>

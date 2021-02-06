@@ -1,6 +1,6 @@
 <template>
-  <a :href="site.link" class="footer-nav-link on-dark w-inline-block">
-    <span v-if="site.icon !== undefined" class="fa-brand-2 w24">{{ site.icon }}</span> {{ site.name }}
+  <a :href="site.link" class="block py-1 transition max-w-full">
+    <span v-if="site.icon !== undefined" class="fa-brand-2 text-center">{{ site.icon }}</span> {{ site.name }}
   </a>
 </template>
 
@@ -16,5 +16,3 @@ export default {
   },
 }
 </script>
-
-<style scoped></style>

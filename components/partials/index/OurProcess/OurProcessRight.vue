@@ -1,7 +1,7 @@
 <template>
-  <div class="container margin-bottom-double position-relative z-index10">
+  <div class="container margin-bottom-double position-relative z-index10 text-white">
     <div
-      class="col lg-7 md-12 alignself-center no-margin-bottom-lg color-white"
+      class="col lg-7 md-12 alignself-center no-margin-bottom-lg text-white"
     >
       <h3>{{ entry.title }}</h3>
       <div class="margin-bottom">{{ entry.text }}</div>
@@ -18,7 +18,7 @@
         }}
       </div>
       <img :class="entry.special ? '' : 'margin-left hidden-only-lg'" :src="entry.image" width="128"/>
-      <img v-if="!entry.special" :src="entry.image" class="c-arrow-left hidden-md"/>
+      <img v-if="!entry.special" :src="entry.image" class="c-arrow-left hidden xl:block"/>
     </div>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-    <div class="c-shadowing-text is-white mx-auto" style="color: #30c47e">
+    <div class="text-6xl sm:text-8xl lg:text-9xl text-center uppercase font-black mx-auto text-green-500">
       <slot></slot>
     </div>
 </template>

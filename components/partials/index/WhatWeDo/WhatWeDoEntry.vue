@@ -7,7 +7,7 @@
     </div>
     <a
       :href="entry.link || 'contact-us'"
-      class="button-primary is-ghost is-small on-lg-margin-bottom w-inline-block"
+      class="button-primary is-ghost is-small on-lg-margin-bottom inline-block max-w-full"
     >
       <div class="button-primary-text">{{ entry.button || "Let's talk" }}</div>
     </a>

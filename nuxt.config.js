@@ -1,4 +1,6 @@
 export default {
+  dev: process.env.NODE_ENV !== 'production',
+
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
 
@@ -15,7 +17,24 @@ export default {
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-    script: ['@/assets/js/google-tagmanager.js'],
+    script: [
+      '~/assets/js/google-tagmanager.js',
+      {
+        src: 'https://cdn.lr-ingest.io/LogRocket.min.js',
+        crossorigin: 'anonymous',
+      },
+      {
+        src: '/js/tawk.to.js',
+        body: true,
+      },
+      {
+        src: '/js/log-rocket.js',
+        body: true,
+      },
+    ],
+    bodyAttrs: {
+      class: this.dev ? 'debug-screens' : '',
+    },
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)

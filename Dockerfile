@@ -10,6 +10,5 @@ COPY . .
 EXPOSE 3000
 
 RUN npm run generate
-RUN npm run build
 
 CMD [ "npm", "run", "start" ]

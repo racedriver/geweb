@@ -1,5 +1,8 @@
 <template>
-  <Magazine :articles="articles" />
+  <div class="">
+    <HeadText title="Magazine"/>
+    <Magazine class="py-12" :articles="this.articles" />
+  </div>
 </template>
 
 <script>

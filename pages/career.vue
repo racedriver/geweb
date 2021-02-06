@@ -1,16 +1,10 @@
 <template>
-  <div class="color-white">
-    <div class="section aboutus margin-top background">
-      <div class="container">
-        <div class="col lg-12 text-align-center">
-          <h1>Careers</h1>
-        </div>
-      </div>
-    </div>
+  <div class="text-white">
+    <HeadText title="Careers"/>
     <div class="section no-padding-bottom">
       <div class="container flex items-center">
-        <div class="col lg-6 xs-12 color-white">
-          <div class="pre-title color-white">.Love the hustle</div>
+        <div class="col lg-6 xs-12 text-white">
+          <div class="pre-title text-white">.Love the hustle</div>
           <h2 class="margin-bottom">Our Company</h2>
           <div class="w-richtext">
             <p><b>Skylines One is a high-tech, cloud-first software company focusing on cutting edge
@@ -32,10 +26,10 @@
       <div class="container">
         <div class="col lg-12 text-align-center">
           <h2>Interested in joining our team?</h2>
-          <div class="color-white margin-bottom-double">Come join our team at Skylines One and make awesome digital
+          <div class="text-white margin-bottom-double">Come join our team at Skylines One and make awesome digital
             products!
           </div>
-          <a class="button-primary w-inline-block" href="contact-us">
+          <a class="button-primary inline-block max-w-full" href="contact-us">
             <div class="button-primary-text">Join Us</div>
           </a>
         </div>
