@@ -22,7 +22,9 @@
     "nuxt": "^2.14.6",
     "nuxt-i18n": "^6.20.0",
     "postcss": "^8.2.4",
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": "^2.0.2",
+    "vue": "^2.6.12",
+    "vue-if-bot": "^1.2.0"
   },
   "devDependencies": {
     "@nuxt/types": "^2.14.6",
@@ -41,6 +43,7 @@
     "pug-plain-loader": "^1.1.0",
     "sass": "^1.32.6",
     "sass-loader": "^10.1.1",
+    "tailwindcss-debug-screens": "^2.0.0",
     "ts-jest": "^26.5.0",
     "vue-jest": "^3.0.4"
   }

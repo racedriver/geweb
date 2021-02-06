@@ -2,11 +2,12 @@
   <div>
     <FirstImpression/>
     <WhoWeAre/>
+    <NewestTechnologies/>
     <WhatWeDo/>
     <ReadyBanner/>
     <OurProcess/>
     <!--    <div style="padding: 100px 0" />-->
-    <Magazine :articles="articles"/>
+    <Magazine :articles="this.articles"/>
     <Testimonials/>
     <!--    <div style="padding: 100px 0" />-->
     <!--   Partners/>-->

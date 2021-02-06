@@ -15,7 +15,20 @@ export default {
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-    script: ['@/assets/js/google-tagmanager.js'],
+    script: [
+      '~/assets/js/google-tagmanager.js',
+      {
+        src: 'https://cdn.lr-ingest.io/LogRocket.min.js',
+        crossorigin: 'anonymous',
+      },
+      {
+        src: '/js/tawk.to.js',
+        body: true,
+      },
+    ],
+    bodyAttrs: {
+      class: 'debug-screens',
+    },
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)

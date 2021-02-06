@@ -1,4 +1,6 @@
 @import 'mixins.scss';
+@import 'patterns.scss';
+@import 'tailwind.scss';
 
 .pop-out-default {
   @include pop-out;
@@ -18,4 +20,8 @@
 
 .wrapper-9to21 {
   @include wrapper-XtoY(9, 21)
+}
+
+body {
+  @apply bg-black;
 }

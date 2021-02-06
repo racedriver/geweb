@@ -4633,24 +4633,6 @@ strong {
 }
 
 @media (max-width: 991px) {
-  h1 {
-    margin-bottom: 16px;
-  }
-  h2 {
-    margin-bottom: 14px;
-  }
-  h4 {
-    margin-bottom: 8px;
-  }
-  h5 {
-    margin-bottom: 8px;
-  }
-  h6 {
-    margin-bottom: 8px;
-  }
-  p {
-    margin-bottom: 16px;
-  }
   .container {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;

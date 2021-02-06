@@ -1,0 +1,14 @@
+@tailwind base; //Fixes some inconsistencies between browsers [https://tailwindcss.com/docs/preflight]
+
+@layer base {
+  //Disabled default focus outline from Preflight
+  button:focus {
+    outline: none;
+  }
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+@tailwind screens;
