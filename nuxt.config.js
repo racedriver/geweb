@@ -25,6 +25,10 @@ export default {
         src: '/js/tawk.to.js',
         body: true,
       },
+      {
+        src: '/js/log-rocket.js',
+        body: true,
+      },
     ],
     bodyAttrs: {
       class: 'debug-screens',
