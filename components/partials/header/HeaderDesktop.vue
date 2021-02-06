@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex items-center relative">
+  <div class="max-w-7xl mx-auto w-full flex items-center relative">
     <div class="absolute inset-0" v-if="this.$route.path !== '/'">
       <img
         class="h-full w-full object-cover"
@@ -11,14 +11,14 @@
         style="mix-blend-mode: multiply"
       ></div>
     </div>
-    <a class="relative my-8 ml-8" href="/">
+    <a class="relative my-8 ml-8 lg:ml-16" href="/">
       <img
         class="h-32"
         alt="Skylines One"
         src="/images/logo%20v4.1%20arrows%20only.svg"
       />
     </a>
-    <nav class="hidden w-full md:flex md:w-4/5 lg:w-3/5 lg:mx-auto justify-around relative">
+    <nav class="hidden w-full md:flex md:w-3/4 lg:mx-auto justify-around relative">
       <a
         v-for="site in sites"
         :href="site.link"
