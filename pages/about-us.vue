@@ -199,33 +199,6 @@
       </div>
     </div>
 
-    <div class="section background centered">
-      <div class="container margin-bottom">
-        <div class="col text-align-center block-centered lg-8 md-12">
-          <div class="pre-title">Our Experience</div>
-          <h2>Skylines One in numbers</h2>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="col text-align-center lg-3">
-          <div class="heading-alpha is-plus margin-bottom">12</div>
-          <div class="is-bold">Custom Projects</div>
-        </div>
-        <div class="col text-align-center lg-3">
-          <div class="heading-alpha is-plus margin-bottom">39</div>
-          <div class="is-bold">Digital Products</div>
-        </div>
-        <div class="col text-align-center lg-3">
-          <div class="heading-alpha is-plus margin-bottom">4960</div>
-          <div class="is-bold">Cups of coffee</div>
-        </div>
-        <div class="col text-align-center lg-3">
-          <div class="heading-alpha is-plus margin-bottom">98%</div>
-          <div class="is-bold">Customer satisfaction</div>
-        </div>
-      </div>
-    </div>
     <div class="section">
       <div class="container">
         <div class="col lg-12 text-align-center">
