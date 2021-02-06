@@ -4,7 +4,7 @@
       class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 md:max-w-7xl"
     >
       <h2
-        class="text-base font-semibold tracking-wider text-indigo-600 uppercase"
+        class="text-base font-semibold tracking-wider text-green-500 uppercase"
       >
         {{ keyword }}
       </h2>
@@ -26,7 +26,7 @@
               <div class="-mt-12 h-full">
                 <div>
                   <span
-                    class="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg"
+                    class="inline-flex items-center justify-center p-3 bg-green-500 rounded-md shadow-lg"
                   >
                     <svg
                       v-if="entry.svg"
