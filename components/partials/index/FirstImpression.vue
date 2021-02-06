@@ -1,9 +1,9 @@
 <template>
   <div class="h-5/6">
     <div class="w-full md:w-1/3 text-white dark-box">
-      <h1 class="size-h1">
+      <h1>
         <div class="text-4xl">{{ $t('FirstImpression.PreTitle') }}</div>
-        <div class="text-6xl" style="color: #30c47e">
+        <div class="text-6xl text-green-500">
           {{ $t('FirstImpression.Ex') }}<span class="text-white">{{ $t('FirstImpression.Split') }}</span>{{ $t('FirstImpression.AppleEngineers') }}
         </div>
         <div class="text-2xl">{{ $t('FirstImpression.SubTitle') }}</div>
@@ -12,20 +12,12 @@
         </div>
       </h1>
 
-      <div class="flex items-center xs-is-wrapping">
+      <div class="flex items-center">
         <a
-          class="button-primary animated w-inline-block"
+          class="w-full bg-green-500 text-white text-center py-8 text-lg"
           href="/contact-us"
-          style="padding: 30px 0px"
         >
-          <div class="button-primary-text text-sm">
             {{ $t('FirstImpression.Button') }}
-          </div>
-          <div
-            class="button-primary-text for-hover"
-          >
-            let&#x27;s go <span class="fa margin-left"></span>
-          </div>
         </a>
       </div>
     </div>
@@ -37,5 +29,3 @@ export default {
   name: 'FirstImpression',
 }
 </script>
-
-<style scoped></style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="section bg-accent position-relative overflow-hidden">
+  <div class="section bg-white position-relative overflow-hidden">
     <Title>Who we are</Title>
     <div class="container position-relative">
       <AboutUsText/>
@@ -14,5 +14,3 @@ export default {
   name: 'WhoWeAre',
 }
 </script>
-
-<style scoped></style>
