@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex md:justify-evenly items-center relative">
+  <div class="w-full flex items-center relative">
     <div class="absolute inset-0" v-if="this.$route.path !== '/'">
       <img
         class="h-full w-full object-cover"
@@ -18,11 +18,11 @@
         src="/images/logo%20v4.1%20arrows%20only.svg"
       />
     </a>
-    <nav class="hidden md:flex w-full md:w-3/5 lg:w-4/5 justify-around relative">
+    <nav class="hidden w-full md:flex md:w-4/5 lg:w-3/5 lg:mx-auto justify-around relative">
       <a
         v-for="site in sites"
         :href="site.link"
-        class="flex m-auto py-4 font-bold text-white hover:text-green-300"
+        class="flex m-auto py-4 font-bold text-white text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl hover:text-green-300"
       >
         {{ site.name }}
       </a>
