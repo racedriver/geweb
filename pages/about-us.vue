@@ -207,7 +207,7 @@
             Come join our team at Skylines One and make awesome digital
             products!
           </div>
-          <a class="button-primary w-inline-block" href="contact-us.html">
+          <a class="button-primary w-inline-block" href="/contact-us">
             <div class="button-primary-text">Join Us</div>
           </a>
         </div>
