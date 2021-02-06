@@ -6,8 +6,8 @@
 <!--        <h2 class="text-white">All articles</h2>-->
 <!--      </div>-->
 <!--    </div>-->
-    <div class="container is-wrapping">
-      <PostPreview v-for="(entry, i) in articles" :entry="entry" :key="i" />
+    <div class="container flex flex-wrap">
+      <PostPreview class="sm:mx-8 sm:my-6" v-for="(entry, i) in articles" :entry="entry" :key="i" />
     </div>
   </div>
 </template>
