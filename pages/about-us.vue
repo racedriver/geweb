@@ -77,7 +77,7 @@
       </div>
       <div class="container">
         <div class="col lg-5 md-12">
-          <div class="flex-horizontal position-relative">
+          <div class="flex relative">
             <img
               alt="Alex Mittler"
               class="margin-right round-border"
@@ -89,7 +89,7 @@
               <div class="size-h4 margin-bottom-quad">CEO</div>
               <div class="c-team1__social">
                 <a
-                  class="fa-brand margin-right-small"
+                  class="fa-brand mr-2"
                   href="https://www.linkedin.com/in/alexmittler/"
                 ></a
                 >
@@ -98,7 +98,7 @@
           </div>
         </div>
         <div class="col lg-5 md-12">
-          <div class="flex-horizontal position-relative">
+          <div class="flex relative">
             <img
               alt="Lars Artmann"
               class="margin-right round-border"
@@ -110,7 +110,7 @@
               <div class="size-h4 margin-bottom-quad">CTO</div>
               <div class="c-team1__social">
                 <a
-                  class="fa-brand margin-right-small"
+                  class="fa-brand mr-2"
                   href="https://www.linkedin.com/in/larsartmann/"
                 ></a
                 >
@@ -121,7 +121,7 @@
       </div>
       <div class="container">
         <div class="col lg-5 md-12">
-          <div class="flex-horizontal position-relative">
+          <div class="flex relative">
             <img
               alt="Alexandra Obendorfer"
               class="margin-right round-border"
@@ -133,7 +133,7 @@
               <div class="size-h4 margin-bottom-quad">Operations Manager</div>
               <div class="c-team1__social">
                 <a
-                  class="fa-brand margin-right-small"
+                  class="fa-brand mr-2"
                   href="https://www.linkedin.com/in/alexandra-obendorfer-963522120/"
                 ></a
                 >
@@ -142,7 +142,7 @@
           </div>
         </div>
         <div class="col lg-5 md-12">
-          <div class="flex-horizontal position-relative">
+          <div class="flex relative">
             <img
               alt=""
               class="margin-right round-border"
@@ -156,7 +156,7 @@
               </div>
               <div class="c-team1__social">
                 <a
-                  class="fa-brand margin-right-small"
+                  class="fa-brand mr-2"
                   href="https://www.linkedin.com/in/roniel-sumay-73b3401ba/"
                 ></a
                 >
@@ -165,9 +165,9 @@
           </div>
         </div>
       </div>
-      <div class="container flex-horizontal">
+      <div class="container flex">
         <div class="col lg-5 md-12">
-          <div class="flex-horizontal position-relative">
+          <div class="flex relative">
             <img
               alt="Amy Ross"
               class="margin-right round-border"
@@ -182,7 +182,7 @@
           </div>
         </div>
         <div class="col lg-5 md-12">
-          <div class="flex-horizontal position-relative">
+          <div class="flex relative">
             <img
               alt="Malek Anderson"
               class="margin-right round-border"
@@ -207,7 +207,7 @@
             Come join our team at Skylines One and make awesome digital
             products!
           </div>
-          <a class="button-primary w-inline-block" href="/contact-us">
+          <a class="button-primary inline-block max-w-full" href="/contact-us">
             <div class="button-primary-text">Join Us</div>
           </a>
         </div>

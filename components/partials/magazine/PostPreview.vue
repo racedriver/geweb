@@ -1,14 +1,14 @@
 <!--suppress HtmlRequiredAltAttribute -->
 <template>
   <div class="pop-out-default">
-    <a :href="url" class="w-inline-block wrapper-16to9">
+    <a :href="url" class="inline-block max-w-full wrapper-16to9">
       <img :src="entry.thumbnail"/>
     </a>
     <!--    <div class="c-gridpost__category">-->
     <!--      <a href="#">Design</a> / <a href="#">Technology</a>-->
     <!--    </div>-->
     <div class="dark-box h-full">
-      <a :href="url" class="c-gridpost__title-2 w-inline-block">
+      <a :href="url" class="c-gridpost__title-2 inline-block max-w-full">
         <h3 class="text-white mb-4">{{ entry.title }}</h3>
       </a>
       <div class="text-gray-400 mb-4">

@@ -1,5 +1,5 @@
 <template>
-  <div class="section position-relative overflow-hidden">
+  <div class="py-12">
     <Title class="mb-12">Magazine</Title>
 <!--    <div class="container">-->
 <!--      <div class="col lg-7 block-centered md-12 text-align-center">-->

@@ -6,7 +6,7 @@
           <div class="size-h2">
             Are you ready to improve your business processes today?<br/>
           </div>
-          <div class="low-text-contrast">
+          <div class="text-gray-400">
             Our software solutions make dreams come true.
           </div>
         </div>

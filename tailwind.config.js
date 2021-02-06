@@ -9,6 +9,22 @@ module.exports = {
       prefix: 'screen side: ',
       position: ['top', 'left'],
     },
+    extend: {
+      colors: {
+        seagreen: {
+          50: '#f7fafa',
+          100: '#eff8f4',
+          200: '#daefe3',
+          300: '#bbdfcd',
+          400: '#7ec2a6',
+          500: '#46a178',
+          600: '#317d54',
+          700: '#2c6145',
+          800: '#2c4845',
+          900: '#1e3a2f',
+        },
+      },
+    },
   },
   plugins: [
     // ...

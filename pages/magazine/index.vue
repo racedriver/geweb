@@ -1,5 +1,8 @@
 <template>
-  <Magazine :articles="articles" />
+  <div class="">
+    <HeadText title="Magazine"/>
+    <Magazine :articles="articles" />
+  </div>
 </template>
 
 <script>

@@ -15,8 +15,8 @@
       </FooterLinkBlock>
 
       <FooterLinkBlock title="Let's talk">
-        <a class="email-footer" href="mailto:hello@skylines.one">hello@skylines.one</a><br/>
-        <a class="phone-footer" href="tel:+13027471888">+1 (302) 747-1888</a>
+        <a href="mailto:hello@skylines.one">hello@skylines.one</a><br/>
+        <a href="tel:+13027471888">+1 (302) 747-1888</a>
       </FooterLinkBlock>
 
       <FooterLinkBlock title="Company">

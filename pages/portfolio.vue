@@ -17,7 +17,7 @@
       <div class="col-2 lg-12 margin-bottom position-relative">
         <div class="w-layout-grid c-grid-services">
           <a
-            class="c-grid-item card w-inline-block round-border"
+            class="c-grid-item card inline-block max-w-full round-border"
             data-category="has-3d"
             href="#"
           >
@@ -38,7 +38,7 @@
               src="/images/fintech.jpg"
             /></a>
           <a
-            class="c-grid-item card w-inline-block round-border"
+            class="c-grid-item card inline-block max-w-full round-border"
             data-category="has-lettering"
             href="#"
           >
@@ -60,7 +60,7 @@
               src="/images/ecom.jpg"
             /></a>
           <a
-            class="c-grid-item card w-inline-block round-border"
+            class="c-grid-item card inline-block max-w-full round-border"
             data-category="has-branding"
             href="#"
           >
@@ -81,7 +81,7 @@
               src="/images/3dgaming.jpg"
             /></a>
           <a
-            class="c-grid-item card w-inline-block round-border"
+            class="c-grid-item card inline-block max-w-full round-border"
             data-category="has-branding"
             href="#"
           >
@@ -103,7 +103,7 @@
               src="/images/3dweb.jpg"
             /></a>
           <a
-            class="c-grid-item card w-inline-block round-border"
+            class="c-grid-item card inline-block max-w-full round-border"
             data-category="has-logo"
             href="#"
           >
@@ -124,7 +124,7 @@
               src="/images/vr-ar.jpg"
             /></a>
           <a
-            class="c-grid-item card w-inline-block round-border"
+            class="c-grid-item card inline-block max-w-full round-border"
             data-category="has-branding"
             href="#"
           >
@@ -147,7 +147,7 @@
               src="/images/systems.jpg"
             /></a>
           <a
-            class="c-grid-item card w-inline-block round-border"
+            class="c-grid-item card inline-block max-w-full round-border"
             data-category="has-magazine"
             href="#"
           >
@@ -168,7 +168,7 @@
               src="/images/to-do.jpg"
             /></a>
           <a
-            class="c-grid-item card w-inline-block round-border"
+            class="c-grid-item card inline-block max-w-full round-border"
             data-category="has-packaging"
             href="#"
           >
@@ -189,7 +189,7 @@
               src="/images/payroll.jpg"
             /></a>
           <a
-            class="c-grid-item card w-inline-block round-border"
+            class="c-grid-item card inline-block max-w-full round-border"
             data-category="has-packaging"
             href="#"
           >
@@ -209,7 +209,7 @@
               sizes="(max-width: 479px) 90vw, (max-width: 752px) 93vw, 700px"
               src="/images/mc.jpg"
             /></a>
-          <!--a href="#" data-category="has-packaging" class="c-grid-item card w-inline-block round-border">
+          <!--a href="#" data-category="has-packaging" class="c-grid-item card inline-block max-w-full round-border">
             <div class="c-grid-item__text is-dark">
               <div class="overflow-hidden">
                 <div class="c-grid-item__title">Four Kay</div>
@@ -218,7 +218,7 @@
                 <div class="c-grid-item__categories">branding <span class="text-xsmall is-thin">×</span> packaging</div>
               </div>
             </div><img src="https://via.placeholder.com/1000x600.png?text=IMAGE 700w" sizes="(max-width: 479px) 90vw, (max-width: 752px) 93vw, 700px" alt="" class="c-grid-item__image round-border"></a>
-          <a href="portfolio-detail.html" data-category="has-clothing" class="c-grid-item card w-inline-block round-border">
+          <a href="portfolio-detail.html" data-category="has-clothing" class="c-grid-item card inline-block max-w-full round-border">
             <div class="c-grid-item__text is-dark">
               <div class="overflow-hidden">
                 <div class="c-grid-item__title">Walter Monginsidi</div>
@@ -227,7 +227,7 @@
                 <div class="c-grid-item__categories">clothing <span class="text-xsmall is-thin">×</span> logo</div>
               </div>
             </div><img src="https://via.placeholder.com/1000x600.png?text=IMAGE 3334w" sizes="(max-width: 479px) 90vw, (max-width: 767px) 94vw, (max-width: 991px) 95vw, (max-width: 3367px) 99vw, 3334px" alt="" class="c-grid-item__image round-border"></a>
-          <a href="portfolio-detail.html" data-category="has-packaging" class="c-grid-item card w-inline-block round-border">
+          <a href="portfolio-detail.html" data-category="has-packaging" class="c-grid-item card inline-block max-w-full round-border">
             <div class="c-grid-item__text is-dark">
               <div class="overflow-hidden">
                 <div class="c-grid-item__title">Ione Ivo</div>
@@ -236,7 +236,7 @@
                 <div class="c-grid-item__categories">packaging <span class="text-xsmall is-thin">×</span> 3d rendering</div>
               </div>
             </div><img src="https://via.placeholder.com/1000x600.png?text=IMAGE 700w" sizes="(max-width: 479px) 90vw, (max-width: 752px) 93vw, 700px" alt="" class="c-grid-item__image round-border"></a>
-          <a href="portfolio-detail.html" data-category="has-packaging" class="c-grid-item card w-inline-block round-border">
+          <a href="portfolio-detail.html" data-category="has-packaging" class="c-grid-item card inline-block max-w-full round-border">
             <div class="c-grid-item__text is-dark">
               <div class="overflow-hidden">
                 <div class="c-grid-item__title">Amaris</div>
@@ -245,7 +245,7 @@
                 <div class="c-grid-item__categories">branding <span class="text-xsmall is-thin">×</span> 3d rendering</div>
               </div>
             </div><img src="https://via.placeholder.com/1000x600.png?text=IMAGE 700w" sizes="(max-width: 479px) 90vw, (max-width: 752px) 93vw, 700px" alt="" class="c-grid-item__image round-border"></a>
-          <a href="portfolio-detail.html" data-category="has-packaging" class="c-grid-item card w-inline-block round-border">
+          <a href="portfolio-detail.html" data-category="has-packaging" class="c-grid-item card inline-block max-w-full round-border">
             <div class="c-grid-item__text is-dark">
               <div class="overflow-hidden">
                 <div class="c-grid-item__title">H.A.S.H</div>
@@ -254,7 +254,7 @@
                 <div class="c-grid-item__categories">packaging <span class="text-xsmall is-thin">×</span> company profile</div>
               </div>
             </div><img src="https://via.placeholder.com/1000x600.png?text=IMAGE 700w" sizes="(max-width: 479px) 90vw, (max-width: 752px) 93vw, 700px" alt="" class="c-grid-item__image round-border"></a>
-          <a href="portfolio-detail.html" data-category="has-branding" class="c-grid-item card w-inline-block round-border">
+          <a href="portfolio-detail.html" data-category="has-branding" class="c-grid-item card inline-block max-w-full round-border">
             <div class="c-grid-item__text is-dark">
               <div class="overflow-hidden">
                 <div class="c-grid-item__title">Chocolatino</div>
@@ -263,7 +263,7 @@
                 <div class="c-grid-item__categories">packaging <span class="text-xsmall is-thin">×</span> website design</div>
               </div>
             </div><img src="https://via.placeholder.com/1000x600.png?text=IMAGE 700w" sizes="(max-width: 479px) 90vw, (max-width: 752px) 93vw, 700px" alt="" class="c-grid-item__image round-border"></a>
-          <a href="portfolio-detail.html" data-category="has-magazine" class="c-grid-item card w-inline-block round-border">
+          <a href="portfolio-detail.html" data-category="has-magazine" class="c-grid-item card inline-block max-w-full round-border">
             <div class="c-grid-item__text is-dark">
               <div class="overflow-hidden">
                 <div class="c-grid-item__title">Bagtote</div>
@@ -272,7 +272,7 @@
                 <div class="c-grid-item__categories">product design <span class="text-xsmall is-thin">×</span> lettering</div>
               </div>
             </div><img src="https://via.placeholder.com/1000x600.png?text=IMAGE 700w" sizes="(max-width: 479px) 90vw, (max-width: 752px) 93vw, 700px" alt="" class="c-grid-item__image round-border"></a>
-          <a href="portfolio-detail.html" data-category="has-magazine" class="c-grid-item card w-inline-block round-border">
+          <a href="portfolio-detail.html" data-category="has-magazine" class="c-grid-item card inline-block max-w-full round-border">
             <div class="c-grid-item__text is-dark">
               <div class="overflow-hidden">
                 <div class="c-grid-item__title">Gendhis Kuning</div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="section bg-white position-relative overflow-hidden">
+  <div class="text-gray-700 section bg-white position-relative overflow-hidden">
     <Title>Who we are</Title>
     <div class="container position-relative">
       <AboutUsText/>
