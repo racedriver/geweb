@@ -1,5 +1,5 @@
 <template>
-  <div class="container margin-bottom-double position-relative z-index10">
+  <div class="container margin-bottom-double position-relative z-index10 text-white">
     <div
       class="col lg-7 md-12 alignself-center no-margin-bottom-lg text-white"
     >

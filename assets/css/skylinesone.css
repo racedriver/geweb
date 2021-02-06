@@ -2847,10 +2847,6 @@ strong {
   background-color: #30C47E;
 }
 
-.text-white {
-  color: #fff;
-}
-
 .fa-solid {
   font-family: 'Fa solid 900', sans-serif;
 }
@@ -4344,19 +4340,6 @@ strong {
   color: #333;
 }
 
-.cta-link-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  color: #30C47E;
-  font-weight: 400;
-}
-
 .size-h1 {
   font-size: 65px;
   line-height: 1;
@@ -4776,9 +4759,6 @@ strong {
   .section.is-hero.img-hero.flexh-align-bottom {
     background-position: 0% 100%;
     background-size: 2160px;
-  }
-  .margin-bottom {
-    margin-bottom: 16px;
   }
   .margin-left.prev {
     margin-left: 8px;

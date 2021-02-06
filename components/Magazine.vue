@@ -2,8 +2,8 @@
   <div class="section position-relative overflow-hidden">
     <Title>Magazine</Title>
     <div class="container">
-      <div class="col lg-7 block-centered md-12 text-align-center text-white">
-        <h2>All articles</h2>
+      <div class="col lg-7 block-centered md-12 text-align-center">
+        <h2 class="text-white">All articles</h2>
       </div>
     </div>
     <div class="container is-wrapping">

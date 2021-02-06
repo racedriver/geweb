@@ -9,15 +9,13 @@
     <!--    </div>-->
     <div class="dark-box">
       <a :href="url" class="c-gridpost__title-2 w-inline-block">
-        <h3 class="text-white">{{ entry.title }}</h3>
+        <h3 class="text-white mb-4">{{ entry.title }}</h3>
       </a>
-      <div class="margin-bottom text-white">
+      <div class="text-gray-400 mb-4">
         {{ entry.short }}
       </div>
-      <a :href="url" class="cta-link-2">
-        <span class="margin-right">Read more</span>
-        <!--      <span class="fa c-cta1_arrow-hovered"></span>-->
-        <!--      <span class="fa c-cta1__arrow-normal"></span>-->
+      <a :href="url" class="text-green-500 font-normal">
+       Read more
       </a>
     </div>
   </div>
