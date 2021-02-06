@@ -1,12 +1,6 @@
 <template>
   <div class="text-white">
-    <div class="section aboutus margin-top background">
-      <div class="container">
-        <div class="col lg-12 text-align-center">
-          <h1>Careers</h1>
-        </div>
-      </div>
-    </div>
+    <HeadText title="Careers"/>
     <div class="section no-padding-bottom">
       <div class="container flex items-center">
         <div class="col lg-6 xs-12 text-white">

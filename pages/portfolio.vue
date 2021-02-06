@@ -1,18 +1,6 @@
 <template>
   <div class="text-white">
-    <div class="section aboutus margin-top background">
-      <div class="container">
-        <div class="col lg-12 text-align-center">
-          <h1>Our Work</h1>
-        </div>
-      </div>
-    </div>
-    <!--div class="section-2 no-padding-top no-padding-bottom">
-      <div class="container">
-        <div class="col-2 lg-12">
-          <div class="filter-menu"><a data-category="all" href="#" class="button button--is-active js-button-filter w-button">all</a><a data-category="has-branding" href="#" class="js-button-filter button w-button">branding</a><a data-category="has-clothing" href="#" class="js-button-filter button w-button">clothing</a><a data-category="has-3d" href="#" class="js-button-filter button w-button">3d</a><a data-category="has-lettering" href="#" class="js-button-filter button w-button">lettering</a><a data-category="has-logo" href="#" class="js-button-filter button w-button">logo</a><a data-category="has-magazine" href="#" class="js-button-filter button w-button">magazine</a><a data-category="has-packaging" href="#" class="js-button-filter button w-button">packaging</a></div>
-        </div>
-      </div-->
+    <HeadText title="Portfolio"/>
     <div class="container is-fullwidth" style="margin-top: 56px">
       <div class="col-2 lg-12 margin-bottom position-relative">
         <div class="w-layout-grid c-grid-services">
