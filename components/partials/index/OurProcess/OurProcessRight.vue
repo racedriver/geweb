@@ -18,7 +18,7 @@
         }}
       </div>
       <img :class="entry.special ? '' : 'margin-left hidden-only-lg'" :src="entry.image" width="128"/>
-      <img v-if="!entry.special" :src="entry.image" class="c-arrow-left hidden-md"/>
+      <img v-if="!entry.special" :src="entry.image" class="c-arrow-left hidden xl:block"/>
     </div>
   </div>
 </template>
