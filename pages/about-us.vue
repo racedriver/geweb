@@ -1,10 +1,10 @@
 <template>
-  <div class="color-white">
+  <div class="text-white">
     <HeadText title="About Us"/>
     <div class="section no-padding-bottom">
       <div class="container flex items-center">
-        <div class="color-white">
-          <div class="pre-title color-white">.Love the hustle</div>
+        <div class="text-white">
+          <div class="pre-title text-white">.Love the hustle</div>
           <h2 class="margin-bottom">Our Company</h2>
           <!--          <div class="w-richtext col-12">-->
           <p>
@@ -70,7 +70,7 @@
         <div class="col">
           <h2>Management Team</h2>
 
-          <div class="color-white">
+          <div class="text-white">
             <b>Where innovation meets experience</b>
           </div>
         </div>
@@ -230,7 +230,7 @@
       <div class="container">
         <div class="col lg-12 text-align-center">
           <h2>Interested in joining our team?</h2>
-          <div class="color-white margin-bottom-double">
+          <div class="text-white margin-bottom-double">
             Come join our team at Skylines One and make awesome digital
             products!
           </div>

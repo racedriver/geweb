@@ -1,7 +1,7 @@
 <template>
   <div class="container margin-bottom-double position-relative z-index10">
     <div
-      class="col lg-7 md-12 alignself-center no-margin-bottom-lg color-white"
+      class="col lg-7 md-12 alignself-center no-margin-bottom-lg text-white"
     >
       <h3>{{ entry.title }}</h3>
       <div class="margin-bottom">{{ entry.text }}</div>

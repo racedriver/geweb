@@ -1,5 +1,5 @@
 <template>
-  <div class="color-white">
+  <div class="text-white">
     <div class="section aboutus margin-top background">
       <div class="container">
         <div class="col lg-12 text-align-center">

@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     debugScreens: {
       prefix: 'screen side: ',
-      position: ['top', 'right'],
+      position: ['top', 'left'],
     },
   },
   plugins: [

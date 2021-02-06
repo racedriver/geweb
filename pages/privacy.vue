@@ -1,5 +1,5 @@
 <template>
-  <div class="section color-white">
+  <div class="section text-white">
     <div class="container">
       <div class="col lg-12">
         <h1 class="heading-beta">Skylines One LLC Privacy Policy</h1>

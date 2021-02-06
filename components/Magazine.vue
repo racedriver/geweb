@@ -2,7 +2,7 @@
   <div class="section position-relative overflow-hidden">
     <Title>Magazine</Title>
     <div class="container">
-      <div class="col lg-7 block-centered md-12 text-align-center color-white">
+      <div class="col lg-7 block-centered md-12 text-align-center text-white">
         <h2>All articles</h2>
       </div>
     </div>

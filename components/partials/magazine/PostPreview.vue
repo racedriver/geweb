@@ -9,9 +9,9 @@
     <!--    </div>-->
     <div class="dark-box">
       <a :href="url" class="c-gridpost__title-2 w-inline-block">
-        <h3 class="color-white">{{ entry.title }}</h3>
+        <h3 class="text-white">{{ entry.title }}</h3>
       </a>
-      <div class="margin-bottom color-white">
+      <div class="margin-bottom text-white">
         {{ entry.short }}
       </div>
       <a :href="url" class="cta-link-2">
