@@ -22,7 +22,7 @@
       <a
         v-for="site in sites"
         :href="site.link"
-        class="flex m-auto py-4 font-bold text-white text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl hover:text-green-300"
+        class="flex m-auto py-4 font-bold text-white text-xl lg:text-2xl xl:text-3xl hover:text-green-300"
       >
         {{ site.name }}
       </a>
