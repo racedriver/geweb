@@ -5,7 +5,7 @@ export default {
     { value: 'Use the newest technologies like ' },
     { value: 'Kotlin', clazz: 'text-white' },
     { value: ', ' },
-    { value: 'RavenDB', clazz: 'text-white' },
+    { value: 'Vue.js', clazz: 'text-white' },
     { value: ' or the power of the ' },
     { value: 'Google Cloud', clazz: 'text-white' },
   ],
