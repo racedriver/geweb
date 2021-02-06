@@ -4,7 +4,7 @@
     <WhoWeAre/>
     <NewestTechnologies/>
     <WhatWeDo/>
-    <ReadyBanner/>
+<!--    <ReadyBanner/>-->
     <OurProcess/>
     <!--    <div style="padding: 100px 0" />-->
     <Magazine :articles="this.articles"/>

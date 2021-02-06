@@ -2,7 +2,7 @@
 <template>
   <div
     :class="'container position-relative padding-top-bottom-double' + (entry.special ? '' : ' margin-bottom-double')">
-    <div class="c-step-decoration__left"></div>
+    <div class="c-step-decoration__left bg-white"></div>
     <div
       class="col lg-6 md-12 order-first flex items-center padding-top-bottom-double no-margin-bottom-lg flexh-space-between position-relative">
       <div class="c-step">{{ entry.id.toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping: false}) }}</div>
