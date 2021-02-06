@@ -11,24 +11,22 @@
         style="mix-blend-mode: multiply"
       ></div>
     </div>
-    <a class="relative my-8 ml-8 md:ml-0" href="/">
+    <a class="relative my-8 ml-8" href="/">
       <img
         class="h-32"
         alt="Skylines One"
         src="/images/logo%20v4.1%20arrows%20only.svg"
       />
     </a>
-    <div class="hidden md:block flex ">
-      <nav class="flex justify-center relative">
-        <a
-          v-for="site in sites"
-          :href="site.link"
-          class="flex m-auto py-4 font-bold text-white hover:text-green-300"
-        >
-          {{ site.name }}
-        </a>
-      </nav>
-    </div>
+    <nav class="hidden md:flex w-full md:w-3/5 lg:w-4/5 justify-around relative">
+      <a
+        v-for="site in sites"
+        :href="site.link"
+        class="flex m-auto py-4 font-bold text-white hover:text-green-300"
+      >
+        {{ site.name }}
+      </a>
+    </nav>
   </div>
 </template>
 
