@@ -1,7 +1,7 @@
 <!--suppress HtmlRequiredAltAttribute -->
 <template>
   <div class="pop-out-default">
-    <a :href="url" class="inline-block max-w-full wrapper-16to9">
+    <a :href="url" class="inline-block w-full wrapper-16to9">
       <img :src="entry.thumbnail"/>
     </a>
     <!--    <div class="c-gridpost__category">-->
