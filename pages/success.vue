@@ -5,9 +5,9 @@
         <div class="container container-nested position-relative">
 
           <div class="col lg-4"></div>
-          <div class="col lg-8 md-12 padding-doubleplus margin-bottom-xsmall">
-            <h1 style="color: #FFF">Thank you!</h1>
-            <h2 style="color: #FFF">Your submission has been received!</h2>
+          <div class="col lg-8 md-12 padding-doubleplus margin-bottom-xsmall text-white">
+            <h1>Thank you!</h1>
+            <h2>Your submission has been received!</h2>
           </div>
         </div>
         <company-data/>
