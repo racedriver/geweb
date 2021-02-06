@@ -29,7 +29,7 @@
               />
             </svg>
             <blockquote class="relative" >
-              <div class="text-lg leading-5 md:text-2xl md:leading-9 font-medium text-gray-900">
+              <div class="text-lg leading-5 sm:text-xl sm:leading-7 md:text-2xl md:leading-9 font-medium text-gray-900">
                 <p>{{entry.text }}</p>
               </div>
               <footer class="mt-8">
