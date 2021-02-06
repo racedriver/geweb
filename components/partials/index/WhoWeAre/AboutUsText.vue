@@ -13,7 +13,3 @@ export default {
   name: "AboutUsText"
 }
 </script>
-
-<style scoped>
-
-</style>

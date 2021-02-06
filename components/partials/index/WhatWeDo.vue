@@ -20,7 +20,7 @@
         <div
           class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 justify-items-stretch items-stretch"
         >
-          <div class="my-4 bg-gray-50" v-for="(entry, i) in entries" :key="i">
+          <div class="my-4 bg-gray-50" v-for="(entry, i) in this.entries" :key="i">
             <div class="bg-white pt-12" />
             <div class="flow-root bg-gray-50 rounded-lg px-6 pb-4">
               <div class="-mt-12 h-full">
@@ -28,7 +28,22 @@
                   <span
                     class="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg"
                   >
-                    <img class="h-24" :src="entry.image" />
+                    <svg
+                      v-if="entry.svg"
+                      class="h-24 text-white"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        :d="entry.svg"
+                      />
+                    </svg>
+                    <img v-else class="h-24" :src="entry.image" />
                   </span>
                 </div>
                 <h3
@@ -36,9 +51,11 @@
                 >
                   {{ entry.title }}
                 </h3>
-                  <p class="mt-5 text-base text-gray-500 self-center flex my-auto">
-                    {{ entry.text }}
-                  </p>
+                <p
+                  class="mt-5 text-base text-gray-500 self-center flex my-auto"
+                >
+                  {{ entry.text }}
+                </p>
               </div>
             </div>
           </div>
@@ -49,7 +66,7 @@
 </template>
 
 <script>
-import data from "/static/data/what-we-do"
+import data from '/static/data/what-we-do'
 export default {
   name: 'WhatWeDo',
   data() {
