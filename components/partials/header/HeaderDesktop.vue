@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex justify-evenly items-center relative">
+  <div class="w-full flex md:justify-evenly items-center relative">
     <div class="absolute inset-0" v-if="this.$route.path !== '/'">
       <img
         class="h-full w-full object-cover"
@@ -11,7 +11,7 @@
         style="mix-blend-mode: multiply"
       ></div>
     </div>
-    <a class="relative my-8" href="/">
+    <a class="relative my-8 ml-8 md:ml-0" href="/">
       <img
         class="h-32"
         alt="Skylines One"

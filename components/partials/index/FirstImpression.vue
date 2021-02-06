@@ -1,10 +1,12 @@
 <template>
-  <div class="h-5/6">
+  <div class="h-5/6 sm:flex sm:flex-wrap sm:place-items-center">
     <div class="w-full md:w-1/3 text-white dark-box">
       <h1>
         <div class="text-4xl">{{ $t('FirstImpression.PreTitle') }}</div>
         <div class="text-6xl text-green-500">
-          {{ $t('FirstImpression.Ex') }}<span class="text-white">{{ $t('FirstImpression.Split') }}</span>{{ $t('FirstImpression.AppleEngineers') }}
+          {{ $t('FirstImpression.Ex')
+          }}<span class="text-white">{{ $t('FirstImpression.Split') }}</span
+          >{{ $t('FirstImpression.AppleEngineers') }}
         </div>
         <div class="text-2xl">{{ $t('FirstImpression.SubTitle') }}</div>
         <div class="text-lg font-normal mb-8">
@@ -17,10 +19,11 @@
           class="w-full bg-green-500 text-white text-center py-8 text-lg"
           href="/contact-us"
         >
-            {{ $t('FirstImpression.Button') }}
+          {{ $t('FirstImpression.Button') }}
         </a>
       </div>
     </div>
+    <div class="h-1/6 w-1" />
   </div>
 </template>
 
