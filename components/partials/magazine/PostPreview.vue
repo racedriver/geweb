@@ -1,13 +1,13 @@
 <!--suppress HtmlRequiredAltAttribute -->
 <template>
-  <div class="PostPreview col lg-4 md-12 pop-out-default">
+  <div class="pop-out-default">
     <a :href="url" class="w-inline-block wrapper-16to9">
       <img :src="entry.thumbnail"/>
     </a>
     <!--    <div class="c-gridpost__category">-->
     <!--      <a href="#">Design</a> / <a href="#">Technology</a>-->
     <!--    </div>-->
-    <div class="dark-box">
+    <div class="dark-box h-full">
       <a :href="url" class="c-gridpost__title-2 w-inline-block">
         <h3 class="text-white mb-4">{{ entry.title }}</h3>
       </a>

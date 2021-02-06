@@ -6,8 +6,8 @@
 <!--        <h2 class="text-white">All articles</h2>-->
 <!--      </div>-->
 <!--    </div>-->
-    <div class="container flex flex-wrap">
-      <PostPreview class="sm:mx-8 sm:my-6" v-for="(entry, i) in articles" :entry="entry" :key="i" />
+    <div class="grid lg:grid-cols-3 gap-10 mx-8 sm:gap-12 sm:mx-12 xl:mx-16 xl:max-w-7xl xl:mx-auto items-stretch">
+      <PostPreview class="grid-cols-1" v-for="(entry, i) in articles" :entry="entry" :key="i" />
     </div>
   </div>
 </template>

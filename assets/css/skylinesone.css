@@ -235,10 +235,6 @@ strong {
   padding-bottom: 144px;
 }
 
-.section.is-white {
-  background-color: #fff;
-}
-
 .section.padding-bottom-16.is-black {
   background-color: #333;
   color: #fff;
@@ -718,10 +714,6 @@ strong {
   font-weight: 400;
 }
 
-.cta-link.is-white {
-  color: #fff;
-}
-
 .padding-double {
   padding: 48px;
 }
@@ -1188,10 +1180,6 @@ strong {
 .hr.is-short {
   width: 32px;
   height: 4px;
-}
-
-.hr.is-short.is-white {
-  background-color: #fff;
 }
 
 
@@ -3118,14 +3106,6 @@ strong {
   color: #333;
 }
 
-.iconfont.is-white {
-  color: #fff;
-}
-
-.iconfont.is-white.is-64px {
-  font-size: 64px;
-}
-
 .iconfont.margin-left-small.is-11px {
   font-size: 11px;
 }
@@ -3441,10 +3421,6 @@ strong {
 
 .asasfont.is-divider.has-color2 {
   color: #fbff00;
-}
-
-.asasfont.is-divider.is-white {
-  color: #fff;
 }
 
 .asasfont.is-divider.flip-horizontal {
@@ -4109,22 +4085,6 @@ strong {
 
 .c-megadropdown_link:hover {
   color: #866adb;
-}
-
-.c-shadowing-text {
-  bottom: auto;
-  width: 1200px;
-  margin-bottom: 0;
-  color: #f5f5f5;
-  font-size: 160px;
-  line-height: 1;
-  font-weight: 900;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.c-shadowing-text.is-white {
-  color: #fff;
 }
 
 .c-shadowing-text.is-smaller {
@@ -5393,19 +5353,6 @@ strong {
     -ms-flex-direction: column;
     flex-direction: column;
   }
-  .c-shadowing-text {
-    position: static;
-    width: 100%;
-    margin-bottom: 32px;
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-    color: #e6e6e6;
-    font-size: 56px;
-  }
-  .c-shadowing-text.is-white {
-    color: #d4d4d4;
-  }
   .c-shadowing-text.is-smaller {
     font-size: 56px;
   }
@@ -5547,9 +5494,6 @@ strong {
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
-  }
-  .c-shadowing-text.is-white {
-    margin-bottom: 0;
   }
   .c-shadowing-text.is-smaller {
     margin-bottom: 0;
@@ -5790,9 +5734,6 @@ strong {
   }
   .col-2.lg-12.position-relative.xs-no-margin-bottom {
     margin-bottom: 0;
-  }
-  .c-shadowing-text.is-white.xs-hidden {
-    display: none;
   }
   .c-step {
     font-size: 80px;
