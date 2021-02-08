@@ -1,6 +1,4 @@
 export default {
-  dev: process.env.NODE_ENV !== 'production',
-
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
 
@@ -33,7 +31,7 @@ export default {
       },
     ],
     bodyAttrs: {
-      class: this.dev ? 'debug-screens' : '',
+      class: process.env.NODE_ENV !== 'production' ? 'debug-screens' : '',
     },
   },
 

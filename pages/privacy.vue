@@ -1,11 +1,11 @@
 <template>
   <div class="section text-white">
-    <div class="container">
+    <div class="z-10 flex flex-wrap lg:flex-nowrap w-full max-w-7xl mx-auto">
       <div class="col lg-12">
         <h1 class="heading-beta">Skylines One LLC Privacy Policy</h1>
       </div>
     </div>
-    <div class="container flex margin-bottom-double">
+    <div class="z-10 flex flex-wrap lg:flex-nowrap w-full max-w-7xl mx-auto mb-8 lg:mb-12">
       <div class="col lg-12">
         <div>
           <div class="text-medium weight-is-black margin-bottom"></div>
