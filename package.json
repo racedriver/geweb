@@ -23,6 +23,7 @@
     "nuxt-i18n": "^6.20.0",
     "postcss": "^8.2.4",
     "tailwindcss": "^2.0.2",
+    "tailwindcss-filters": "^3.0.0",
     "vue": "^2.6.12"
   },
   "devDependencies": {

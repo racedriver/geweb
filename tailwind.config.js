@@ -44,10 +44,29 @@ module.exports = {
         'light-blue': colors.lightBlue,
       },
     },
+    filter: {
+      // defaults to {}
+      none: 'none',
+      grayscale: 'grayscale(1)',
+      invert: 'invert(1)',
+      sepia: 'sepia(1)',
+    },
+    backdropFilter: {
+      // defaults to {}
+      none: 'none',
+      blur: 'blur(20px)',
+      invert: 'invert(1)',
+    },
+  },
+  variants: {
+    display: ['hover'], // defaults to ['responsive']
+    filter: ['hover'], // defaults to ['responsive']
+    backdropFilter: ['responsive'], // defaults to ['responsive']
   },
   plugins: [
     require('@tailwindcss/forms'),
     require('tailwindcss-debug-screens'),
+    require('tailwindcss-filters'),
   ],
   // screens: {
   //   tyd: { max: em(399) },
