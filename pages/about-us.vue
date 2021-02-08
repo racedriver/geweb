@@ -1,11 +1,11 @@
 <template>
   <div class="text-white">
     <HeadText title="About Us"/>
-    <div class="section no-padding-bottom">
-      <div class="container flex items-center">
+    <div class="pt-16">
+      <div class="z-10 flex flex-wrap lg:flex-nowrap w-full max-w-7xl mx-auto flex items-center">
         <div class="text-white">
           <div class="pre-title text-white">.Love the hustle</div>
-          <h2 class="margin-bottom">Our Company</h2>
+          <h2 class="mb-6">Our Company</h2>
           <!--          <div class="w-richtext col-12">-->
           <p>
             <b>
@@ -58,15 +58,8 @@
         </div>
       </div>
     </div>
-    <div class="section no-padding-top-bottom">
-      <div class="container">
-        <div class="col lg-12 no-margin-bottom">
-          <div class="hr"></div>
-        </div>
-      </div>
-    </div>
     <div class="section">
-      <div class="container">
+      <div class="z-10 flex flex-wrap lg:flex-nowrap w-full max-w-7xl mx-auto">
         <div class="col">
           <h2>Management Team</h2>
 
@@ -75,12 +68,12 @@
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="z-10 flex flex-wrap lg:flex-nowrap w-full max-w-7xl mx-auto">
         <div class="col lg-5 md-12">
           <div class="flex relative">
             <img
               alt="Alex Mittler"
-              class="margin-right round-border"
+              class="mr-6 rounded"
               src="../static/images/alex-mittler.jpg"
               width="300"
             />
@@ -101,7 +94,7 @@
           <div class="flex relative">
             <img
               alt="Lars Artmann"
-              class="margin-right round-border"
+              class="mr-6 rounded"
               src="../static/images/lars-artmann.jpg"
               width="300"
             />
@@ -119,12 +112,12 @@
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="z-10 flex flex-wrap lg:flex-nowrap w-full max-w-7xl mx-auto">
         <div class="col lg-5 md-12">
           <div class="flex relative">
             <img
               alt="Alexandra Obendorfer"
-              class="margin-right round-border"
+              class="mr-6 rounded"
               src="../static/images/alexa-obendorfer.jpg"
               width="300"
             />
@@ -145,7 +138,7 @@
           <div class="flex relative">
             <img
               alt=""
-              class="margin-right round-border"
+              class="mr-6 rounded"
               src="../static/images/ron-sumay.jpg"
               width="300"
             />
@@ -165,12 +158,12 @@
           </div>
         </div>
       </div>
-      <div class="container flex">
+      <div class="z-10 flex flex-wrap lg:flex-nowrap w-full max-w-7xl mx-auto flex">
         <div class="col lg-5 md-12">
           <div class="flex relative">
             <img
               alt="Amy Ross"
-              class="margin-right round-border"
+              class="mr-6 rounded"
               src="../static/images/amy-ross.jpg"
               width="300"
             />
@@ -185,7 +178,7 @@
           <div class="flex relative">
             <img
               alt="Malek Anderson"
-              class="margin-right round-border"
+              class="mr-6 rounded"
               src="../static/images/malek-anderson.jpg"
               width="300"
             />
@@ -200,10 +193,10 @@
     </div>
 
     <div class="section">
-      <div class="container">
+      <div class="z-10 flex flex-wrap lg:flex-nowrap w-full max-w-7xl mx-auto">
         <div class="col lg-12 text-align-center">
           <h2>Interested in joining our team?</h2>
-          <div class="text-white margin-bottom-double">
+          <div class="text-white mb-8 lg:mb-12">
             Come join our team at Skylines One and make awesome digital
             products!
           </div>

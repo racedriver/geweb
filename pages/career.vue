@@ -2,10 +2,10 @@
   <div class="text-white">
     <HeadText title="Careers"/>
     <div class="section no-padding-bottom">
-      <div class="container flex items-center">
+      <div class="z-10 flex flex-wrap lg:flex-nowrap w-full max-w-7xl mx-auto items-center">
         <div class="col lg-6 xs-12 text-white">
           <div class="pre-title text-white">.Love the hustle</div>
-          <h2 class="margin-bottom">Our Company</h2>
+          <h2 class="mb-6">Our Company</h2>
           <div class="w-richtext">
             <p><b>Skylines One is a high-tech, cloud-first software company focusing on cutting edge
               technologies. Moving the needle that bit further for our clients. The company’s name resembles its
@@ -23,10 +23,10 @@
     </div>
 
     <div class="section">
-      <div class="container">
+      <div class="z-10 flex flex-wrap lg:flex-nowrap w-full max-w-7xl mx-auto">
         <div class="col lg-12 text-align-center">
           <h2>Interested in joining our team?</h2>
-          <div class="text-white margin-bottom-double">Come join our team at Skylines One and make awesome digital
+          <div class="text-white mb-8 lg:mb-12">Come join our team at Skylines One and make awesome digital
             products!
           </div>
           <a class="button-primary inline-block max-w-full" href="contact-us">

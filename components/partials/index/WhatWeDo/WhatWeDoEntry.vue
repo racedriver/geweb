@@ -1,8 +1,8 @@
 <template>
   <div :class="'c-grid-services__item ' + entry.extraClass">
-    <img :src="entry.image" class="margin-bottom" height="128"/>
+    <img :src="entry.image" class="mb-6" height="128"/>
     <h3>{{ entry.title }}</h3>
-    <div class="margin-bottom">
+    <div class="mb-6">
       {{ entry.text }}
     </div>
     <a

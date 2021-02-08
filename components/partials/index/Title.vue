@@ -1,5 +1,6 @@
 <template>
-    <div class="text-6xl sm:text-8xl lg:text-9xl text-center uppercase font-black mx-auto text-green-500">
+    <div class="text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-center uppercase font-black
+    text-transparent bg-green-500 bg-clip-text bg-gradient-to-r to-emerald-600 #to-purple-600 #via-cyan-500 from-green-300 ">
       <slot></slot>
     </div>
 </template>

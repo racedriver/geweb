@@ -83,12 +83,10 @@ export default {
       console.warn(filter)
     }
 
-    const result = {
+    return {
       rootClass: root.rootClass ?? null,
       entries: withDefaults,
-    };
-    console.log(result)
-    return result
+    }
   },
   methods: {
     isLast(i) {

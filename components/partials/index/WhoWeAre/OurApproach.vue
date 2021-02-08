@@ -1,7 +1,7 @@
 <template>
   <div class="col lg-6 md-12">
-    <div class="pre-title margin-bottom-double">Our approach</div>
-    <div class="container container-nested">
+    <div class="pre-title mb-8 lg:mb-12">Our approach</div>
+    <div class="z-10 flex flex-wrap lg:flex-nowrap w-full max-w-7xl mx-auto w-auto min-w-full -mx-6 self-center">
       <OurApproachEntry v-for="(entry, i) in entries" :entry="entry" :key="i"/>
     </div>
   </div>

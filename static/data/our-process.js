@@ -1,4 +1,6 @@
 export default {
+  title: 'Our process',
+  subtitle: 'Software Development Life Cycle',
   processes: [
     {
       image: '/images/planing.png',
