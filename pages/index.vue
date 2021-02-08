@@ -4,16 +4,12 @@
     <WhoWeAre />
     <NewestTechnologies />
     <WhatWeDo />
-    <!--    <ReadyBanner/>-->
     <OurProcess />
-    <!--    <div style="padding: 100px 0" />-->
     <div>
       <Title class="pt-16 pb-4">Magazine</Title>
       <Magazine class="py-12" :articles="this.articles" />
     </div>
     <Testimonials />
-    <!--    <div style="padding: 100px 0" />-->
-    <!--   Partners/>-->
   </div>
 </template>
 

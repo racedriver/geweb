@@ -86,7 +86,7 @@
             />
             <div class="c-team1__info">
               <div class="c-team1__name">Alex<br/>Mittler</div>
-              <div class="size-h4 margin-bottom-quad">CEO</div>
+              <div class="font-black margin-bottom-quad">CEO</div>
               <div class="c-team1__social">
                 <a
                   class="fa-brand mr-2"
@@ -107,7 +107,7 @@
             />
             <div class="c-team1__info">
               <div class="c-team1__name">Lars<br/>Artmann</div>
-              <div class="size-h4 margin-bottom-quad">CTO</div>
+              <div class="font-black margin-bottom-quad">CTO</div>
               <div class="c-team1__social">
                 <a
                   class="fa-brand mr-2"
@@ -130,7 +130,7 @@
             />
             <div class="c-team1__info">
               <div class="c-team1__name">Alexandra<br/>Obendorfer</div>
-              <div class="size-h4 margin-bottom-quad">Operations Manager</div>
+              <div class="font-black margin-bottom-quad">Operations Manager</div>
               <div class="c-team1__social">
                 <a
                   class="fa-brand mr-2"
@@ -151,7 +151,7 @@
             />
             <div class="c-team1__info">
               <div class="c-team1__name">Ron<br/>Sumay</div>
-              <div class="size-h4 margin-bottom-quad">
+              <div class="font-black margin-bottom-quad">
                 Regional Sales Manager
               </div>
               <div class="c-team1__social">
@@ -176,7 +176,7 @@
             />
             <div class="c-team1__info">
               <div class="c-team1__name">Amy<br/>Ross</div>
-              <div class="size-h4 margin-bottom-quad">Lead Engineer</div>
+              <div class="font-black margin-bottom-quad">Lead Engineer</div>
               <div class="c-team1__social"></div>
             </div>
           </div>
@@ -191,7 +191,7 @@
             />
             <div class="c-team1__info">
               <div class="c-team1__name">Malek<br/>Anderson</div>
-              <div class="size-h4 margin-bottom-quad">Backend Engineer</div>
+              <div class="font-black margin-bottom-quad">Backend Engineer</div>
               <div class="c-team1__social"></div>
             </div>
           </div>

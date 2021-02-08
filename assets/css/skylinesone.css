@@ -1095,12 +1095,6 @@ strong {
   font-weight: 600;
 }
 
-.size-h4-title {
-  font-size: 18px;
-  line-height: 1.5;
-  font-weight: 400;
-}
-
 .size-h1 {
   font-size: 52px;
   line-height: 1.15;
@@ -1120,14 +1114,6 @@ strong {
 }
 
 .size-h3.create-grid-space.first-grid-column {
-  padding-left: 0;
-}
-
-.size-h4 {
-  font-weight: 900;
-}
-
-.size-h4.create-grid-space.first-grid-column {
   padding-left: 0;
 }
 
@@ -2755,13 +2741,6 @@ strong {
 
 .phone-footer:hover {
   color: #30C47E;
-}
-
-.footer-tagline {
-  font-size: 10px;
-  font-weight: 500;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
 }
 
 .fa-brand-2 {
