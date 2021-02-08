@@ -2603,26 +2603,6 @@ strong {
   border-radius: 50%;
 }
 
-.has-shadow {
-  background-color: #fff;
-  box-shadow: 0 20px 64px 0 rgba(0, 0, 0, 0.2);
-}
-
-.has-shadow.has-hover-animation {
-  -webkit-transform: translate(0px, 0);
-  -ms-transform: translate(0px, 0);
-  transform: translate(0px, 0);
-  -webkit-transition: all 700ms cubic-bezier(.19, 1, .22, 1);
-  transition: all 700ms cubic-bezier(.19, 1, .22, 1);
-}
-
-.has-shadow.has-hover-animation:hover {
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
-  -webkit-transform: translate(0px, 4px);
-  -ms-transform: translate(0px, 4px);
-  transform: translate(0px, 4px);
-}
-
 .no-padding-top-bottom {
   padding-top: 0;
   padding-bottom: 0;
