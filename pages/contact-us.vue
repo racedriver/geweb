@@ -1,6 +1,9 @@
 <template>
   <div>
-    <HeadText title="Contact Us" />
+    <HeadText title="Contact Us"/>
+<!--    <div class="py-32 bg-blush-500 text-white text-6xl text-extrabold text-center flex justify-center">-->
+<!--      <DynamicText class="max-w-5xl" :value="copy"/>-->
+<!--    </div>-->
     <div class="relative bg-white">
       <div class="lg:absolute lg:inset-0">
         <div class="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
@@ -33,7 +36,7 @@
                 <label
                   for="first_name"
                   class="block text-sm font-medium text-gray-700"
-                  >First name</label
+                >First name</label
                 >
                 <div class="mt-1">
                   <input
@@ -49,7 +52,7 @@
                 <label
                   for="last_name"
                   class="block text-sm font-medium text-gray-700"
-                  >Last name</label
+                >Last name</label
                 >
                 <div class="mt-1">
                   <input
@@ -65,7 +68,7 @@
                 <label
                   for="email"
                   class="block text-sm font-medium text-gray-700"
-                  >Email</label
+                >Email</label
                 >
                 <div class="mt-1">
                   <input
@@ -81,7 +84,7 @@
                 <label
                   for="company"
                   class="block text-sm font-medium text-gray-700"
-                  >Company</label
+                >Company</label
                 >
                 <div class="mt-1">
                   <input
@@ -98,10 +101,10 @@
                   <label
                     for="phone"
                     class="block text-sm font-medium text-gray-700"
-                    >Phone</label
+                  >Phone</label
                   >
                   <span id="phone_description" class="text-sm text-gray-500"
-                    >Optional</span
+                  >Optional</span
                   >
                 </div>
                 <div class="mt-1">
@@ -120,16 +123,17 @@
                   <label
                     for="how_can_we_help"
                     class="block text-sm font-medium text-gray-700"
-                    >How can we help you?</label
+                  >How can we help you?</label
                   >
                   <span
                     id="how_can_we_help_description"
                     class="text-sm text-gray-500"
-                    >Max. 500 characters</span
+                  >Max. 500 characters</span
                   >
                 </div>
                 <div class="mt-1">
                   <textarea
+                    v-model="how_can_we_help_you"
                     id="how_can_we_help"
                     name="how_can_we_help"
                     aria-describedby="how_can_we_help_description"
@@ -153,7 +157,7 @@
                     />
                     <label for="budget_under_25k" class="ml-3">
                       <span class="block text-sm text-gray-700"
-                        >Less than $25K</span
+                      >Less than $25K</span
                       >
                     </label>
                   </div>
@@ -167,7 +171,7 @@
                     />
                     <label for="budget_25k-50k" class="ml-3">
                       <span class="block text-sm text-gray-700"
-                        >$25K – $50K</span
+                      >$25K – $50K</span
                       >
                     </label>
                   </div>
@@ -181,7 +185,7 @@
                     />
                     <label for="budget_50k-100k" class="ml-3">
                       <span class="block text-sm text-gray-700"
-                        >$50K – $100K</span
+                      >$50K – $100K</span
                       >
                     </label>
                   </div>
@@ -203,7 +207,7 @@
                 <label
                   for="how_did_you_hear_about_us"
                   class="block text-sm font-medium text-gray-700"
-                  >How did you hear about us?</label
+                >How did you hear about us?</label
                 >
                 <div class="mt-1">
                   <input
@@ -231,13 +235,18 @@
 </template>
 
 <script>
+import data from "/static/data/contact-us"
+
 export default {
   name: 'contact-us',
+  data() {
+    return { how_can_we_help_you: "", ...data }
+  },
   methods: {
     sendContact() {
-      const inputs = [...document.getElementsByTagName('input')]
+      const inputs = [...document.getElementsByTagName('input'), {value: this.how_can_we_help_you, id: "how_can_we_help_you"}]
       let data = Array.from(inputs).reduce(
-        (acc, input) => `${acc instanceof HTMLInputElement ? acc.id+':'+acc.value : acc}\n${input.id || input}:${input.value} ${input.checked ?'checked':''}`
+        (acc, input) => `${acc instanceof HTMLInputElement ? acc.id + ':' + acc.value : acc}\n${input.id || input}:${input.value} ${input.checked ? 'checked' : ''}`
       )
 
       console.log(data)
@@ -245,7 +254,7 @@ export default {
         'https://api.telegram.org/bot681322477:AAGmZBPAvfVvQBybo2dyXIdNaP4ait72344/sendMessage',
         {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' }, //DO NOT REMOVE
+          headers: {'Content-Type': 'application/json'}, //DO NOT REMOVE
           body: JSON.stringify({
             chat_id: -483038812,
             text: data

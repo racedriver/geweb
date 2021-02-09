@@ -60,6 +60,14 @@ module.exports = {
     require('@tailwindcss/forms'),
     require('tailwindcss-debug-screens'),
   ],
+  purge: [
+    './components/**/*.{vue,js}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './plugins/**/*.{js,ts}',
+    './static/data/**/*.{js,ts}',
+    './nuxt.config.{js,ts}',
+  ],
   // screens: {
   //   tyd: { max: em(399) },
   //   ty: em(400),
