@@ -13,20 +13,7 @@
   @include wrapper-XtoY(21);
 }
 
-.wrapper-9to16 {
-  @include wrapper-XtoY(9, 16);
-}
-
-.wrapper-9to21 {
-  @include wrapper-XtoY(9, 21);
-}
-
 // Fonts Start
-.fa-brand-2.w24 {
-  display: inline-block;
-  min-width: 24px;
-}
-
 @font-face {
   font-family: 'Fa brands 400';
   src: url('../fonts/fa-brands-400.woff2') format('woff2');

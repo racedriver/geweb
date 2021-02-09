@@ -1,6 +1,6 @@
 <template>
   <footer class="text-black py-12 px-6 bg-gray-100">
-    <div class="max-w-7xl mx-auto divide-y divide-gray-600 divide-opacity-60">
+    <div class="max-w-7xl mx-auto divide-y divide-gray-600 divide-opacity-60 test1">
       <div class="lg:flex pb-4">
         <div>
           <!--  Footer Logo Start -->

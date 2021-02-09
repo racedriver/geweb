@@ -1,6 +1,6 @@
 <template>
   <div class="col xs-12 md-6">
-    <img :src="entry.image" class="mb-8 lg:mb-12 our-approach"/>
+    <img :src="entry.image" class="mb-8 lg:mb-12"/>
     <h4> {{ entry.title }}</h4>
     <span>{{ entry.text }}</span>
   </div>
@@ -18,5 +18,3 @@ export default {
   }
 }
 </script>
-
-<style scoped></style>

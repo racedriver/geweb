@@ -2,13 +2,9 @@
   max-height: 130px;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 576px) {
   .xs-12 {
     flex-basis: 100%;
-  }
-
-  .our-approach {
-    max-height: none;
   }
 }
 

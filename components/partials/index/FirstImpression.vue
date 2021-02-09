@@ -17,7 +17,7 @@
       <div class="flex items-center">
         <nuxt-link
           class="w-full bg-green-500 text-white text-center py-8 text-lg"
-          href="/contact-us"
+          to="/contact-us"
         >
           {{ $t('FirstImpression.Button') }}
         </nuxt-link>

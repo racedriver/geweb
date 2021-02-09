@@ -1084,7 +1084,7 @@ textarea.w-select {
 }
 .w-richtext figure div {
   /* fix incorrectly sized selection border in the data manager */
-  font-size: 0px;
+  font-size: 0;
   color: transparent;
 }
 .w-richtext figure.w-richtext-figure-type-image,
