@@ -5,10 +5,16 @@
     outline: none;
   }
 
+  body {
+    @apply bg-black;
+  }
+
 }
 
 @layer utilities {
+
   .fa-brand-2 {
     font-family: 'Fa brands 400', sans-serif;
   }
+
 }
