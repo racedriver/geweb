@@ -1,6 +1,8 @@
+@tailwind base; /* Preflight will be injected here */
+
 @layer base {
 
-  //Disabled default focus outline from Preflight
+  /*Disabled default focus outline from Preflight*/
   button:focus {
     outline: none;
   }
@@ -10,6 +12,10 @@
   }
 
 }
+
+@tailwind components;
+
+@tailwind utilities;
 
 @layer utilities {
 

@@ -1,14 +1,13 @@
 body {
-	overscroll-behavior: none;
+	@apply overscroll-none
 }
 
-a:hover {
-	text-decoration: underline;
+a {
+  @apply hover:underline
 }
 
 button {
-	cursor: pointer;
-	text-transform: uppercase;
+	@apply cursor-pointer uppercase
 }
 
 .background {
@@ -17,15 +16,10 @@ button {
 }
 
 a, button, input, select {
-	pointer-events: auto;
+	@apply pointer-events-auto
 }
 
 canvas {
-	width: 100vw;
-	height: 100vh;
-	display: block;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: -9999;
+  @apply block h-screen fixed top-0 left-0 w-screen;
+  z-index: -9999;
 }

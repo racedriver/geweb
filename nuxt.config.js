@@ -88,6 +88,11 @@ export default {
   },
 
   i18n: {
+    detectBrowserLanguage: {
+      useCookie: false,
+      cookieKey: 'i18n_redirected',
+      onlyOnRoot: true, // recommended
+    },
     locales: [
       {
         icon:
@@ -109,7 +114,7 @@ export default {
     lazy: true,
     langDir: 'locales/',
     defaultLocale: 'en',
-    // vueI18nLoader: true,
+    strategy: 'prefix_and_default',
   },
   pwa: {
     manifest: {
@@ -124,7 +129,7 @@ export default {
       icons: [],
     },
     meta: {
-      ogHost: 'https://skylines.one/',
+      ogHost: 'https://skylines.one',
     },
   },
 }

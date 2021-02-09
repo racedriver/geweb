@@ -27,6 +27,9 @@
 import VueIfBot from '@/plugins/vue-if-bot'
 
 export default {
+  head () {
+    return this.$nuxtI18nHead()
+  },
   components: {
     HideForBots: VueIfBot
   }

@@ -3,6 +3,7 @@ const rem = (px) => ({ [px]: `${px / 16}rem` })
 const px = (num) => ({ [num]: `${num}px` })
 
 const colors = require('tailwindcss/colors')
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   important: true,
@@ -20,6 +21,7 @@ module.exports = {
         'Helvetica Neue',
         'Helvetica',
         'sans-serif',
+        ...defaultTheme.fontFamily.sans,
       ],
     },
     extend: {
@@ -70,7 +72,7 @@ module.exports = {
     },
   },
   variants: {
-    display: ['hover'], // defaults to ['responsive']
+    display: ['responsive', 'hover'], // defaults to ['responsive']
     filter: ['hover'], // defaults to ['responsive']
     backdropFilter: ['responsive'], // defaults to ['responsive']
   },
@@ -79,14 +81,18 @@ module.exports = {
     require('tailwindcss-debug-screens'),
     require('tailwindcss-filters'),
   ],
-  purge: [
-    './components/**/*.{vue,js}',
-    './layouts/**/*.vue',
-    './pages/**/*.vue',
-    './plugins/**/*.{js,ts}',
-    './static/data/**/*.{js,ts}',
-    './nuxt.config.{js,ts}',
-  ],
+  purge: {
+    enabled: process.env.NODE_ENV === 'production',
+    content: [
+      './components/**/*.{vue,js}',
+      './layouts/**/*.vue',
+      './pages/**/*.vue',
+      './plugins/**/*.{js,ts}',
+      './static/data/**/*.{js,ts}',
+      './nuxt.config.{js,ts}',
+      './content/**/**.md',
+    ],
+  },
   // screens: {
   //   tyd: { max: em(399) },
   //   ty: em(400),
