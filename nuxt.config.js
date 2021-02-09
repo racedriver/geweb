@@ -1,3 +1,5 @@
+import { join } from 'path'
+
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
@@ -36,7 +38,11 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: ['@/assets/css/all-styling.css', '@/assets/scss/defaults.scss'],
+  css: [
+    '@/assets/css/all-styling.css',
+    '@/assets/css/tailwind.css',
+    '@/assets/scss/defaults.scss',
+  ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [],
@@ -70,7 +76,19 @@ export default {
   content: {},
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {},
+  build: {
+    analyze: true,
+    postcss: {
+      plugins: {
+        'postcss-import': {},
+        tailwindcss: join(__dirname, './tailwind.config.js'),
+        'postcss-nested': {},
+      },
+    },
+    preset: {
+      stage: 1, // see https://tailwindcss.com/docs/using-with-preprocessors#future-css-featuress
+    },
+  },
 
   router: {
     extendRoutes(routes, resolve) {

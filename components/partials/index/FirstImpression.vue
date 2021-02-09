@@ -15,12 +15,12 @@
       </h1>
 
       <div class="flex items-center">
-        <a
+        <nuxt-link
           class="w-full bg-green-500 text-white text-center py-8 text-lg"
           href="/contact-us"
         >
           {{ $t('FirstImpression.Button') }}
-        </a>
+        </nuxt-link>
       </div>
     </div>
     <div class="xl:h-8 w-full" />
