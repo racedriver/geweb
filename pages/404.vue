@@ -1,6 +1,6 @@
 <template>
-  <div class="w-layout-grid c-grid-services">
-    <div id="message" class="shadow-2xl c-grid-services__item">
+  <div class="flex justify-center my-48">
+    <div class="max-w-xl shadow-2xl bg-white p-10 rounded">
       <h2>404</h2>
       <h1>Page Not Found</h1>
       <h2>You should go back to the home page</h2>
@@ -13,9 +13,3 @@ export default {
   name: "404"
 }
 </script>
-
-<style scoped>
-#message {
-  grid-column-start: 2;
-}
-</style>
