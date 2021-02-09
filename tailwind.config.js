@@ -15,6 +15,7 @@ module.exports = {
       sans: [
         'Favorit Pro',
         'favorit-pro',
+        'Metropolis',
         'Arial',
         'Helvetica Neue',
         'Helvetica',
