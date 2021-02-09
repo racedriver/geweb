@@ -2156,14 +2156,6 @@ strong {
   border-bottom: 1px solid hsla(0, 0%, 60.7%, 0.3);
 }
 
-.no-margin-bottom-lg {
-  margin-bottom: 0;
-}
-
-.text-xsmall {
-  font-size: 12px;
-}
-
 .c-gridpost__category {
   margin-bottom: 16px;
   font-size: 11px;
@@ -2424,10 +2416,6 @@ strong {
   background-image: url('https://via.placeholder.com/1000x600.png?text=IMAGE');
   background-position: 0;
   background-size: 12px;
-}
-
-.is-thin {
-  font-weight: 200;
 }
 
 .c-carousel1__nav {
@@ -3647,12 +3635,6 @@ strong {
   justify-content: center;
 }
 
-.c-grid-item__title {
-  color: #fff;
-  font-size: 23px;
-  font-weight: 600;
-}
-
 .c-grid-item__text {
   position: absolute;
   display: -webkit-box;
@@ -3678,16 +3660,13 @@ strong {
 
 .c-grid-item__text.is-dark {
   z-index: 4;
-  display: none;
   background-color: rgba(0, 0, 0, 0.66);
 }
 
 .c-grid-item__categories {
-  color: #fff;
   font-size: 11px;
   font-weight: 300;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
 }
 
 .c-grid4x3 {
