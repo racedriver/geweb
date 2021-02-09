@@ -11,6 +11,16 @@ module.exports = {
       prefix: 'screen side: ',
       position: ['top', 'left'],
     },
+    fontFamily: {
+      sans: [
+        'Favorit Pro',
+        'favorit-pro',
+        'Arial',
+        'Helvetica Neue',
+        'Helvetica',
+        'sans-serif',
+      ],
+    },
     extend: {
       fontSize: {
         '10xl': '10rem',

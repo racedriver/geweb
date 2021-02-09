@@ -1,7 +1,14 @@
 @layer base {
+
   //Disabled default focus outline from Preflight
   button:focus {
     outline: none;
   }
 
+}
+
+@layer utilities {
+  .fa-brand-2 {
+    font-family: 'Fa brands 400', sans-serif;
+  }
 }

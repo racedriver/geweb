@@ -21,7 +21,7 @@
 }
 
 body {
-  font-family: Metropolis, sans-serif;
+  /*font-family: Metropolis, sans-serif;*/
   font-size: 16px;
   line-height: 1.5;
 }
@@ -2534,26 +2534,6 @@ strong {
   color: #30C47E;
 }
 
-.fa-brand-2 {
-  font-family: 'Fa brands 400', sans-serif;
-}
-
-.fa-brand-2.w24 {
-  display: inline-block;
-  min-width: 24px;
-}
-
-.flexh-align-bottom {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-  -ms-flex-align: end;
-  align-items: flex-end;
-}
-
 .itembox__content-text {
   width: 100%;
   background-color: #fcfcfc;
@@ -5040,13 +5020,6 @@ strong {
 @font-face {
   font-family: 'Fontello';
   src: url('../fonts/fontello.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Fa brands 400';
-  src: url('../fonts/fa-brands-400.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
