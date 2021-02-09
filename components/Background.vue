@@ -1,6 +1,6 @@
 <template>
   <div id="background1">
-    <canvas/>
+    <canvas class="block h-screen fixed top-0 left-0 w-screen" style="z-index: -9999"/>
     <client-only>
       <script lang="javascript" type="module">
 
@@ -139,14 +139,8 @@
   </div>
 </template>
 
-
 <script>
-
 export default {
   name: 'Background',
 }
 </script>
-
-<style scoped>
-
-</style>

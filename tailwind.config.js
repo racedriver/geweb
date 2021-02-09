@@ -58,23 +58,27 @@ module.exports = {
       },
     },
     filter: {
-      // defaults to {}
       none: 'none',
       grayscale: 'grayscale(1)',
       invert: 'invert(1)',
-      sepia: 'sepia(1)',
+      black: 'brightness(0)',
+      'brightness-10': 'brightness(10%)',
+      'brightness-25': 'brightness(25%)',
+      'brightness-75': 'brightness(75%)',
+      'brightness-100': 'brightness(100%)',
     },
     backdropFilter: {
-      // defaults to {}
       none: 'none',
       blur: 'blur(20px)',
       invert: 'invert(1)',
     },
   },
   variants: {
-    display: ['responsive', 'hover'], // defaults to ['responsive']
-    filter: ['hover'], // defaults to ['responsive']
-    backdropFilter: ['responsive'], // defaults to ['responsive']
+    extend: {
+      display: ['hover'],
+      filter: ['hover', 'group-hover'],
+      zIndex: ['group-hover']
+    },
   },
   plugins: [
     require('@tailwindcss/forms'),
