@@ -10,9 +10,9 @@
 
 .dark-box {
   background-color: rgba(16, 16, 16, 0.975);
-  padding: 48px 32px;
+  @apply py-16 px-12
 }
 
 *:focus {
-  outline: none;
+  @apply outline-none
 }

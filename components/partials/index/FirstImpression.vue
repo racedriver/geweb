@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-7xl mx-auto h-5/6 sm:flex sm:flex-wrap sm:place-items-center">
-    <div class="w-full md:w-7/12 lg:w-5/12 xl:w-2/5 lg:ml-16 text-white bg-primary">
+    <div class="w-full md:w-7/12 lg:w-5/12 xl:w-2/5 lg:ml-16 text-white bg-primary py-16 px-12">
       <h1>
         <div class="text-4xl">{{ $t('FirstImpression.PreTitle') }}</div>
         <div class="text-6xl text-green-500">
