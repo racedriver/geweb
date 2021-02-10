@@ -23,33 +23,36 @@
     font-family: 'Fa brands 400', sans-serif;
   }
 
+  @variants hover, group-hover {
 
-  .bg-gradient-primary {
-    @apply bg-gradient-to-br from-green-400 via-teal-500 to-cyan-700
-  }
+    .bg-gradient-primary {
+      @apply bg-gradient-to-br from-green-400 via-teal-500 to-cyan-700
+    }
 
-  .bg-gradient-secondary {
-    @apply bg-gradient-to-tl from-cerise-700 via-maroon-600 to-mango-400
-  }
+    .bg-gradient-secondary {
+      @apply bg-gradient-to-tl from-cerise-700 via-maroon-600 to-mango-400
+    }
 
-  .bg--dark {
-    background-color: rgba(16, 16, 16, 0.975);
-  }
+    .bg--dark {
+      background-color: rgba(16, 16, 16, 0.975);
+    }
 
-  .bg-primary {
-    @apply bg-white dark:bg-gray-900
-  }
+    .bg-primary {
+      @apply bg-white dark:bg-gray-900
+    }
 
-  .text-gradient {
-    @apply text-transparent bg-clip-text
-  }
+    .text-gradient {
+      @apply text-transparent bg-clip-text
+    }
 
-  .text-gradient-primary {
-    @apply text-gradient bg-gradient-primary
-  }
+    .text-gradient-primary {
+      @apply text-gradient bg-gradient-primary
+    }
 
-  .text-gradient-secondary {
-    @apply text-gradient bg-gradient-secondary
+    .text-gradient-secondary {
+      @apply text-gradient bg-gradient-secondary
+    }
+
   }
 
 }

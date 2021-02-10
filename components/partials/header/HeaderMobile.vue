@@ -16,13 +16,17 @@
         </span>
       </button>
     </div>
-    <script type="text/javascript" src="/js/mobile-menu.js"/>
   </div>
 </template>
 
 <script>
 export default {
   name: 'HeaderMobile',
+  head: {
+    script: [
+      { src: '/js/mobile-menu.js', mode: 'client', async: true},
+    ]
+  },
   props: {
     sites: {
       name: String,

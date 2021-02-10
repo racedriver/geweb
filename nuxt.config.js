@@ -13,25 +13,18 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'End-To-End application development',
+        content: 'UX that simplify works, just like Apple',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     script: [
-      { src: '~/assets/js/google-tagmanager.js', mode: 'client'},
-      { src: '~/assets/js/theme.js', mode: 'client'},
-      {
-        src: 'https://cdn.lr-ingest.io/LogRocket.min.js',
-        crossorigin: 'anonymous',
-      },
+      { src: '/js/google-tagmanager.js', mode: 'client'},
+      // { src: '~/assets/js/theme.js', mode: 'client'},
       {
         src: '/js/tawk.to.js',
+        async: true,
         body: true,
       },
-      // {
-      //   src: '/js/log-rocket.js',
-      //   body: true,
-      // },
     ],
     bodyAttrs: {
       class: process.env.NODE_ENV !== 'production' ? 'debug-screens' : '',

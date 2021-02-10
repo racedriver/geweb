@@ -77,6 +77,9 @@ module.exports = {
   },
   variants: {
     extend: {
+      scale : ['group-hover'],
+      transform : ['group-hover'],
+      outline: ['hover'],
       display: ['hover'],
       filter: ['hover', 'group-hover'],
       zIndex: ['group-hover'],

@@ -1,5 +1,4 @@
 <template>
-  <div>
     <section class="overflow-hidden bg-primary">
       <Title class="mt-8" :value="title"/>
       <div
@@ -10,13 +9,13 @@
         <div class="relative lg:flex lg:items-center">
           <div class="hidden lg:block lg:flex-shrink-0">
             <img
-              class="object-cover w-64 h-64 rounded-full xl:h-80 xl:w-80"
+              class="object-cover w-64 h-64 mx-2 rounded-full xl:h-80 xl:w-80"
               :src="entry.image"
               alt=""
             />
           </div>
 
-          <div class="relative mx-4 sm:mx-10 lg:mr-0">
+          <div class="relative mx-4 sm:mr-6 lg:mr-0">
             <svg
               class="absolute top-0 right-0 w-36 h-36 text-gray-400 opacity-50 transform-gpu rotate-6 -translate-y-24 dark:text-gray-700"
               stroke="currentColor"
@@ -32,7 +31,7 @@
             <blockquote class="relative">
               <p class="">
               <span class="bg-white">
-                <DynamicText class="text-xl font-bold md:text-4xl text-gradient-primary" :value="entry.title"/>
+                <DynamicText class="text-xl font-bold md:text-4xl text-gradient-primary overflow-visible w-full" :value="entry.title"/>
               </span>
                 <DynamicText
                   class="max-w-3xl font-mono text-xl italic font-medium text-gray-700 md:text-2xl dark:text-gray-100"
@@ -62,7 +61,6 @@
         </div>
       </div>
     </section>
-  </div>
 </template>
 
 <script>
