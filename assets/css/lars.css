@@ -1,16 +1,7 @@
-.our-approach {
-  max-height: 130px;
-}
-
 @media (max-width: 576px) {
   .xs-12 {
     flex-basis: 100%;
   }
-}
-
-.dark-box {
-  background-color: rgba(16, 16, 16, 0.975);
-  @apply py-16 px-12
 }
 
 *:focus {

@@ -24,10 +24,13 @@
         />
       </div>
       <div :class="'self-center md:cols-span-1 w-80 lg:w-96 xl:w-7/12 ' +
-     (entry.revert  ? 'text-gray-100 col-start-1 lg:justify-self-end ' : 'text-primary ') +
+     (entry.revert  ? 'col-start-1 lg:justify-self-end ' : ' ') +
      (entry.special ? ' ' : ' ')">
-        <h3 class="text-4xl ">{{ entry.title }}</h3>
+        <h3 :class="'text-4xl '+
+            (entry.revert  ? 'text-gray-50 ' : 'text-gray-900 dark:text-gray-50 ')"
+        >{{ entry.title }}</h3>
         <div :class="'text-lg  '+
+             (entry.revert  ? 'text-gray-200 ' : 'text-gray-700 dark:text-gray-200 ')+
              (entry.special ? ' ' : 'xl:w-4/5 ')">
           {{ entry.text }}
         </div>

@@ -23,6 +23,7 @@
     font-family: 'Fa brands 400', sans-serif;
   }
 
+
   .bg-gradient-primary {
     @apply bg-gradient-to-br from-green-400 via-teal-500 to-cyan-700
   }
@@ -31,12 +32,12 @@
     @apply bg-gradient-to-tl from-cerise-700 via-maroon-600 to-mango-400
   }
 
-  .bg-primary {
-    @apply bg-white dark:bg-gray-900
+  .bg--dark {
+    background-color: rgba(16, 16, 16, 0.975);
   }
 
-  .text-primary {
-    @apply text-gray-700 dark:text-gray-100
+  .bg-primary {
+    @apply bg-white dark:bg-gray-900
   }
 
   .text-gradient {

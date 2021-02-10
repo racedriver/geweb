@@ -3,7 +3,7 @@
     <section class="overflow-hidden bg-primary">
       <Title class="mt-8" :value="title"/>
       <div
-        class="relative px-4 pt-20 pb-12 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:py-20"
+        class="relative py-12 mx-4 sm:mx-auto max-w-7xl"
         v-for="(entry, i) in this.entries"
         :key="i"
       >
@@ -18,7 +18,7 @@
 
           <div class="relative mx-4 sm:mx-10 lg:mr-0">
             <svg
-              class="transform-gpu rotate-6 absolute top-0 right-0 w-36 h-36 text-gray-400 opacity-50 -translate-y-24 dark:text-gray-700"
+              class="absolute top-0 right-0 w-36 h-36 text-gray-400 opacity-50 transform-gpu rotate-6 -translate-y-24 dark:text-gray-700"
               stroke="currentColor"
               fill="none"
               viewBox="0 0 144 144"
@@ -30,12 +30,12 @@
               />
             </svg>
             <blockquote class="relative">
-              <p class=" ">
+              <p class="">
               <span class="bg-white">
-                <DynamicText class="text-xl md:text-4xl font-bold text-gradient-primary" :value="entry.title"/>
+                <DynamicText class="text-xl font-bold md:text-4xl text-gradient-primary" :value="entry.title"/>
               </span>
                 <DynamicText
-                  class="text-xl md:text-2xl font-mono max-w-3xl font-medium italic text-primary "
+                  class="max-w-3xl font-mono text-xl italic font-medium text-gray-700 md:text-2xl dark:text-gray-100"
                   :value="entry.text"/>
               </p>
               <footer class="mt-8">
@@ -50,8 +50,8 @@
                   <div class="ml-4 lg:ml-0">
                     <DynamicText class="text-lg font-medium text-gray-600 dark:text-gray-400" :value="entry.name"/>
                     <div class="text-lg font-medium text-green-500 dark:text-green-500">
-                      <DynamicText class="inline" :value="entry.position"/>
-                      <span class="inline text-gray-600 dark:text-gray-400">, </span>
+                      <DynamicText class="inline" :value="entry.position"/><!--
+                   --><span class="inline text-gray-600 dark:text-gray-400">, </span>
                       <DynamicText class="inline" :value="entry.company"/>
                     </div>
                   </div>

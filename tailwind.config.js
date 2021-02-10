@@ -7,6 +7,7 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   important: false,
+  darkMode: 'class',
   theme: {
     debugScreens: {
       prefix: 'screen side: ',

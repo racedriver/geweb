@@ -18,7 +18,8 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     script: [
-      '~/assets/js/google-tagmanager.js',
+      { src: '~/assets/js/google-tagmanager.js', mode: 'client'},
+      { src: '~/assets/js/theme.js', mode: 'client'},
       {
         src: 'https://cdn.lr-ingest.io/LogRocket.min.js',
         crossorigin: 'anonymous',
@@ -52,8 +53,6 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
-    // https://go.nuxtjs.dev/typescript
-    '@nuxt/typescript-build',
     // // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     'nuxt-i18n',
@@ -66,9 +65,6 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
   ],
-
-  // Axios module configuration (https://go.nuxtjs.dev/config-axios)
-  axios: {},
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
   content: {},

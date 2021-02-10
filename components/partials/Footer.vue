@@ -1,6 +1,6 @@
 <template>
-  <footer class="py-12 px-6 text-primary bg-gray-100 dark:bg-gray-900">
-    <div class="mx-auto max-w-7xl divide-y divide-gray-600 divide-opacity-60 test1">
+  <footer class="py-12 px-6 text-gray-800 dark:text-gray-50 bg-gray-100 dark:bg-gray-900 border-t-2 border-gray-300 dark:border-gray-700 border-opacity-60">
+    <div class="mx-auto max-w-7xl divide-y divide-gray-600 divide-opacity-60">
       <div class="pb-4 lg:flex">
         <div>
           <!--  Footer Logo Start -->
@@ -34,15 +34,15 @@
           <DynamicText class="mb-4 text-3xl font-extralight tracking-tight md:text-4xl" :value="this.title"/>
           <div class="grid grid-cols-2 gap-8 md:grid-cols-4 lg:gap-4 xl:gap-8">
             <div v-for="(entry, i) in this.linkBlock" :key="i">
-              <DynamicText class="mb-3 font-black text-gray-900 lg:mb-6" :value="entry.title"/>
-              <DynamicText class="col-span-1 text-gray-800" :value="entry.rows" />
+              <DynamicText class="mb-3 font-black text-gray-900 dark:text-gray-200" :value="entry.title"/>
+              <DynamicText class="col-span-1 text-gray-800 dark:text-gray-300" :value="entry.rows" />
             </div>
           </div>
         </div>
         <!-- Link Block End -->
       </div>
       <!-- Footer Bottom End -->
-      <div class="flex justify-between pt-4 text-gray-800">
+      <div class="flex justify-between pt-4 text-gray-700 dark:text-gray-400">
         <DynamicText
           :value="entity"
           v-for="(entity, i) in this.bottom"
