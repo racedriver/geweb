@@ -28,10 +28,10 @@ export default {
         src: '/js/tawk.to.js',
         body: true,
       },
-      {
-        src: '/js/log-rocket.js',
-        body: true,
-      },
+      // {
+      //   src: '/js/log-rocket.js',
+      //   body: true,
+      // },
     ],
     bodyAttrs: {
       class: process.env.NODE_ENV !== 'production' ? 'debug-screens' : '',
