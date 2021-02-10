@@ -7,7 +7,7 @@
         <!--    <div class="c-gridpost__category">-->
         <!--      <a href="#">Design</a> / <a href="#">Technology</a>-->
         <!--    </div>-->
-        <div class="dark-box h-full">
+        <div class="bg-primary h-full">
           <a :href="url(entry)" class="text-gray-700 inline-block">
             <h3 class="text-white mb-4">{{ entry.title }}</h3>
           </a>

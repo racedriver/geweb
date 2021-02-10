@@ -61,8 +61,6 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-    // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
@@ -77,7 +75,7 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    analyze: true,
+    analyze: process.env.NODE_ENV !== 'production' ? '' : '',
     postcss: {
       plugins: {
         'postcss-import': {},
@@ -87,16 +85,6 @@ export default {
     },
     preset: {
       stage: 1, // see https://tailwindcss.com/docs/using-with-preprocessors#future-css-featuress
-    },
-  },
-
-  router: {
-    extendRoutes(routes, resolve) {
-      routes.push({
-        name: 'custom',
-        path: '*',
-        component: resolve(__dirname, 'pages/404.vue'),
-      })
     },
   },
 

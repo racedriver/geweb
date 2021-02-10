@@ -4,7 +4,7 @@
     <!-- prettier-ignore -->
     <span v-for="(entry, i) in this.entries" :key="i" :class="entry.clazz"><!--
     --><a v-if="entry.href" :href="entry.href" :class="entry.linkClass">{{ entry.value }}</a><!--
-    --><template v-else>{{ entry.value }}</template><!--
+    --><template v-else-if="entry.value">{{ entry.value }}</template><!--
     -->{{ isLast(i) ? '' : entry.seperator }}<!--
     --><br v-if="isLast(i) ? false : entry.linebreaks"/><!--
 --></span>

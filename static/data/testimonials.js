@@ -1,16 +1,19 @@
 export default {
-  title: "Customers",
+  title: 'Customers',
   entries: [
     {
-      name: "Patrick Brenndoerfer",
-      title: "CEO",
-      company: "Bremotion",
-      image: "/images/patrick.jpg",
-      text: "We have been working on an automotive project with the Skylines One\n" +
-        "team. The initial project is complete on time after 6 months, and\n" +
-        "we're very happy with the customer experience both for us and\n" +
-        "for our clients. We are just now starting a new project and looking\n" +
-        "forward to the ongoing collaboration."
-    }
-  ]
+      name: 'Tim Walter',
+      position: 'CEO',
+      company: 'Wolfcreek',
+      image: '/images/tim_walter.jpg',
+      title: 'From ZERO to product-market fit in only 6 weeks',
+      text: [
+        '"I can honestly say that if you are looking for someone that you can trust with your tech stack.',
+        "It's Skylines One. They not only deliver ultra-high-quality software.",
+        'They also bring in the perfect user experience, 100% like we know it from Apple.',
+        "Working with them is always build on trust and openness, even if it's not in their self-interest.",
+        'Never met anyone like this team!"',
+      ],
+    },
+  ],
 }

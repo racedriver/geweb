@@ -1,5 +1,4 @@
 export default {
-  keyword: 'BE FASTER',
   title: 'Everything you need to bring your project into reality',
   text:
     'Out of your expectations, we create even better solutions. By pushing the boundaries we create truly innovative software applications.',

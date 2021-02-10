@@ -6,25 +6,25 @@ const colors = require('tailwindcss/colors')
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
-  important: true,
+  important: false,
   theme: {
     debugScreens: {
       prefix: 'screen side: ',
       position: ['top', 'left'],
     },
-    fontFamily: {
-      sans: [
-        'Favorit Pro',
-        'favorit-pro',
-        'Metropolis',
-        'Arial',
-        'Helvetica Neue',
-        'Helvetica',
-        'sans-serif',
-        ...defaultTheme.fontFamily.sans,
-      ],
-    },
     extend: {
+      fontFamily: {
+        sans: [
+          'Favorit Pro',
+          'favorit-pro',
+          'Metropolis',
+          'Arial',
+          'Helvetica Neue',
+          'Helvetica',
+          'sans-serif',
+          ...defaultTheme.fontFamily.sans,
+        ],
+      },
       fontSize: {
         '10xl': '10rem',
       },
@@ -61,9 +61,10 @@ module.exports = {
       none: 'none',
       grayscale: 'grayscale(1)',
       invert: 'invert(1)',
-      black: 'brightness(0)',
+      'brightness-0': 'brightness(0%)',
       'brightness-10': 'brightness(10%)',
       'brightness-25': 'brightness(25%)',
+      'brightness-50': 'brightness(50%)',
       'brightness-75': 'brightness(75%)',
       'brightness-100': 'brightness(100%)',
     },
@@ -77,7 +78,7 @@ module.exports = {
     extend: {
       display: ['hover'],
       filter: ['hover', 'group-hover'],
-      zIndex: ['group-hover']
+      zIndex: ['group-hover'],
     },
   },
   plugins: [
