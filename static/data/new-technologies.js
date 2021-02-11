@@ -11,7 +11,7 @@ export default {
     },
     { seperator: ', ' },
     { value: 'Vue.js', class: 'text-white', href: 'https://vuejs.org/' },
-    { value: 'or the power of the' },
+    { value: 'and the power of the' },
     {
       value: 'Google Cloud',
       class: 'text-white',
