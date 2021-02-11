@@ -9,6 +9,7 @@ module.exports = {
   important: false,
   darkMode: 'class',
   theme: {
+    fontSizeDynamic: theme => Object.keys(theme('fontSize')).slice(0, -1),
     debugScreens: {
       prefix: 'screen side: ',
       position: ['top', 'left'],
@@ -89,6 +90,7 @@ module.exports = {
     require('@tailwindcss/forms'),
     require('tailwindcss-debug-screens'),
     require('tailwindcss-filters'),
+    require('./tailwindcss-text-size-dynamic.js')
   ],
   purge: {
     enabled: process.env.NODE_ENV === 'production',
