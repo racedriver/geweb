@@ -1,14 +1,15 @@
 <!-- Please do not add a space inside the span -->
 <template>
-  <div :class="this.rootClass">
+  <p :class="this.rootClass">
     <!-- prettier-ignore -->
-    <span v-for="(entry, i) in this.entries" :key="i" :class="entry.clazz"><!--
-    --><a v-if="entry.href" :href="entry.href" :class="entry.linkClass">{{ entry.value }}</a><!--
+    <span v-for="(entry, i) in this.entries" :key="i" :class="(!subClass ? '' :  subClass + ' ' ) + entry.clazz"><!--
+    --><nuxt-link v-if="entry.href && entry.href.startsWith('/')" :to="entry.href" :class="entry.linkClass">{{ entry.value }}</nuxt-link><!--
+    --><a v-else-if="entry.href" :to="entry.href" :class="entry.linkClass">{{ entry.value }}</a><!--
     --><template v-else-if="entry.value">{{ entry.value }}</template><!--
     -->{{ isLast(i) ? '' : entry.seperator }}<!--
     --><br v-if="isLast(i) ? false : entry.linebreaks"/><!--
 --></span>
-  </div>
+  </p>
 </template>
 
 <!--suppress JSUnresolvedVariable -->
@@ -56,6 +57,10 @@
 export default {
   name: 'DynamicText',
   props: {
+    subClass: {
+      type: String,
+      required: false,
+    },
     value: {
       type: [String, Array, Object],
       required: true,
@@ -71,13 +76,13 @@ export default {
     let withDefaults = entities.map((it) => ({
       ...it,
       seperator: it.seperator ?? root.seperator ?? ' ',
-      linebreaks: it.linebreak ?? Boolean(root.linebreaks),
-      url: it.url ?? root.url,
+      linebreaks: it.linebreak ?? Boolean(root.linebreak),
+      href: it.href ?? root.href,
       clazz: it.class ?? root.class,
       linkClass: it.linkClass ?? root.linkClass,
     }))
 
-    let filter = withDefaults.filter((it) => it.linkClass != null && !it.url)
+    let filter = withDefaults.filter((it) => it.linkClass != null && !it.href)
     if (filter.length > 0) {
       console.warn('Entries with linkClass but no href found...')
       console.warn(filter)

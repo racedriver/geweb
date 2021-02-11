@@ -1,7 +1,7 @@
 <template>
   <div>
     <FirstImpression />
-    <WhoWeAre />
+    <Consultation />
     <NewestTechnologies />
     <WhatWeDo />
     <OurProcess />

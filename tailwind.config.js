@@ -1,7 +1,3 @@
-const em = (px) => `${px / 16}em`
-const rem = (px) => ({ [px]: `${px / 16}rem` })
-const px = (num) => ({ [num]: `${num}px` })
-
 const colors = require('tailwindcss/colors')
 const defaultTheme = require('tailwindcss/defaultTheme')
 
@@ -9,7 +5,7 @@ module.exports = {
   important: false,
   darkMode: 'class',
   theme: {
-    fontSizeDynamic: theme => Object.keys(theme('fontSize')).slice(0, -1),
+    fontSizeDynamic: theme => Object.keys(theme('fontSize')).slice(0, -1).filter(it => it.key !== "lg"),
     debugScreens: {
       prefix: 'screen side: ',
       position: ['top', 'left'],
@@ -29,6 +25,11 @@ module.exports = {
       },
       fontSize: {
         '10xl': '10rem',
+      },
+      lineHeight: {
+        '.75': '.75em',
+        '.80': '.80em',
+        '.90': '.80em'
       },
       colors: {
         blush: {
@@ -52,7 +53,18 @@ module.exports = {
           400: '#f69349',
           500: '#f66924',
         },
-        teal: colors.teal,
+        teal: {
+          50: '#f0fdfa',
+          100: '#ccfbf1',
+          200: '#99f6e4',
+          300: '#5eead4',
+          400: '#2dd4bf',
+          500: '#14b8a6',
+          600: '#0d9488',
+          700: '#0f766e',
+          800: '#115e59',
+          900: '#134e4a',
+        },
         cyan: colors.cyan,
         emerald: colors.emerald,
         lime: colors.lime,
@@ -78,8 +90,8 @@ module.exports = {
   },
   variants: {
     extend: {
-      scale : ['group-hover'],
-      transform : ['group-hover'],
+      scale: ['group-hover'],
+      transform: ['group-hover'],
       outline: ['hover'],
       display: ['hover'],
       filter: ['hover', 'group-hover'],

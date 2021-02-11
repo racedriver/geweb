@@ -64,7 +64,7 @@ export default {
   },
   data() {
     return {
-      theme: null,
+      theme: !process.server && window.matchMedia('(prefers-color-scheme: dark)').matches,
     }
   },
   computed: {

@@ -23,7 +23,7 @@
           to="/contact-us"
           style="cursor:url(https://cdn.custom-cursor.com/db/pointer/32/Kick_Me_Pointer.png) , pointer!important"
         >
-          <span class="text-lg sm:text-xl md:text-2xl text-gray-50 font-bold group-hover:text-gradient group-hover:bg-gradient-secondary">
+          <span class="text-lg sm:text-xl md:text-2xl text-gray-50 font-bold group-hover:text-gradient-secondary">
           {{ $t('FirstImpression.Button') }}
           </span>
         </nuxt-link>

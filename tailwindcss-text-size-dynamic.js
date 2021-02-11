@@ -6,7 +6,7 @@ const apply = (classes) => [`@apply ${Array.isArray(classes) ? classes.join(" ")
   .reduce((ac, a) => ({...ac, [a]: {}}), {})
 
 //noinspection JSValidateTypes
-module.exports = plugin(function ({theme, variants, e, addUtilities}) {
+module.exports = plugin(function ({theme, variants, e, addComponents}) {
 
   let themeData = theme('fontSizeDynamic');
   let modifiers = Array.isArray(themeData) ? themeData : Object.keys(themeData)
@@ -20,7 +20,7 @@ module.exports = plugin(function ({theme, variants, e, addUtilities}) {
     ])
   );
 
-  addUtilities(utilities, ['responsive', ...variants('fontSizeDynamic')]);
+  addComponents(utilities, ['responsive', ...variants('fontSizeDynamic')]);
 }, {
   theme: {
     fontSizeDynamic: theme => theme('fontSize'),
@@ -29,4 +29,3 @@ module.exports = plugin(function ({theme, variants, e, addUtilities}) {
     fontSizeDynamic: ['responsive'],
   },
 });
-

@@ -1,5 +1,8 @@
 <template>
   <div>
+    <!--    <hide-for-bots>-->
+    <Background />
+    <!--    </hide-for-bots>-->
     <Header />
 <!--    <hide-for-bots :invert=true>-->
 <!--      <ol>-->
@@ -14,9 +17,6 @@
 <!--        <li>Marketplace building</li>-->
 <!--        <li>Custom software development agency</li>-->
 <!--      </ol>-->
-<!--    </hide-for-bots>-->
-<!--    <hide-for-bots>-->
-      <Background />
 <!--    </hide-for-bots>-->
     <Nuxt />
     <Footer />
