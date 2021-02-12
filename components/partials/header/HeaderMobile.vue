@@ -3,7 +3,7 @@
     <div :class="'menu text-black '+activated">
       <nav class="menu__nav ">
         <ul class="menu__list r-list text-white">
-          <li v-for="site in [{ name: 'Home', link: '/' }, ...sites]" class="menu__group">
+          <li v-for="site in [homePath, ...sites]" class="menu__group">
             <a :href="site.link" class="menu__link r-link">{{ site.name }}</a>
           </li>
         </ul>
@@ -30,6 +30,7 @@ export default {
   },
   data() {
     return {
+      homePath: { name: 'Home', link: '/', svg: 'M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6'},
       activated: undefined,
       menuOpenedText : 'Open menu',
       menuClosedText : 'Close menu',
