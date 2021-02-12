@@ -7,11 +7,11 @@
         <!--    <div class="c-gridpost__category">-->
         <!--      <a href="#">Design</a> / <a href="#">Technology</a>-->
         <!--    </div>-->
-        <div class="dark-box h-full">
-          <a :href="url(entry)" class="text-gray-700 inline-block">
-            <h3 class="text-white mb-4">{{ entry.title }}</h3>
+        <div class="bg-primary py-8 px-12 h-full">
+          <a :href="url(entry)" class="inline-block">
+            <h3 class="text-gray-700 dark:text-gray-100 mb-4">{{ entry.title }}</h3>
           </a>
-          <div class="text-gray-400 mb-4">
+          <div class="text-gray-500 mb-4">
             {{ entry.short }}
           </div>
           <a :href="url(entry)" class="text-green-500 font-normal">

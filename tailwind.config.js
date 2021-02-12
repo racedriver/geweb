@@ -1,32 +1,36 @@
-const em = (px) => `${px / 16}em`
-const rem = (px) => ({ [px]: `${px / 16}rem` })
-const px = (num) => ({ [num]: `${num}px` })
-
 const colors = require('tailwindcss/colors')
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
-  important: true,
+  important: false,
+  darkMode: 'class',
   theme: {
+    fontSizeDynamic: theme => Object.keys(theme('fontSize')).slice(0, -1).filter(it => it.key !== "lg"),
+    pxSizeDynamic: theme => Object.keys(theme('padding')).filter(it => !(it.key in ["11", "12", "14"])),
     debugScreens: {
       prefix: 'screen side: ',
       position: ['top', 'left'],
     },
-    fontFamily: {
-      sans: [
-        'Favorit Pro',
-        'favorit-pro',
-        'Metropolis',
-        'Arial',
-        'Helvetica Neue',
-        'Helvetica',
-        'sans-serif',
-        ...defaultTheme.fontFamily.sans,
-      ],
-    },
     extend: {
+      fontFamily: {
+        sans: [
+          'Favorit Pro',
+          'favorit-pro',
+          'Metropolis',
+          'Arial',
+          'Helvetica Neue',
+          'Helvetica',
+          'sans-serif',
+          ...defaultTheme.fontFamily.sans,
+        ],
+      },
       fontSize: {
         '10xl': '10rem',
+      },
+      lineHeight: {
+        '.75': '.75em',
+        '.80': '.80em',
+        '.90': '.80em'
       },
       colors: {
         blush: {
@@ -50,7 +54,18 @@ module.exports = {
           400: '#f69349',
           500: '#f66924',
         },
-        teal: colors.teal,
+        teal: {
+          50: '#f0fdfa',
+          100: '#ccfbf1',
+          200: '#99f6e4',
+          300: '#5eead4',
+          400: '#2dd4bf',
+          500: '#14b8a6',
+          600: '#0d9488',
+          700: '#0f766e',
+          800: '#115e59',
+          900: '#134e4a',
+        },
         cyan: colors.cyan,
         emerald: colors.emerald,
         lime: colors.lime,
@@ -61,9 +76,10 @@ module.exports = {
       none: 'none',
       grayscale: 'grayscale(1)',
       invert: 'invert(1)',
-      black: 'brightness(0)',
+      'brightness-0': 'brightness(0%)',
       'brightness-10': 'brightness(10%)',
       'brightness-25': 'brightness(25%)',
+      'brightness-50': 'brightness(50%)',
       'brightness-75': 'brightness(75%)',
       'brightness-100': 'brightness(100%)',
     },
@@ -75,15 +91,21 @@ module.exports = {
   },
   variants: {
     extend: {
+      scale: ['group-hover'],
+      transform: ['group-hover'],
+      outline: ['hover', 'dark'],
       display: ['hover'],
       filter: ['hover', 'group-hover'],
-      zIndex: ['group-hover']
+      zIndex: ['group-hover'],
     },
   },
   plugins: [
     require('@tailwindcss/forms'),
     require('tailwindcss-debug-screens'),
     require('tailwindcss-filters'),
+    require('./tailwindcss-text-size-dynamic.js'),
+    require('./tailwindcss-px-size-dynamic.js'),
+    require('./tailwindcss-py-size-dynamic.js'),
   ],
   purge: {
     enabled: process.env.NODE_ENV === 'production',
@@ -93,6 +115,7 @@ module.exports = {
       './pages/**/*.vue',
       './plugins/**/*.{js,ts}',
       './static/data/**/*.{js,ts}',
+      './static/js/**/*.{js,ts}',
       './nuxt.config.{js,ts}',
       './content/**/**.md',
     ],

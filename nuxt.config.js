@@ -13,22 +13,16 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'End-To-End application development',
+        content: 'UX that simplify works, just like Apple',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     script: [
-      '~/assets/js/google-tagmanager.js',
-      {
-        src: 'https://cdn.lr-ingest.io/LogRocket.min.js',
-        crossorigin: 'anonymous',
-      },
+      { src: '/js/google-tagmanager.js', mode: 'client'},
+      // { src: '~/assets/js/theme.js', mode: 'client'},
       {
         src: '/js/tawk.to.js',
-        body: true,
-      },
-      {
-        src: '/js/log-rocket.js',
+        async: true,
         body: true,
       },
     ],
@@ -52,8 +46,6 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
-    // https://go.nuxtjs.dev/typescript
-    '@nuxt/typescript-build',
     // // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     'nuxt-i18n',
@@ -61,23 +53,18 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-    // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
   ],
 
-  // Axios module configuration (https://go.nuxtjs.dev/config-axios)
-  axios: {},
-
   // Content module configuration (https://go.nuxtjs.dev/config-content)
   content: {},
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    analyze: true,
+    analyze: process.env.NODE_ENV !== 'production' ? '' : '',
     postcss: {
       plugins: {
         'postcss-import': {},
@@ -87,16 +74,6 @@ export default {
     },
     preset: {
       stage: 1, // see https://tailwindcss.com/docs/using-with-preprocessors#future-css-featuress
-    },
-  },
-
-  router: {
-    extendRoutes(routes, resolve) {
-      routes.push({
-        name: 'custom',
-        path: '*',
-        component: resolve(__dirname, 'pages/404.vue'),
-      })
     },
   },
 

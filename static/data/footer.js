@@ -21,7 +21,7 @@ export default {
       rows: {
         rootClass: 'min-w-full',
         class: paddingClasses + ' min-w-full',
-        linebreaks: true,
+        linebreak: true,
         text: ['16192 Coastal Highway', 'Lewes DE 19958', 'County of Sussex'],
       },
     },
@@ -40,7 +40,7 @@ export default {
       title: 'Company',
       rows: {
         class: paddingClasses,
-        linebreaks: true,
+        linebreak: true,
         text: [
           { value: 'About', href: 'about-us' },
           { value: 'Our work', href: 'portfolio' },
@@ -53,7 +53,7 @@ export default {
       title: "Let's connect",
       rows: {
         class: paddingClasses + ' pl-1 fa-brand-2',
-        linebreaks: true,
+        linebreak: true,
         text: [
           {
             value: ' LinkedIn',

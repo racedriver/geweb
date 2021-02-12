@@ -1,5 +1,4 @@
 export default {
-  keyword: 'BE FASTER',
   title: 'Everything you need to bring your project into reality',
   text:
     'Out of your expectations, we create even better solutions. By pushing the boundaries we create truly innovative software applications.',
@@ -10,10 +9,10 @@ export default {
         'M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z',
       title: 'Cloud Software',
       text:
-        "We will almost always suggest to develop cloud first because it's the safest place for your data and also scalable" +
+        "We will almost always suggest to develop cloud first because it's the safest place for your data and also scalable " +
         'that makes it often the right choice.\n ' +
-        'If you have specific needs for your cloud' +
-        "like provider/security/technology don't be shy, send us a message and we are happy to help.",
+        'If you have specific needs for your hosting ' +
+        "like provider/technology/compliance don't be shy, send us a message and we are happy to help.",
     },
     {
       image: '/images/ux%20design.png',
@@ -49,7 +48,7 @@ export default {
       title: 'Robotics',
       text:
         'You have a Robot? ' +
-        'Perfect we would love to play with real world objects. ' +
+        'Perfect we would love engineering on real world objects. ' +
         'Already an idea what you want to do with it? ' +
         'Send us a message.',
     },

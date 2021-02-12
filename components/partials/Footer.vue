@@ -1,7 +1,7 @@
 <template>
-  <footer class="text-black py-12 px-6 bg-gray-100">
-    <div class="max-w-7xl mx-auto divide-y divide-gray-600 divide-opacity-60 test1">
-      <div class="lg:flex pb-4">
+  <footer class="py-12 px-6 text-gray-800 dark:text-gray-50 bg-gray-100 dark:bg-gray-900 border-t-2 border-gray-300 dark:border-gray-700 border-opacity-60">
+    <div class="mx-auto max-w-7xl divide-y divide-gray-600 divide-opacity-60">
+      <div class="pb-4 lg:flex">
         <div>
           <!--  Footer Logo Start -->
           <div class="flex">
@@ -12,38 +12,37 @@
               height="120"
             />
             <DynamicText
-              class="ml-6 text-4xl sm:text-5xl font-thin tracking-tighter self-center lg:w-96 xl:w-80 text-green-500"
+              class="self-center ml-6 font-mono text-4xl font-thin tracking-tighter text-green-500 sm:text-5xl lg:w-96 xl:w-80"
               :value="this.name"
             />
           </div>
-          <DynamicText class="tracking-wider text-xs font-medium uppercase" :value="this.subtitle"/>
+          <DynamicText class="text-xs font-medium tracking-wider uppercase" :value="this.subtitle"/>
           <!--  Footer Logo End -->
           <!-- Languages Start -->
-          <a
-            href="#"
+          <button
             v-for="locale in availableLocales"
             :key="locale.code"
             @click.prevent.stop="$i18n.setLocale(locale.code)"
             class="inline-block pr-4"
           >
             <img :src="locale.icon" :alt="locale.name" />
-          </a>
+          </button>
           <!-- Languages End -->
         </div>
         <!-- Link Block Start -->
         <div class="">
-          <DynamicText class="text-3xl md:text-4xl font-extralight tracking-tight mb-4" :value="this.title"/>
-          <div class="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-4 xl:gap-8 ">
+          <DynamicText class="mb-4 text-3xl font-extralight tracking-tight md:text-4xl" :value="this.title"/>
+          <div class="grid grid-cols-2 gap-8 md:grid-cols-4 lg:gap-4 xl:gap-8">
             <div v-for="(entry, i) in this.linkBlock" :key="i">
-              <DynamicText class="font-black mb-3 lg:mb-6 text-gray-900" :value="entry.title"/>
-              <DynamicText class="col-span-1 text-gray-800" :value="entry.rows" />
+              <DynamicText class="mb-3 font-black text-gray-900 dark:text-gray-200" :value="entry.title"/>
+              <DynamicText class="col-span-1 text-gray-800 dark:text-gray-300" :value="entry.rows" />
             </div>
           </div>
         </div>
         <!-- Link Block End -->
       </div>
       <!-- Footer Bottom End -->
-      <div class="flex justify-between pt-4 text-gray-800">
+      <div class="flex justify-between pt-4 text-gray-700 dark:text-gray-400">
         <DynamicText
           :value="entity"
           v-for="(entity, i) in this.bottom"

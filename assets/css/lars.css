@@ -1,18 +1,20 @@
-.our-approach {
-  max-height: 130px;
-}
-
 @media (max-width: 576px) {
   .xs-12 {
     flex-basis: 100%;
   }
 }
 
-.dark-box {
-  background-color: rgba(16, 16, 16, 0.975);
-  padding: 48px 32px;
+*:focus {
+  @apply outline-none
 }
 
-*:focus {
-  outline: none;
+/* Nuxt transitions */
+.page-bottom-enter-active,
+.page-bottom-leave-active {
+  transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+.page-bottom-enter,
+.page-bottom-leave-to {
+  opacity: 0;
+  transform: translate3d(0, 15px, 0);
 }
