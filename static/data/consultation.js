@@ -13,5 +13,5 @@ export default {
       "you!"
     ]
   },
-  button: "Continue with the Apple experience!"
+  button: "Continue"
 }

@@ -6,6 +6,7 @@ module.exports = {
   darkMode: 'class',
   theme: {
     fontSizeDynamic: theme => Object.keys(theme('fontSize')).slice(0, -1).filter(it => it.key !== "lg"),
+    pxSizeDynamic: theme => Object.keys(theme('padding')).filter(it => !(it.key in ["11", "12", "14"])),
     debugScreens: {
       prefix: 'screen side: ',
       position: ['top', 'left'],
@@ -92,7 +93,7 @@ module.exports = {
     extend: {
       scale: ['group-hover'],
       transform: ['group-hover'],
-      outline: ['hover'],
+      outline: ['hover', 'dark'],
       display: ['hover'],
       filter: ['hover', 'group-hover'],
       zIndex: ['group-hover'],
@@ -102,7 +103,9 @@ module.exports = {
     require('@tailwindcss/forms'),
     require('tailwindcss-debug-screens'),
     require('tailwindcss-filters'),
-    require('./tailwindcss-text-size-dynamic.js')
+    require('./tailwindcss-text-size-dynamic.js'),
+    require('./tailwindcss-px-size-dynamic.js'),
+    require('./tailwindcss-py-size-dynamic.js'),
   ],
   purge: {
     enabled: process.env.NODE_ENV === 'production',

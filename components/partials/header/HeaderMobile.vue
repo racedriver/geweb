@@ -3,7 +3,7 @@
     <div :class="'menu text-black '+activated">
       <nav class="menu__nav ">
         <ul class="menu__list r-list text-white">
-          <li v-for="site in sites" class="menu__group">
+          <li v-for="site in [{ name: 'Home', link: '/' }, ...sites]" class="menu__group">
             <a :href="site.link" class="menu__link r-link">{{ site.name }}</a>
           </li>
         </ul>

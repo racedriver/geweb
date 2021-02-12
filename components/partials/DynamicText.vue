@@ -78,7 +78,7 @@ export default {
       seperator: it.seperator ?? root.seperator ?? ' ',
       linebreaks: it.linebreak ?? Boolean(root.linebreak),
       href: it.href ?? root.href,
-      clazz: it.class ?? root.class,
+      clazz: it.class ?? root.class ?? '',
       linkClass: it.linkClass ?? root.linkClass,
     }))
 

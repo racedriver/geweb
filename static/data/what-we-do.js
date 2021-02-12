@@ -48,7 +48,7 @@ export default {
       title: 'Robotics',
       text:
         'You have a Robot? ' +
-        'Perfect we would love to play with real world objects. ' +
+        'Perfect we would love engineering on real world objects. ' +
         'Already an idea what you want to do with it? ' +
         'Send us a message.',
     },
