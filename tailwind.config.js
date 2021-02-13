@@ -106,6 +106,7 @@ module.exports = {
     require('./tailwindcss-text-size-dynamic.js'),
     require('./tailwindcss-px-size-dynamic.js'),
     require('./tailwindcss-py-size-dynamic.js'),
+    require('@tailwindcss/aspect-ratio'),
   ],
   purge: {
     enabled: process.env.NODE_ENV === 'production',
