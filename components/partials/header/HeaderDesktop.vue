@@ -70,8 +70,9 @@
              absolute right-0 mt-2 w-56 rounded-md shadow-lg ring-1 ring-black ring-opacity-5">
             <div class="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
               <nuxt-link
-                v-for="site in sites"
+                v-for="(site,i) in sites"
                 :to="site.link"
+                :key="i"
                 class="group flex items-center px-4 py-1.5 text-lg
                 hover:bg-gray-100
                 dark:hover:bg-gray-700"
