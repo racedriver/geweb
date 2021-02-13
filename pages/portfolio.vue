@@ -1,7 +1,7 @@
 <template>
   <div class="text-white">
     <HeadText title="Portfolio" />
-    <div class="grid my-20 w-full max-w-7xl md:grid-cols-2 lg:grid-cols-3 gap-8 px-4-dynamic mx-auto">
+    <main class="grid my-20 w-full max-w-7xl md:grid-cols-2 lg:grid-cols-3 gap-8 px-4-dynamic mx-auto">
       <nuxt-link
         class="inline-block relative bg-transparent no-underline aspect-w-16 aspect-h-9 "
         :to="entry.link"
@@ -21,16 +21,16 @@
           </p>
         </div>
       </nuxt-link>
-    </div>
+    </main>
   </div>
 </template>
 
 <script>
-import data from '/static/data/portfolio'
+import data from '/static/data'
 export default {
   name: 'portfolio',
   data() {
-    return data
+    return data.portfolio
   },
 }
 </script>

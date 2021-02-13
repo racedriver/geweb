@@ -1,20 +1,24 @@
 <template>
-  <div>
+  <main>
     <FirstImpression />
     <Consultation />
     <NewestTechnologies />
     <WhatWeDo />
     <OurProcess />
     <div class="pt-16 pb-24">
-      <Title class="pb-12">Magazine</Title>
+      <Title class="pb-12" :value="magazine.title" />
       <Magazine :articles="this.articles" />
     </div>
     <Testimonials />
-  </div>
+  </main>
 </template>
 
 <script>
+import data from "/static/data"
 export default {
+  data() {
+    return data.index
+  },
   async asyncData({ $content, redirect, params }) {
     let articles
     try {

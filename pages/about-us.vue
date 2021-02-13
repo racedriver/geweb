@@ -1,218 +1,75 @@
 <template>
   <div class="text-white">
-    <HeadText title="About Us"/>
-    <div class="pt-16">
-      <div class="z-10 flex flex-wrap lg:flex-nowrap w-full max-w-7xl mx-auto flex items-center">
-        <div class="text-white">
-          <div class="pre-title text-white">.Love the hustle</div>
-          <h2 class="mb-6">Our Company</h2>
-          <!--          <div class="w-richtext col-12">-->
-          <p>
-            <b>
-              Skylines One is a high-tech, cloud-first software company focusing
-              on cutting edge technologies. Our focus is user experience
-              (UX/UI), Kotlin and cloud-first with Google Cloud and Firebase. We
-              always strive for excellence and only the Sky(lines One) is the
-              limit!
-            </b>
-          </p>
-          <div style="  box-shadow: 10px 8px 6px -6px black;">
-            <img
-              alt="Skylines One - About Us"
-              src="../static/images/design-teamwork.jpg"
-              style="max-width: 40%; float: right; margin: 20px"
-            />
-          </div>
-          <p>
-            We are a team of ex-Apple engineers who want to make technology
-            available to everyone. “You gotta place the user experience first
-            and then reverse engineer the technology from there” This quote from
-            Steve Jobs has made a great impact on the way we think about and
-            engineer our software. Working alongside Steve, the master of user
-            experience, has undoubtedly prepared us to take on your engineering
-            challenge.
-          </p>
-
-          <p>
-            Our CTO, 17-year-old Lars Artmann, is an accomplished engineer and
-            author of his book on software engineering with Kotlin. With a
-            high-level certification in Java, which is not typical for anyone
-            his age, he quickly found that Kotlin has many advantages over Java
-            and other programming languages.
-          </p>
-
-          <p>
-            Since serverless applications and cloud-first development is the
-            cutting edge of technology, we have decided that the best use case
-            is usually achieved with Google Cloud and Firebase. We are a Google
-            Cloud Solutions provider and will be happy to guide you through
-            deployment on Google Cloud, AWS or Azure.
-          </p>
-          <p>
-            Our Team consists of people at all levels of life and career, but we
-            have one thing in common: We will never accept that 100% customer
-            satisfaction is impossible. Because it is possible. We invite you to
-            try us out: book an exploration call with us today!
-            <br/>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="section">
-      <div class="z-10 flex flex-wrap lg:flex-nowrap w-full max-w-7xl mx-auto">
-        <div class="col">
-          <h2>Management Team</h2>
-
+    <HeadText :title="headTitle"/>
+    <main class="">
+      <section class="text-lg px-4-dynamic py-16">
+        <div class="z-10 flex flex-wrap lg:flex-nowrap w-full max-w-7xl mx-auto flex items-center">
           <div class="text-white">
-            <b>Where innovation meets experience</b>
+            <h2 class="mb-6 text-4xl">
+              <DynamicText :value="title"/>
+            </h2>
+            <img
+              alt="About Us"
+              src="../static/images/design-teamwork.jpg"
+              class="float-right m-5 max-w-md"
+            />
+            <DynamicText :value="text"/>
           </div>
         </div>
-      </div>
-      <div class="z-10 flex flex-wrap lg:flex-nowrap w-full max-w-7xl mx-auto">
-        <div class="col lg-5 md-12">
-          <div class="flex relative">
-            <img
-              alt="Alex Mittler"
-              class="mr-6 rounded"
-              src="../static/images/alex-mittler.jpg"
-              width="300"
-            />
-            <div class="c-team1__info">
-              <div class="c-team1__name">Alex<br/>Mittler</div>
-              <div class="font-black margin-bottom-quad">CEO</div>
-              <div class="c-team1__social">
-                <a
-                  class="fa-brand mr-2"
-                  href="https://www.linkedin.com/in/alexmittler/"
-                ></a
-                >
+      </section>
+      <section class="bg-primary ">
+        <div class="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24 space-y-12">
+          <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl text-black dark:text-gray-100">
+            <DynamicText :value="team.title"/>
+          </h2>
+          <ul class="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0">
+            <li
+              v-for="(entry, i) in team.entries"
+              :key="i"
+              class="space-y-4 sm:grid sm:grid-cols-3 sm:gap-6 sm:space-y-0 lg:gap-8 h-full"
+            >
+              <div class="h-0 aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
+                <img class="object-cover shadow-lg rounded-lg " :src="entry.image"
+                     :alt="entry.alt ? entry.alt : entry.name">
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="col lg-5 md-12">
-          <div class="flex relative">
-            <img
-              alt="Lars Artmann"
-              class="mr-6 rounded"
-              src="../static/images/lars-artmann.jpg"
-              width="300"
-            />
-            <div class="c-team1__info">
-              <div class="c-team1__name">Lars<br/>Artmann</div>
-              <div class="font-black margin-bottom-quad">CTO</div>
-              <div class="c-team1__social">
-                <a
-                  class="fa-brand mr-2"
-                  href="https://www.linkedin.com/in/larsartmann/"
-                ></a
-                >
+              <div class="sm:col-span-2 space-y-4 text-lg">
+                <div class="leading-6 font-medium space-y-1">
+                  <h3>
+                    <DynamicText class="text-black dark:text-gray-100 " :value="entry.name"/>
+                  </h3>
+                  <DynamicText class="text-indigo-600" :value="entry.title"/>
+                </div>
+                <DynamicText class="text-lg text-gray-500" :value="entry.text"/>
+                <DynamicText class="fa-brand-2 justify-self-end"
+                             subClass="cursor-pointer"
+                             v-for="(social, i) in entry.social" :key="i"
+                             :value="social"/>
+                <DynamicText class="text-base text-gray-800 dark:text-gray-600 justify-self-end"
+                             :value="entry.personality"/>
               </div>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
-      </div>
-      <div class="z-10 flex flex-wrap lg:flex-nowrap w-full max-w-7xl mx-auto">
-        <div class="col lg-5 md-12">
-          <div class="flex relative">
-            <img
-              alt="Alexandra Obendorfer"
-              class="mr-6 rounded"
-              src="../static/images/alexa-obendorfer.jpg"
-              width="300"
-            />
-            <div class="c-team1__info">
-              <div class="c-team1__name">Alexandra<br/>Obendorfer</div>
-              <div class="font-black margin-bottom-quad">Operations Manager</div>
-              <div class="c-team1__social">
-                <a
-                  class="fa-brand mr-2"
-                  href="https://www.linkedin.com/in/alexandra-obendorfer-963522120/"
-                ></a
-                >
-              </div>
-            </div>
-          </div>
+      </section>
+      <section class="py-16 w-full max-w-7xl mx-auto text-center">
+        <h2 class="text-4xl">Interested in joining our team?</h2>
+        <div class="text-white mb-8 lg:mb-12 text-xl">
+          Come join our team at Skylines One and make awesome digital
+          products!
         </div>
-        <div class="col lg-5 md-12">
-          <div class="flex relative">
-            <img
-              alt=""
-              class="mr-6 rounded"
-              src="../static/images/ron-sumay.jpg"
-              width="300"
-            />
-            <div class="c-team1__info">
-              <div class="c-team1__name">Ron<br/>Sumay</div>
-              <div class="font-black margin-bottom-quad">
-                Regional Sales Manager
-              </div>
-              <div class="c-team1__social">
-                <a
-                  class="fa-brand mr-2"
-                  href="https://www.linkedin.com/in/roniel-sumay-73b3401ba/"
-                ></a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="z-10 flex flex-wrap lg:flex-nowrap w-full max-w-7xl mx-auto flex">
-        <div class="col lg-5 md-12">
-          <div class="flex relative">
-            <img
-              alt="Amy Ross"
-              class="mr-6 rounded"
-              src="../static/images/amy-ross.jpg"
-              width="300"
-            />
-            <div class="c-team1__info">
-              <div class="c-team1__name">Amy<br/>Ross</div>
-              <div class="font-black margin-bottom-quad">Lead Engineer</div>
-              <div class="c-team1__social"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col lg-5 md-12">
-          <div class="flex relative">
-            <img
-              alt="Malek Anderson"
-              class="mr-6 rounded"
-              src="../static/images/malek-anderson.jpg"
-              width="300"
-            />
-            <div class="c-team1__info">
-              <div class="c-team1__name">Malek<br/>Anderson</div>
-              <div class="font-black margin-bottom-quad">Backend Engineer</div>
-              <div class="c-team1__social"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="section">
-      <div class="z-10 flex flex-wrap lg:flex-nowrap w-full max-w-7xl mx-auto">
-        <div class="col lg-12 text-align-center">
-          <h2>Interested in joining our team?</h2>
-          <div class="text-white mb-8 lg:mb-12">
-            Come join our team at Skylines One and make awesome digital
-            products!
-          </div>
-          <a class="button-primary inline-block max-w-full" href="/contact-us">
-            <div class="button-primary-text">Join Us</div>
-          </a>
-        </div>
-      </div>
-    </div>
+        <nuxt-link class="bg-green-500 inline-block w-4/5 py-2 rounded text-white" to="/contact-us">Join Us</nuxt-link>
+      </section>
+    </main>
   </div>
 </template>
 
 <script>
+import data from "/static/data"
+
 export default {
   name: 'AboutUs',
+  data() {
+    return data.aboutUs
+  }
 }
 </script>
-
-<style scoped></style>

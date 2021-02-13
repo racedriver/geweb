@@ -235,12 +235,12 @@
 </template>
 
 <script>
-import data from "/static/data/contact-us"
+import data from "/static/data"
 
 export default {
   name: 'contact-us',
   data() {
-    return { how_can_we_help_you: "", ...data }
+    return { how_can_we_help_you: "", ...data.contactUs }
   },
   methods: {
     sendContact() {

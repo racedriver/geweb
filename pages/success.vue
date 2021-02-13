@@ -1,5 +1,5 @@
 <template>
-  <div class="py-16 pb-24">
+  <main class="py-16 pb-24">
     <div style="background-color: rgba(48, 196, 126, 0.95)">
       <div class="max-w-7xl mx-auto lg:grid grid-cols-3 gap-8 relative">
         <div class="col-span-2 col-start-2 p-20 mb-1 text-white">
@@ -19,11 +19,15 @@
         </div>
       </div>
     </div>
-  </div>
+  </main>
 </template>
 
 <script>
+import data from "/static/data"
 export default {
   name: 'success',
+  data() {
+    return data
+  }
 }
 </script>

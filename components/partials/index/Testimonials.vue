@@ -64,12 +64,12 @@
 </template>
 
 <script>
-import data from '/static/data/testimonials'
+import data from '/static/data'
 
 export default {
   name: 'Testimonials',
   data() {
-    return data
+    return data.customers
   },
 }
 </script>

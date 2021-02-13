@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-5xl px-4 sm:px-8 text-white w-full max-w-7xl mx-auto">
+  <main class="max-w-5xl px-4 sm:px-8 text-white w-full max-w-7xl mx-auto">
     <h1 class="text-5xl mb-4">Skylines One LLC - Privacy Policy</h1>
     <div>
       <p>
@@ -140,11 +140,15 @@
         16192 Coastal Highway, Lewes, DE, 19958, United States
       </p>
     </div>
-  </div>
+  </main>
 </template>
 
 <script>
+import data from '/static/data'
 export default {
   name: 'privacy',
+  data() {
+    return data.privacy
+  },
 }
 </script>

@@ -1,6 +1,6 @@
 <!--suppress HtmlRequiredAltAttribute, JSUnresolvedVariable -->
 <template>
-  <div>
+  <main>
     <HeadText title="Magazine" />
     <div class="bg--dark py-16 px-12">
       <div class="max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto">
@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </main>
 </template>
 
 <script>
