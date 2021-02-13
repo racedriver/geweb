@@ -50,9 +50,8 @@
         </client-only>
 
         <!-- Menu Start -->
-        <div class="relative self-center text-left hidden md:block">
+        <div @blur="active = false" class="relative self-center text-left hidden md:block" >
           <button
-            @blur="active = false"
             @click="toggle"
             :class="'flex items-center text-gray-100 hover:text-gray-200 focus:shadow-xl ' + (this.active ? 'focus:outline-white focus:text-gray-300' : '')"
             id="options-menu " aria-haspopup="true" aria-expanded="true">
@@ -73,7 +72,8 @@
                 v-for="(site,i) in sites"
                 :to="site.link"
                 :key="i"
-                class="group flex items-center px-4 py-1.5 text-lg
+                @click="active = false"
+                class="group flex items-center px-4 py-1.5 text-lg z-30
                 hover:bg-gray-100
                 dark:hover:bg-gray-700"
                 role="menuitem">
