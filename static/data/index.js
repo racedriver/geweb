@@ -1,7 +1,7 @@
 function personalityLong(short, isAssertive) {
   const first = short[0] === "E" ? 'Extroverted' : 'Introverted'
-  const second = short[1] === "T" ? 'Thinking' : 'Observant'
-  const third = short[2] === "N" ? 'Intuitive' : 'Feeling'
+  const second = short[1] === "T" ? 'Thinking' : 'Feeling'
+  const third = short[2] === "N" ? 'Intuitive' : 'Observant'
   const fourth = short[3] === "J" ? 'Judging' : 'Prospecting'
   const identity = isAssertive ? 'Assertive' : 'Turbulent'
   return `${first}, ${second}, ${third}, ${fourth} - ${identity}`
