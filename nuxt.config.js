@@ -1,5 +1,3 @@
-import { join } from 'path'
-
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
@@ -46,7 +44,8 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
-    // // https://go.nuxtjs.dev/tailwindcss
+    '@nuxt/components',
+    // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     'nuxt-i18n',
   ],
@@ -68,7 +67,7 @@ export default {
     postcss: {
       plugins: {
         'postcss-import': {},
-        tailwindcss: join(__dirname, './tailwind.config.js'),
+        tailwindcss: './tailwind.config.js',
         'postcss-nested': {},
       },
     },
