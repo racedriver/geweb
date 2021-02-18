@@ -18,3 +18,18 @@ button {
 a, button, input, select {
 	@apply pointer-events-auto
 }
+
+*:focus {
+  @apply outline-none
+}
+
+/* Nuxt transitions */
+.page-bottom-enter-active,
+.page-bottom-leave-active {
+  transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+.page-bottom-enter,
+.page-bottom-leave-to {
+  opacity: 0;
+  transform: translate3d(0, 15px, 0);
+}
