@@ -1,25 +1,28 @@
 <template>
-  <main>
-    <FirstImpression />
-    <Consultation />
-    <NewestTechnologies />
-    <WhatWeDo />
-    <OurProcess />
-    <div class="pt-16 pb-24">
-      <Title class="pb-12" :value="magazine.title" />
-      <Magazine :articles="this.articles" />
-    </div>
-    <Testimonials />
-  </main>
+  <div>
+    <main>
+      <FirstImpression/>
+      <Consultation/>
+      <NewestTechnologies/>
+      <WhatWeDo/>
+      <OurProcess/>
+      <div class="pt-16 pb-24">
+        <Title class="pb-12" :value="magazine.title"/>
+        <Magazine :articles="this.articles"/>
+      </div>
+      <Testimonials/>
+    </main>
+  </div>
 </template>
 
 <script>
 import data from "/static/data"
+
 export default {
   data() {
     return data.index
   },
-  async asyncData({ $content, redirect, params }) {
+  async asyncData({$content, redirect, params}) {
     let articles
     try {
       articles = await $content('articles').limit(3).fetch()
