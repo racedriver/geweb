@@ -7,7 +7,10 @@ function personalityLong(short, isAssertive) {
   return `${first}, ${second}, ${third}, ${fourth} - ${identity}`
 }
 
-const personality = (name, short, isAssertive) => [{value: `${name} / ${short}-${isAssertive ? 'A' : 'T'}`, linebreak: true}, personalityLong(short, isAssertive)]
+const personality = (name, short, isAssertive) => [{
+  value: `${name} / ${short}-${isAssertive ? 'A' : 'T'}`,
+  linebreak: true
+}, personalityLong(short, isAssertive)]
 
 const Executive = (isAssertive) => personality("Executive", "ESTJ", isAssertive)
 const Architect = (isAssertive) => personality("Architect", "INTJ", isAssertive)
@@ -69,7 +72,7 @@ export default {
           title: 'CTO',
           text: 'Some people think he are a genius properly because he\'s only 17 years old and already one of the best in technology space, but he wouldn\'t say that.',
           social: [
-            {text: '', href:'https://www.linkedin.com/in/larsartmann/'}
+            {text: '', href: 'https://www.linkedin.com/in/larsartmann/'}
           ],
           personality: Architect(false),
         },
@@ -140,9 +143,9 @@ export default {
   contactUs: {
     copy: {
       text: [
-        { value: 'Find out how to bring your business into the' },
-        { value: '20ies', class: 'text-green-500' },
-        { value: 'today' },
+        {value: 'Find out how to bring your business into the'},
+        {value: '20ies', class: 'text-green-500'},
+        {value: 'today'},
       ],
     },
   },
@@ -167,5 +170,31 @@ export default {
         ],
       },
     ],
+  },
+  landing: {
+    title: {
+      linebreak: true,
+      text: [
+        "Skylines One is a high-tech,",
+        "cloud-first software development",
+        "company focusing on cutting",
+        "edge technologies to build high",
+        "quality software.",
+        "",
+        [
+          {value: "Custom software development"},
+          {value: "Google Cloud Platform"},
+          {value: "Software outsourcing"},
+          {value: "Progressive Web Apps (PWA)"},
+          {value: "Specialist (Firebase, Serverless)"},
+          {value: "Newest technologies (like Kotlin, Ktor, Nuxt.js, Vue.js)",}
+        ],
+        "",
+        "If you are looking for an",
+        "experienced team of engineers",
+        "to hit the ground quickly, contact",
+        "us today!"
+      ]
+    },
   }
 }

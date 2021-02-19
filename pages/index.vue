@@ -1,18 +1,16 @@
 <template>
-  <div>
-    <main>
-      <FirstImpression/>
-      <Consultation/>
-      <NewestTechnologies/>
-      <WhatWeDo/>
-      <OurProcess/>
-      <div class="pt-16 pb-24">
-        <Title class="pb-12" :value="magazine.title"/>
-        <Magazine :articles="this.articles"/>
-      </div>
-      <Testimonials/>
-    </main>
-  </div>
+  <main>
+    <FirstImpression/>
+    <Consultation/>
+    <NewestTechnologies/>
+    <WhatWeDo/>
+    <OurProcess/>
+    <div class="pt-16 pb-24">
+      <Title class="pb-12" :value="magazine.title"/>
+      <Magazine :articles="this.articles"/>
+    </div>
+    <Testimonials/>
+  </main>
 </template>
 
 <script>
