@@ -11,7 +11,7 @@
       <nuxt-link v-else-if="entry.href && entry.href.startsWith('/')" :to="entry.href" :class="entry.clazz" :key="i">
         <DynamicTextSpan :entry="entry" :isLast="isLast(i)" :subClass="subClass"/>
       </nuxt-link>
-      <a v-else-if="entry.href" :to="entry.href" :class="entry.clazz" :key="i">
+      <a v-else-if="entry.href" :href="entry.href" :class="entry.clazz" :key="i">
         <DynamicTextSpan :entry="entry" :isLast="isLast(i)" :subClass="subClass"/>
       </a>
       <template v-else>

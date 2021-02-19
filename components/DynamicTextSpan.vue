@@ -1,5 +1,5 @@
 <template>
-  <span :class="subClass ? subClass : '' "><!--
+  <span :class="(subClass ? subClass : '')"><!--
     --><template v-if="entry.value">{{ entry.value }}</template><!--
     -->{{ isLast ? '' : entry.seperator }}<!--
     --><br v-if="isLast ? false : entry.linebreaks"/><!--
