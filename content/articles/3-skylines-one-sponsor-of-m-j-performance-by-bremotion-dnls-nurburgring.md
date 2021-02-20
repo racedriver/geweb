@@ -4,8 +4,9 @@ thumbnail: https://le-cdn.website-editor.net/ee657ec245e14d758468ef8400b60080/dm
 short: Promoting future-oriented virtual racing in the simulator for the legendary Nurburgring racing team
 ---
 
-<iframe align="center" width="560" height="315" src="https://www.youtube.com/embed/oa0pPcVD6VE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="self-center items-center justify-center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oa0pPcVD6VE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 ### M&J Performance by Bremotion is gaining a first partner who uses the virtual potential and media reach of the “Digital Nürburgring Long Distance Series” (DNLS) specifically for its own purposes. The logos of Skylines One will be presented from the next DNLS race on the #111 Mercedes-AMG GT3 by Marek Böckmann and Jan Philipp Springob.
 
 M&J Performance by Bremotion is a racing team with decades of experience in racing. Bremotion is a specialist in real-world racing that had a tremendous 2019 & 2020 season running their Mercedes-AMG GT4 in the German DTM Trophy (German Touring Car Trophy). The drivers for 2021 are Marek Böckmann und Jan Philipp Springob.
