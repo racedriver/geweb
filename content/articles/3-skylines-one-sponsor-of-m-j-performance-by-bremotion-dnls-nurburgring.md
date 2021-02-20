@@ -1,6 +1,6 @@
 ---
 title: Sponsorship for M&J Performance by Bremotion
-thumbnail: <iframe width="560" height="315" src="https://www.youtube.com/embed/oa0pPcVD6VE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+thumbnail: https://le-cdn.website-editor.net/ee657ec245e14d758468ef8400b60080/dms3rep/multi/opt/M_J_Performance_by_Bremotion_AMG_GT3_iracing_dnls_2021_6-860w.jpg
 short: Promoting future-oriented virtual racing in the simulator for the legendary Nurburgring racing team
 ---
 
@@ -17,5 +17,3 @@ Jan Philipp "JP" Springob started his motorsport career in 2008. The Olper becam
 “Just like Skylines One, we are thrilled to see new & innovative software-based solutions to start a new era of motorsports. The Skylines One team strives to adapt quickly & be the best in software, just like us when we compete for the next race title. Therefore, we are proud to announce that Skylines One stepped on the gas together with M&J Performance by Bremotion”, says Marek Böckmann.
 
 The DNLS, originally launched in 2020 as a COVID-19 replacement program, quickly became the audience's favorite in its first season. The format is based on the popular sim racing platform iRacing and offers a very high entertainment value. The races are held in four separate groups with separate trophies on the legendary Nürburgring-Nordschleife and the Grand Prix track; the maximum starting field size is 60 vehicles. M&J Performance by Bremotion starts with the #111 Mercedes-AMG GT3 in the top class "SP9". The next race is the "NIMEX 3h Race" this Saturday, February 20th, 2021 at 7am EST (1pm CET). The race is streamed live on facebook.com/Bremotion and on https://skylines.one.
-
-Live stream at: https://www.youtube.com/watch?v=oa0pPcVD6VE
