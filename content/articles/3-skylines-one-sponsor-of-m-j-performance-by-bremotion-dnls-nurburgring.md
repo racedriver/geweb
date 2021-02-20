@@ -4,7 +4,7 @@ thumbnail: https://le-cdn.website-editor.net/ee657ec245e14d758468ef8400b60080/dm
 short: Promoting future-oriented virtual racing in the simulator for the legendary Nurburgring racing team
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oa0pPcVD6VE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe align="center" width="560" height="315" src="https://www.youtube.com/embed/oa0pPcVD6VE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### M&J Performance by Bremotion is gaining a first partner who uses the virtual potential and media reach of the “Digital Nürburgring Long Distance Series” (DNLS) specifically for its own purposes. The logos of Skylines One will be presented from the next DNLS race on the #111 Mercedes-AMG GT3 by Marek Böckmann and Jan Philipp Springob.
 
