@@ -1,6 +1,6 @@
 ---
 title: Sponsorship for M&J Performance by Bremotion
-thumbnail: https://le-cdn.website-editor.net/ee657ec245e14d758468ef8400b60080/dms3rep/multi/opt/M_J_Performance_by_Bremotion_AMG_GT3_iracing_dnls_2021_6-860w.jpg
+thumbnail: https://www.youtube.com/watch?v=oa0pPcVD6VE
 short: Promoting future-oriented virtual racing in the simulator for the legendary Nurburgring racing team
 ---
 
