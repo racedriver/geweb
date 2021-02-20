@@ -91,6 +91,7 @@ module.exports = {
   },
   variants: {
     extend: {
+      backgroundColor: ['checked'],
       scale: ['group-hover'],
       transform: ['group-hover'],
       outline: ['hover', 'dark'],
