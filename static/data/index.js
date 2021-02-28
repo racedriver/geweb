@@ -125,7 +125,7 @@ export default {
   },
   consultation: {
     title: [
-      {value: 'Stop relying on bad software'},
+      {value: 'Get high quality software'},
     ],
     subtitle: {
       text: [
