@@ -60,7 +60,7 @@ export default {
           name: 'Alex Mittler',
           image: 'images/alex-mittler.jpg',
           title: 'CEO',
-          text: 'He spent a decade at Apple as an experienced engineer, even before the IPhone came out, crazy isn’t it?',
+          text: 'He spent a decade at Apple as an engineer, even before the iPhone came out, crazy isn’t it?',
           social: [
             {text: '', href: 'https://www.linkedin.com/in/alexmittler/'}
           ],
@@ -70,7 +70,7 @@ export default {
           name: 'Lars Artmann',
           image: '/images/lars-artmann.jpg',
           title: 'CTO',
-          text: 'Some people think he are a genius properly because he\'s only 17 years old and already one of the best in technology space, but he wouldn\'t say that.',
+          text: 'Some people really think he is a genius because at only 17 years old he is already a CTO in the technology space, but don\'t wouldn\'t mention it.',
           social: [
             {text: '', href: 'https://www.linkedin.com/in/larsartmann/'}
           ],
