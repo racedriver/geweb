@@ -131,9 +131,9 @@ export default {
       text: [
         /*"Get software that just works!",*/
         "Your",
-        "USER",
+        "users",
         {value: '👨‍💻', class: 'bg-clip-padding text-white'},
-        "will thank",
+        "will Thank",
         {value: '🙏', class: 'bg-clip-padding text-white'},
         "you!"
       ]
