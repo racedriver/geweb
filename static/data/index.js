@@ -60,7 +60,7 @@ export default {
           name: 'Alex Mittler',
           image: 'images/alex-mittler.jpg',
           title: 'CEO',
-          text: 'He spent a decade at Apple as an experienced engineer, even before the IPhone came out, crazy isn’t it?',
+          text: 'He spent a decade at Apple as an engineer, even before the iPhone came out, crazy isn’t it?',
           social: [
             {text: '', href: 'https://www.linkedin.com/in/alexmittler/'}
           ],
@@ -70,17 +70,24 @@ export default {
           name: 'Lars Artmann',
           image: '/images/lars-artmann.jpg',
           title: 'CTO',
-          text: 'Some people think he are a genius properly because he\'s only 17 years old and already one of the best in technology space, but he wouldn\'t say that.',
+          text: 'Some people really think he is a genius because at only 17 years old he is already a CTO in the technology space, but don\'t mention it.',
           social: [
             {text: '', href: 'https://www.linkedin.com/in/larsartmann/'}
           ],
           personality: Architect(false),
         },
         {
-          name: 'Wladyslaw Urbanczyk',
+          name: 'Wlad',
           image: '/images/wlad.png',
           title: 'Engineer',
           text: 'Wlad is an ex-Apple engineer with a broad history and experiences in software development, custom hardware, circuit boards and printing. He spent several decades at big-tech companies like Apple, Sun Microsystems and CapGemini before joining Skylines One.',
+          personality: Protagonist(true),
+        },
+        {
+          name: 'Christoph',
+          image: '/images/malek-anderson.jpg',
+          title: 'Engineer',
+          text: 'Christoph is a young genius talent with a broad knowledge and experiences in modern software development and databases. Fresh out of school and with already a vast experience in Java and Minecraft development, Christoph has almost single-handedly released multi-platform mobile Apps before. We are thrilled to see what he will build at Skylines One.',
           personality: Protagonist(true),
         }
       ]
@@ -131,9 +138,9 @@ export default {
       text: [
         /*"Get software that just works!",*/
         "Your",
-        "USER",
+        "users",
         {value: '👨‍💻', class: 'bg-clip-padding text-white'},
-        "will thank",
+        "will Thank",
         {value: '🙏', class: 'bg-clip-padding text-white'},
         "you!"
       ]
