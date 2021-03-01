@@ -5,8 +5,8 @@ export default {
     Split: '-',
     AppleEngineers: 'Apple Entwicklern',
     SubTitle:
-      'ist bereit ihr Projekt mit High-tech Cloud Software zu verwirklichen',
-    SubSubTitle: '(Niemals wieder Angst um die Qualität ihrer Software haben!)',
+      'ist bereit ihr Software-Projekt zu verwirklichen',
+    SubSubTitle: 'Endlich Schluss mit den Gedanken um die User Experience!)',
     Button: 'Angebot jetzt einholen',
     OurPortfolio: 'Unser Portfolio',
   },

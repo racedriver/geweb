@@ -1,10 +1,10 @@
 export default {
   FirstImpression: {
-    PreTitle: 'Let',
+    PreTitle: 'Our Team of',
     Ex: 'ex',
     Split: '-',
     AppleEngineers: 'Apple Engineers',
-    SubTitle: 'build your custom software',
+    SubTitle: 'is looking forward to build your custom software',
     SubSubTitle:
       '(And you\'ll never have to worry about user experience again!)',
     Button: 'Contact Us For Project Review',
