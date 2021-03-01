@@ -1,13 +1,13 @@
 export default {
   FirstImpression: {
-    PreTitle: 'Our Team of',
+    PreTitle: 'Let',
     Ex: 'ex',
     Split: '-',
     AppleEngineers: 'Apple Engineers',
-    SubTitle: 'Is Ready to Develop Your Project Into High-tech Cloud Software',
+    SubTitle: 'build your custom software',
     SubSubTitle:
-      '(And you never have to worry about the quality of your software again!)',
-    Button: 'Start to end your project now!',
+      '(And you\'ll never have to worry about user experience again!)',
+    Button: 'Contact Us For Project Review',
     OurPortfolio: 'Our portfolio',
   },
 }
