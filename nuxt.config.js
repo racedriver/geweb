@@ -18,11 +18,11 @@ export default {
     script: [
       { src: '/js/google-tagmanager.js', mode: 'client'},
       // { src: '~/assets/js/theme.js', mode: 'client'},
-      {
+     /* {
         src: '/js/tawk.to.js',
         async: true,
         body: true,
-      },
+      }, */
     ],
     bodyAttrs: {
       class: process.env.NODE_ENV !== 'production' ? 'debug-screens' : '',
