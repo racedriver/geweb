@@ -87,8 +87,8 @@ export default {
           name: 'Christoph',
           image: '/images/malek-anderson.jpg',
           title: 'Engineer',
-          text: 'Christoph is a young genius talent with a broad knowledge and experiences in modern software development and databases. Fresh out of school and with already a vast experience in Java and Minecraft development, Christoph has almost single-handedly released multi-platform mobile Apps before. We are thrilled to see what he will build at Skylines One.',
-          personality: Protagonist(true),
+          text: 'Christoph is a young genius talent with a broad knowledge and experiences in modern software development and databases. Fresh out of school and with already a vast experience in Java and Minecraft development, Christoph has almost single-handedly released multi-platform mobile Apps before. We are thrilled to see what he will build with us in the future.',
+          personality: Executive(false),
         }
       ]
     }
