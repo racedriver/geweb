@@ -13,6 +13,7 @@
         <div class="mb-8 text-lg font-normal text-gray-300 ">
           {{ $t('FirstImpression.SubSubTitle') }}
         </div>
+
       </h1>
 
       <div class="flex items-center">
@@ -28,9 +29,20 @@
           </span>
         </nuxt-link>
       </div>
+
+    </div>
+    <div class="py-16 px-12 w-full text-gray-50 sm:rounded md:w-7/12 lg:w-5/12 xl:w-2/5 lg:ml-16 bg--dark">
+    <iframe src="https://www.videoask.com/fxz4ou4o3"
+            allow="camera *; microphone *; autoplay *; encrypted-media *; fullscreen *; display-capture *;"
+            width="100%"
+            height="600px"
+            style="border: none; border-radius: 24px"
+    >
+    </iframe>
     </div>
     <div class="w-full xl:h-8"/>
   </div>
+
 </template>
 
 <script>
