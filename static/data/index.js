@@ -28,29 +28,40 @@ export default {
     text: {
       linebreak: true,
       text: [
-        'Like every good friendship, Skylines One started out of common interests. The common ground both of the two founders Alexander Mittler and Lars Artmann have is their love for CS:GO that they both discovered during their childhood.  ',
-        'After some rounds of CS:GO they found out that they have even more interests they share.',
-        'Their passion for the latest technologies and the strong passion about bringing great software not only to Fortune 500 companies was the foundation that led them to found Skylines One.',
+        'Like every good friendship, Skylines One started out of common interests. The common ground both of the two founders Alexander Mittler and Lars Artmann have is their love for computers, software and gaming that they both discovered during their childhood.  ',
+        'After some rounds of CS:GO, they found that they have another common interest: their passion for enabling great products through technology and the strong focus on bringing great user experience to software. Skylines One was born. From now on, not only Fortune 500 companies, but all businesses equally would be able to deliver the perfect user experience to their customers and employees.',
         '',
-        'Starting with Alexander Mittler. He spent a decade at Apple as an experienced engineer, even before the IPhone came out, crazy isn’t it?',
+        'Alex Mittler honed his engineering skills for over a decade at Apple, and was an early employee even before the iPhone came out. With his passion for technology and business, he focuses on excellence in every product he touches. In a nutshell, Alex is a business person with great strengths across fields such as technology, software development, ' +
+        'marketing, finance, investments and international business. Being humble and grinding all the time, he has already led several companies to success and touched the lives of 100+ million people in his career. The one thing that sets him apart, he says, is that for him it\'s either win-win or no deal. You can most often hear him say: \n',
+        {
+          value: '“Lots of people dream BIG. EXECUTION is what really matters.”',
+          class: 'font-bold'
+        },
+        'and',
+        {
+          value: '“I run toward fires.”',
+          class: 'font-bold'
+        },
         '',
-        'Lars Artmann is an exceptional young software engineer and genius who already has 7 years experience in the newest technologies such as Kotlin, Google Cloud/Firebase and many more!',
-        'He started coding at an age of 10, since then he watched over 50,000 educational videos.',
-        'But, DON’T think he is one of the guys that are only good in theory. He would probably say:',
+        'Lars Artmann is a genius young software engineer who already has 7 years experience in the newest technologies such as Kotlin, Google Cloud/Firebase and many more! He started coding at an age of 10, since then he watched over 50,000 educational videos. But, DON’T think he is one of the guys that are only good in theory. He would probably say:',
         {
           value: '“To be OUTSTANDING you need 4 times more theory than execution, but execution is what matters!”.',
           class: 'font-bold'
         },
-        'But it is hard to some him up with only one or two sentences so let’s give you some hard facts about him to better understand how much he has achieved with only 17 years on this planet. ',
-        '- IQ 130',
-        '- Touched over +100k people, with his software',
+        'It’s impossible to sum him up with only a few sentences, so here are the hard facts that will allow you to grasp just how much he has achieved so far with only 17 years on this planet. \n',
+        '- Touched over +100k people with his software',
         '- Started his second company',
-        '- Written more than 100,000 lines of code and properly deleted the same amount',
-        '- Personality Architect / INTJ-T (Introverted, Intuitive, Thinking, Judging - Turbulent)',
+        '- Written more than 100,000 lines of code (and properly deleted the same amount)',
+        '- IQ 130',
+        '- A true Architect\'s Personality: INTJ-T (Introverted, Intuitive, Thinking, Judging - Turbulent)',
         '',
-        'The combination of them is unbeatable! They developed such a good friendship in only 9 months that most people don\'t get even if they are married. ',
+        'This combined experience and skill set truly makes them unbeatable. They developed a company in 11 months that most people don’t expect after 10 years of being in business, along with a truly inspiring friendship. The experience, passion, and thinking outside the box definitely makes us a strong force in the technology sector to look out for.',
         '',
-        'The combination of experience, passion, thrive and thinking outside the box makes this uneven pair definitely a strong force in the technology sector to look out for. Their common goal is to make software with a great, Apple-like user experience accessible to every business. This combined with simple maintenance of the software sounds attractive to many business owners.',
+        'Our mission is to accelerate the world\'s transition to cloud software. Our vision is to create the most compelling software company of the 21st century by driving the world’s transition to cloud software.',
+        {
+          value: '#theskyisthelimit',
+          class: 'font-bold'
+        },
       ]
     },
     team: {

@@ -6,7 +6,7 @@ export default {
     AppleEngineers: 'Apple Engineers',
     SubTitle: 'is looking forward to build your custom software',
     SubSubTitle:
-      '(And you\'ll never have to worry about user experience again!)',
+      '(And you\'ll never have to worry about user experience or code quality again!)',
     Button: 'Contact Us For Project Review',
     OurPortfolio: 'Our portfolio',
   },
