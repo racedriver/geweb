@@ -8,11 +8,11 @@
             <h2 class="mb-6 text-4xl">
               <DynamicText :value="title"/>
             </h2>
-            <img
+            <!--img
               alt="About Us"
               src="../static/images/design-teamwork.jpg"
               class="float-right m-5 max-w-md"
-            />
+            /-->
             <DynamicText :value="text"/>
           </div>
         </div>
@@ -26,7 +26,7 @@
             <li
               v-for="(entry, i) in team.entries"
               :key="i"
-              class="space-y-4 sm:grid sm:grid-cols-3 sm:gap-6 sm:space-y-0 lg:gap-8 h-full"
+              class="space-y-4 sm:grid sm:grid-cols-3 sm:gap-6 sm:space-y-0 lg:gap-8"
             >
               <div class="h-0 aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
                 <img class="object-cover shadow-lg rounded-lg " :src="entry.image"
