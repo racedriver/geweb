@@ -4,8 +4,8 @@ thumbnail: https://le-cdn.website-editor.net/ee657ec245e14d758468ef8400b60080/dm
 short: Promoting future-oriented virtual racing using a Mercedes-AMG GT3 run by the legendary M & J Performance by Bremotion racing team
 ---
 
-<div class="self-center items-center justify-center">
-<iframe width="1025" height="580" src="https://www.youtube.com/embed/ysZXTUhef7g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="aspect-w-16 aspect-h-9">
+<iframe src="https://www.youtube.com/embed/ysZXTUhef7g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 Tomorrow at 6:30am EST we will race the finals of the Digital Nürburgring Endurance Series (DNLS). Our regular drivers Jan Philipp Springob and Marek Böckmann are unfortunately unable to participate due to their commitments with the "real racing team". In their place, the racedrivers Robin Rein and Christopher Kindler will be in the virtual cockpit of the # 111 “M&J Performance by Bremotion” Mercedes-AMG GT3. Tune in!
