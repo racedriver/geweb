@@ -2,9 +2,9 @@
   <div class="text-white">
     <HeadText :title="headTitle"/>
     <main class="">
-      <section class="text-lg px-4-dynamic py-16">
-        <div class="z-10 flex flex-wrap lg:flex-nowrap w-full max-w-7xl mx-auto flex items-center">
-          <div class="text-white">
+      <section class="bg-primary text-lg px-4-dynamic lg:my-16 pt-12 lg:pt-4 max-w-7xl mx-auto flex p-4 lg:rounded">
+        <div class="flex flex-wrap lg:flex-nowrap w-full items-center">
+          <div class="text-black dark:text-gray-100">
             <h2 class="mb-6 text-4xl">
               <DynamicText :value="title"/>
             </h2>
