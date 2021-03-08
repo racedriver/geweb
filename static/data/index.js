@@ -143,7 +143,7 @@ export default {
   },
   consultation: {
     title: [
-      {value: 'Get high quality software'},
+      {value: 'Make high quality products'},
     ],
     subtitle: {
       text: [
@@ -193,19 +193,18 @@ export default {
     title: {
       linebreak: true,
       text: [
-        "Skylines One is a high-tech,",
-        "cloud-first software development",
-        "company focusing on cutting",
-        "edge technologies to build high",
-        "quality software.",
+        "Skylines One is a high-tech",
+        "engineering company focusing",
+        "on cutting edge technologies",
+        "to build high quality products",
         "",
         [
-          {value: "Custom software development"},
+          {value: "Custom product development"},
           {value: "Google Cloud Platform"},
-          {value: "Software outsourcing"},
+          {value: "Software development outsourcing"},
           {value: "Progressive Web Apps (PWA)"},
           {value: "Specialist (Firebase, Serverless)"},
-          {value: "Newest technologies (like Kotlin, Ktor, Nuxt.js, Vue.js)",}
+          {value: "Newest technologies (like Kotlin, Ktor, Nuxt.js, Google Cloud)",}
         ],
         "",
         "If you are looking for an",
