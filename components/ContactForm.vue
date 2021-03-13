@@ -26,34 +26,19 @@
             :onsubmit="false"
             class="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
           >
-            <div>
+            <div class="sm:col-span-2">
               <label
-                for="first_name"
+                for="fullname"
                 class="block text-sm font-medium text-gray-700 dark:text-gray-200"
-              >First name</label
+              >Name</label
               >
               <div class="mt-1">
                 <input
                   type="text"
-                  name="first_name"
-                  id="first_name"
+                  name="fullname"
+                  id="fullname"
+                  v-model="fullName"
                   autocomplete="given-name"
-                  class="block w-full shadow-sm sm:text-sm dark:bg-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 dark:border-gray-800 rounded-md"
-                />
-              </div>
-            </div>
-            <div>
-              <label
-                for="last_name"
-                class="block text-sm font-medium text-gray-700 dark:text-gray-200"
-              >Last name</label
-              >
-              <div class="mt-1">
-                <input
-                  type="text"
-                  name="last_name"
-                  id="last_name"
-                  autocomplete="family-name"
                   class="block w-full shadow-sm sm:text-sm dark:bg-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 dark:border-gray-800 rounded-md"
                 />
               </div>
@@ -67,6 +52,7 @@
               <div class="mt-1">
                 <input
                   id="email"
+                  v-model="email"
                   name="email"
                   type="email"
                   autocomplete="email"
@@ -85,6 +71,7 @@
                   type="text"
                   name="company"
                   id="company"
+                  v-model="company"
                   autocomplete="organization"
                   class="block w-full shadow-sm sm:text-sm dark:bg-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 dark:border-gray-800 rounded-md"
                 />
@@ -106,6 +93,7 @@
                   type="text"
                   name="phone"
                   id="phone"
+                  v-model="phone"
                   autocomplete="tel"
                   aria-describedby="phone_description"
                   class="block w-full shadow-sm sm:text-sm dark:bg-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 dark:border-gray-800 rounded-md"
@@ -115,7 +103,7 @@
             <div class="sm:col-span-2">
               <div class="flex justify-between">
                 <label
-                  for="how_can_we_help"
+                  for="how_can_we_help_description"
                   class="block text-sm font-medium text-gray-700 dark:text-gray-200"
                 >How can we help you?</label
                 >
@@ -127,7 +115,7 @@
               </div>
               <div class="mt-1">
                   <textarea
-                    v-model="how_can_we_help_you"
+                    v-model="description"
                     id="how_can_we_help"
                     name="how_can_we_help"
                     aria-describedby="how_can_we_help_description"
@@ -144,6 +132,7 @@
                 <div class="flex items-center">
                   <input
                     id="budget_under_25k"
+                    v-model="budget"
                     name="budget"
                     value="under_25k"
                     type="radio"
@@ -158,6 +147,7 @@
                 <div class="flex items-center">
                   <input
                     id="budget_25k-50k"
+                    v-model="budget"
                     name="budget"
                     value="25k-50k"
                     type="radio"
@@ -172,6 +162,7 @@
                 <div class="flex items-center">
                   <input
                     id="budget_50k-100k"
+                    v-model="budget"
                     name="budget"
                     value="50k-100k"
                     type="radio"
@@ -186,6 +177,7 @@
                 <div class="flex items-center">
                   <input
                     id="budget_over_100k"
+                    v-model="budget"
                     name="budget"
                     value="over_100k"
                     type="radio"
@@ -199,15 +191,16 @@
             </fieldset>
             <div class="sm:col-span-2">
               <label
-                for="how_did_you_hear_about_us"
+                for="referee"
                 class="block text-sm font-medium text-gray-700 dark:text-gray-200"
               >How did you hear about us?</label
               >
               <div class="mt-1">
                 <input
                   type="text"
-                  name="how_did_you_hear_about_us"
-                  id="how_did_you_hear_about_us"
+                  name="referee"
+                  id="referee"
+                  v-model="referee"
                   class="shadow-sm dark:bg-gray-900 focus:ring-indigo-500 focus:border-indigo-500 block w-full
                   sm:text-sm border-gray-300 dark:border-gray-800 rounded-md"
                 />
@@ -215,7 +208,7 @@
             </div>
             <div class="text-right sm:col-span-2">
               <button
-                @click.prevent="sendContact"
+                @click="sendContact"
                 class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium
                 rounded-md text-white bg-indigo-600 hover:bg-indigo-700 dark:bg-gray-900
                 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
@@ -231,36 +224,39 @@
 </template>
 <script>
 import data from "/static/data"
+import axios from "axios";
 
 export default {
   name: 'ContactForm',
   data() {
-    return {how_can_we_help_you: "", ...data.contactUs}
+    return {
+      fullName: "",
+      email: "",
+      company: "",
+      phone: "",
+      description: "",
+      budget: "",
+      referee: ""
+    }
   },
   methods: {
     sendContact() {
-      const inputs = [...document.getElementsByTagName('input'), {
-        value: this.how_can_we_help_you,
-        id: "how_can_we_help_you"
-      }]
-      let data = Array.from(inputs).reduce(
-        (acc, input) => `${acc instanceof HTMLInputElement ? acc.id + ':' + acc.value : acc}\n${input.id || input}:${input.value} ${input.checked ? 'checked' : ''}`
-      )
+      const data = {
+        fullName: this.fullName,
+        email: this.email,
+        company: this.company,
+        phone: this.phone,
+        description: this.description,
+        budget: this.budget,
+        referee: this.referee,
+      }
 
-      console.log(data)
-      fetch(
-        'https://api.telegram.org/bot681322477:AAGmZBPAvfVvQBybo2dyXIdNaP4ait72344/sendMessage',
-        {
-          method: 'POST',
-          headers: {'Content-Type': 'application/json'}, //DO NOT REMOVE
-          body: JSON.stringify({
-            chat_id: -483038812,
-            text: data
-          }),
+      const content = JSON.stringify(data)
+
+      axios.post("http://localhost:8080/contact", content, {
+        headers: {
+          "Content-Type": "application/json"
         }
-      ).then(() => {
-        this.$router.push('success')
-        window.location.href = "success";
       })
     },
   },

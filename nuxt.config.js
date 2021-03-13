@@ -56,6 +56,8 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    //https://axios.nuxtjs.org/
+    '@nuxtjs/axios'
   ],
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
