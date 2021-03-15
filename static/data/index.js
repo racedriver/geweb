@@ -57,7 +57,15 @@ export default {
         '',
         'This combined experience and skill set truly makes them unbeatable. They developed a company in 11 months that most people don’t expect after 10 years of being in business, along with a truly inspiring friendship. The experience, passion, and thinking outside the box definitely makes us a strong force in the technology sector to look out for.',
         '',
-        'Our mission is to accelerate the world\'s transition to cloud software. Our vision is to create the most compelling software company of the 21st century by driving the world’s transition to cloud software.',
+        {
+         value: 'Our mission is to accelerate the transition to better technology.',
+         class: 'font-bold'
+        },
+        {
+          value: 'Our vision is to create the most compelling software company of the 21st century by driving the world’s transition to cloud software.',
+          class: 'font-bold'
+        },
+        '',
         {
           value: '#theskyisthelimit',
           class: 'font-bold'
