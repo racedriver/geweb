@@ -1,5 +1,5 @@
 <template>
-  <div id="mobile-navigation" class="md:hidden">
+  <div id="mobile-navigation" class="fixed bottom-0 z-50 md:hidden">
     <div :class="'menu text-black '+activated">
       <nav class="menu__nav ">
         <ul class="menu__list r-list text-white">
