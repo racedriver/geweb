@@ -1,6 +1,6 @@
 <template>
   <main>
-    <FirstImpression/>
+    <FirstImpression class="mt-4"/>
     <Consultation/>
     <NewestTechnologies/>
     <WhatWeDo/>
