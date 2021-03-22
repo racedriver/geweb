@@ -1,7 +1,7 @@
 <template>
   <div class="bg-transparent relative overflow-hidden">
     <div class="py-16">
-      <Title :value="title" class="max-w-7.25xl"/>
+      <Title :value="title" class="max-w-7.25xl flex mx-auto"/>
       <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-gray-100 text-center">
         <DynamicText :value="subtitle"/>
       </h2>
