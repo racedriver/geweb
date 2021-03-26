@@ -1,6 +1,5 @@
 <template>
   <main>
-    <p>test</p>
     <FirstImpression class="mt-4"/>
     <Consultation/>
     <NewestTechnologies/>
