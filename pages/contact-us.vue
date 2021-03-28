@@ -13,7 +13,7 @@
 export default {
   name: 'contact-us',
   head: {
-    title: 'Contact us - Skylines One'
+    title: 'Contact us'
   }
 }
 </script>

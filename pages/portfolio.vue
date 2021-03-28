@@ -30,7 +30,7 @@ import data from '/static/data'
 export default {
   name: 'portfolio',
   head: {
-    title: 'Portfolio - Skylines One'
+    title: 'Portfolio'
   },
   data() {
     return data.portfolio

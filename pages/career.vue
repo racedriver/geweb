@@ -35,7 +35,7 @@
 <script>
 export default {
   head: {
-    title: 'Career - Skylines One'
+    title: 'Career'
   }
 }
 </script>
