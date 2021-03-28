@@ -6,12 +6,10 @@ export default {
   subtitle: '.Love the hustle',
   bottom: [
     [
-      { value: '© 2021 - Skylines One.' },
-      { value: 'All rights reserved.', class: 'block sm:inline' },
+      { value: '© 2021, All rights reserved.' },
     ],
     [
-      { value: 'Made in Lewes,' },
-      { value: 'Delaware, USA', class: 'block sm:inline' },
+      { value: 'Made by Skylines One' },
     ],
   ],
   title: "Let's build something great together",
@@ -22,7 +20,7 @@ export default {
         rootClass: 'min-w-full',
         class: paddingClasses + ' min-w-full',
         linebreak: true,
-        text: ['16192 Coastal Highway', 'Lewes DE 19958', 'County of Sussex'],
+        text: ['16192 Coastal Highway', 'Lewes DE 19958', 'County of Sussex', 'United States'],
       },
     },
     {

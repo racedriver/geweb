@@ -19,14 +19,14 @@
           <DynamicText class="text-xs font-medium tracking-wider uppercase" :value="this.subtitle"/>
           <!--  Footer Logo End -->
           <!-- Languages Start -->
-          <button
+<!--          <button
             v-for="locale in availableLocales"
             :key="locale.code"
             @click.prevent.stop="$i18n.setLocale(locale.code)"
             class="inline-block pr-4"
           >
             <img :src="locale.icon" :alt="locale.name" />
-          </button>
+          </button>-->
           <!-- Languages End -->
         </div>
         <!-- Link Block Start -->
