@@ -1,7 +1,7 @@
 export default {
   title: 'Everything you need to bring your project into reality',
   text:
-    'Out of your expectations, we create even better solutions. By pushing the boundaries we create truly innovative software applications.',
+    'Out of your expectations, we create even better solutions. By pushing the boundaries we create truly innovative products.',
   entries: [
     {
       image: '/images/logo/cloud.svg',
@@ -28,7 +28,7 @@ export default {
       title: 'Product Development',
       text:
         'Get the entire process handled by us. Just lean back and let us do the magic! ' +
-        'If you have already got a team working, or have a part-finished project, just let us know',
+        'Already got a team working? Project left part-finished? Great, we\'ll take it from here!',
     },
     {
       image: '/images/software.jpeg',
@@ -56,9 +56,8 @@ export default {
         'M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z',
       title: 'Different industries',
       text:
-        'See, we are the experts in product development. That makes us uniquely able to adapt to your industry ' +
-        'and create the perfect user experience with very little overhead. ' +
-        'Once you explained your business to us, we will deliver the best product market fit seamlessly. May I ask, which sector are you in?',
+        'We are experts in product development and able to adapt to your industry. ' +
+        'Explain your business to us and we will deliver the best user experience and product market fit seamlessly.',
     },
   ],
 }

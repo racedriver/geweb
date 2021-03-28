@@ -7,7 +7,7 @@ export default {
     SubTitle: 'is looking forward to build your product',
     SubSubTitle:
       '(And you\'ll never have to worry about building quality products again!)',
-    Button: 'Contact Us For Project Review',
+    Button: 'Contact Us\n For Project Review',
     OurPortfolio: 'Our portfolio',
   },
 }

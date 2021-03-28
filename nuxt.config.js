@@ -116,7 +116,7 @@ export default {
     manifest: {
       name: 'Skylines One',
       description:
-        'ex-Apple engineers working on the best user experience possible! with Kotlin, Nuxt.js, Tailwind and the safety of the Google Cloud',
+        'Have your product built by ex-Apple engineers for the best user experience possible! with Kotlin, Nuxt.js, Tailwind and the safety of the Google Cloud',
       display: 'fullscreen',
       background_color: '#000',
       short_name: 'Skylines One',
