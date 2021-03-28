@@ -1,16 +1,5 @@
 <template>
   <div class="flex relative items-center mx-auto w-full max-w-7xl py-8 px-8 lg:px-16">
-    <!--    <div class="absolute inset-0" v-if="this.$route.path !== '/'">
-          <img
-            class="object-cover w-full h-full"
-            src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100"
-            alt="People working on laptops"
-          />
-          <div
-            class="absolute inset-0 bg-green-700"
-            style="mix-blend-mode: multiply"
-          ></div>
-        </div>-->
     <a class="relative" href="/">
       <img
         class="h-32"
@@ -127,6 +116,11 @@ export default {
     toggle() {
       this.active = !this.active
     }
-  }
+  },
+  created() {
+    window.addEventListener('click', (e) => {
+      if (!this.$el.contains(e.target)) this.active = false
+    })
+  },
 }
 </script>
