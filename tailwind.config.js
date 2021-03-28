@@ -71,6 +71,9 @@ module.exports = {
         lime: colors.lime,
         'light-blue': colors.lightBlue,
       },
+      height: {
+        '70vh': '70vh',
+      },
       maxWidth: {
         '7.25xl': '84rem',
         '7.5xl': '88rem',

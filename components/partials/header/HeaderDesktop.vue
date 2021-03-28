@@ -1,5 +1,5 @@
 <template>
-  <div class="flex relative items-center mx-auto w-full max-w-7xl py-8 px-8 lg:px-16">
+  <div class="flex relative items-center lg:w-10/12 mx-auto w-full max-w-7xl py-8 px-8 lg:px-0">
     <a class="relative" href="/">
       <img
         class="h-32"
@@ -7,7 +7,9 @@
         src="/images/logo%20v4.1%20arrows%20only.svg"
       />
     </a>
-    <nav class="grid relative grid-flow-col gap-2 justify-end mx-auto w-3/4">
+    <nav
+      @click="hideNavigation"
+      class="grid relative grid-flow-col gap-2 justify-end ml-auto w-3/4">
       <div class="grid grid-flow-col gap-2">
         <client-only>
 
@@ -39,7 +41,7 @@
         </client-only>
 
         <!-- Menu Start -->
-        <div @blur="active = false" class="relative self-center text-left hidden md:block" >
+        <div @blur="active = false" class="relative self-center text-left " >
           <button
             @click="toggle"
             :class="'flex items-center text-gray-100 hover:text-gray-200 focus:shadow-xl ' + (this.active ? 'focus:outline-white focus:text-gray-300' : '')"
@@ -115,12 +117,10 @@ export default {
     },
     toggle() {
       this.active = !this.active
-    }
-  },
-  created() {
-    window.addEventListener('click', (e) => {
+    },
+    hideNavigation(e) {
       if (!this.$el.contains(e.target)) this.active = false
-    })
+    }
   },
 }
 </script>
