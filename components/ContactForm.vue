@@ -1,267 +1,270 @@
 <template>
-  <div class="flex bg-primary">
-    <div class=" lg:w-1/2">
-      <div
-        class="h-56 object-cover lg:h-full"
-        style="background-image: url(https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80)"
-      >
-        <slot></slot>
+  <div>
+    <ErrorAlert v-if="error" class="text-4xl" reason="Your contact form is broken!"/>
+    <div class="flex bg-primary">
+      <div class=" lg:w-1/2">
+        <div
+          class="h-56 object-cover lg:h-full"
+          style="background-image: url(https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80)"
+        >
+          <slot></slot>
+        </div>
       </div>
-    </div>
-    <div
-      class="pt-12 sm:pt-16 pb-16 px-4 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto"
-    >
-      <div class="lg:pl-8 lg:col-start-2">
-        <div class="max-w-md mx-auto sm:max-w-lg lg:mx-0">
-          <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl dark:text-white">
-            Let's work together
-          </h2>
-          <p class="mt-4 text-lg text-gray-500 dark:text-gray-400 sm:mt-3">
-            We’d love to hear from you! Send us a message using the form
-            opposite, or email us. We’d love to hear from you! Send us a
-            message using the form opposite, or email us.
-          </p>
-          <form
-            id="contact-form"
-            :onsubmit="false"
-            class="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
-          >
-            <div>
-              <label
-                for="first_name"
-                class="block text-sm font-medium text-gray-700 dark:text-gray-200"
-              >First name</label
-              >
-              <div class="mt-1">
-                <input
-                  type="text"
-                  name="first_name"
-                  id="first_name"
-                  autocomplete="given-name"
-                  class="block w-full shadow-sm sm:text-sm dark:bg-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 dark:border-gray-800 rounded-md"
-                />
+      <div
+        class="pt-12 sm:pt-16 pb-16 px-4 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto"
+      >
+        <div class="lg:pl-8 lg:col-start-2">
+          <div class="max-w-md mx-auto sm:max-w-lg lg:mx-0">
+            <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl dark:text-white">
+              Let's work together
+            </h2>
+            <p class="mt-4 text-lg text-gray-500 dark:text-gray-400 sm:mt-3">
+              We’d love to hear from you! Send us a message using the form
+              opposite, or email us. We’d love to hear from you! Send us a
+              message using the form opposite, or email us.
+            </p>
+            <form
+              id="contact-form"
+              @submit.prevent="sendContact"
+              class="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
+            >
+              <div class="sm:col-span-2">
+                <label
+                  for="fullname"
+                  class="block text-sm font-medium text-gray-700 dark:text-gray-200"
+                >Name</label
+                >
+                <div class="mt-1">
+                  <input
+                    type="text"
+                    name="fullname"
+                    id="fullname"
+                    v-model="fullName"
+                    autocomplete="name"
+                    class="block w-full shadow-sm sm:text-sm dark:bg-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 dark:border-gray-800 rounded-md"
+                    required
+                  />
+                </div>
               </div>
-            </div>
-            <div>
-              <label
-                for="last_name"
-                class="block text-sm font-medium text-gray-700 dark:text-gray-200"
-              >Last name</label
-              >
-              <div class="mt-1">
-                <input
-                  type="text"
-                  name="last_name"
-                  id="last_name"
-                  autocomplete="family-name"
-                  class="block w-full shadow-sm sm:text-sm dark:bg-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 dark:border-gray-800 rounded-md"
-                />
+              <div class="sm:col-span-2">
+                <label
+                  for="email"
+                  class="block text-sm font-medium text-gray-700 dark:text-gray-200"
+                >Email</label
+                >
+                <div class="mt-1">
+                  <input
+                    id="email"
+                    v-model="email"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    class="block w-full shadow-sm sm:text-sm dark:bg-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 dark:border-gray-800 rounded-md"
+                    required
+                  />
+                </div>
               </div>
-            </div>
-            <div class="sm:col-span-2">
-              <label
-                for="email"
-                class="block text-sm font-medium text-gray-700 dark:text-gray-200"
-              >Email</label
-              >
-              <div class="mt-1">
-                <input
-                  id="email"
-                  name="email"
-                  type="email"
-                  autocomplete="email"
-                  class="block w-full shadow-sm sm:text-sm dark:bg-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 dark:border-gray-800 rounded-md"
-                />
+              <div class="sm:col-span-2">
+                <label
+                  for="company"
+                  class="block text-sm font-medium text-gray-700 dark:text-gray-200"
+                >Company</label
+                >
+                <div class="mt-1">
+                  <input
+                    type="text"
+                    name="company"
+                    id="company"
+                    v-model="company"
+                    autocomplete="organization"
+                    class="block w-full shadow-sm sm:text-sm dark:bg-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 dark:border-gray-800 rounded-md"
+                    required
+                  />
+                </div>
               </div>
-            </div>
-            <div class="sm:col-span-2">
-              <label
-                for="company"
-                class="block text-sm font-medium text-gray-700 dark:text-gray-200"
-              >Company</label
-              >
-              <div class="mt-1">
-                <input
-                  type="text"
-                  name="company"
-                  id="company"
-                  autocomplete="organization"
-                  class="block w-full shadow-sm sm:text-sm dark:bg-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 dark:border-gray-800 rounded-md"
-                />
-              </div>
-            </div>
-            <div class="sm:col-span-2">
-              <div class="flex justify-between">
+              <div class="sm:col-span-2">
                 <label
                   for="phone"
-                  class="block text-sm font-medium text-gray-700 dark:text-gray-200"
-                >Phone</label
-                >
-                <span id="phone_description" class="text-sm text-gray-500"
-                >Optional</span
-                >
-              </div>
-              <div class="mt-1">
+                  class="block text-sm font-medium text-gray-700 dark:text-gray-200">Phone</label>
                 <input
                   type="text"
                   name="phone"
                   id="phone"
+                  v-model="phone"
                   autocomplete="tel"
                   aria-describedby="phone_description"
-                  class="block w-full shadow-sm sm:text-sm dark:bg-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 dark:border-gray-800 rounded-md"
+                  class="mt-1 block w-full shadow-sm sm:text-sm dark:bg-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 dark:border-gray-800 rounded-md"
+                  required
                 />
               </div>
-            </div>
-            <div class="sm:col-span-2">
-              <div class="flex justify-between">
-                <label
-                  for="how_can_we_help"
-                  class="block text-sm font-medium text-gray-700 dark:text-gray-200"
-                >How can we help you?</label
-                >
-                <span
-                  id="how_can_we_help_description"
-                  class="text-sm text-gray-500"
-                >Max. 500 characters</span
-                >
-              </div>
-              <div class="mt-1">
-                  <textarea
-                    v-model="how_can_we_help_you"
-                    id="how_can_we_help"
-                    name="how_can_we_help"
-                    aria-describedby="how_can_we_help_description"
-                    rows="4"
-                    class="block w-full shadow-sm sm:text-sm dark:bg-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 dark:border-gray-800 rounded-md"
-                  ></textarea>
-              </div>
-            </div>
-            <fieldset class="sm:col-span-2">
-              <legend class="block text-sm font-medium text-gray-700 dark:text-gray-200">
-                Expected budget
-              </legend>
-              <div class="mt-4 grid grid-cols-1 gap-y-4">
-                <div class="flex items-center">
-                  <input
-                    id="budget_under_25k"
-                    name="budget"
-                    value="under_25k"
-                    type="radio"
-                    class="dark:bg-gray-900 dark:checked:bg-current focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 dark:border-gray-800"
-                  />
-                  <label for="budget_under_25k" class="ml-3">
-                      <span class="block text-sm text-gray-700 dark:text-gray-200"
-                      >Less than $25K</span
-                      >
-                  </label>
+              <div class="sm:col-span-2">
+                <div class="flex justify-between">
+                  <label
+                    for="how_can_we_help"
+                    class="block text-sm font-medium text-gray-700 dark:text-gray-200"
+                  >How can we help you?</label>
+                  <span
+                    id="how_can_we_help_description"
+                    class="text-sm text-gray-500"
+                  >Max. 500 characters</span>
                 </div>
-                <div class="flex items-center">
-                  <input
-                    id="budget_25k-50k"
-                    name="budget"
-                    value="25k-50k"
-                    type="radio"
-                    class="dark:bg-gray-900 dark:checked:bg-current focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 dark:border-gray-800"
-                  />
-                  <label for="budget_25k-50k" class="ml-3">
-                      <span class="block text-sm text-gray-700 dark:text-gray-200"
-                      >$25K – $50K</span
-                      >
-                  </label>
-                </div>
-                <div class="flex items-center">
-                  <input
-                    id="budget_50k-100k"
-                    name="budget"
-                    value="50k-100k"
-                    type="radio"
-                    class="dark:bg-gray-900 dark:checked:bg-current focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 dark:border-gray-800"
-                  />
-                  <label for="budget_50k-100k" class="ml-3">
+                <textarea
+                  v-model="description"
+                  id="how_can_we_help"
+                  name="how_can_we_help"
+                  aria-describedby="how_can_we_help_description"
+                  autocomplete="how_can_we_help"
+                  rows="4"
+                  class="mt-1 block w-full shadow-sm sm:text-sm dark:bg-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 dark:border-gray-800 rounded-md"
+                  maxlength="500"
+                  required
+                ></textarea>
+              </div>
+              <fieldset class="sm:col-span-2">
+                <legend class="block text-sm font-medium text-gray-700 dark:text-gray-200">
+                  Expected budget
+                </legend>
+                <div class="mt-4 grid grid-cols-1 gap-y-4">
+                  <div class="flex items-center">
+                    <input
+                      id="budget_under_25k"
+                      v-model="budget"
+                      name="budget"
+                      value="under_25k"
+                      type="radio"
+                      class="dark:bg-gray-900 dark:checked:bg-current focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 dark:border-gray-800"
+                    />
+                    <label for="budget_under_25k" class="ml-3">
+                      <span class="block text-sm text-gray-700 dark:text-gray-200">Less than $25K</span>
+                    </label>
+                  </div>
+                  <div class="flex items-center">
+                    <input
+                      id="budget_25k-50k"
+                      v-model="budget"
+                      name="budget"
+                      value="25k-50k"
+                      type="radio"
+                      class="dark:bg-gray-900 dark:checked:bg-current focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 dark:border-gray-800"
+                    />
+                    <label for="budget_25k-50k" class="ml-3">
+                      <span class="block text-sm text-gray-700 dark:text-gray-200">$25K – $50K</span>
+                    </label>
+                  </div>
+                  <div class="flex items-center">
+                    <input
+                      id="budget_50k-100k"
+                      v-model="budget"
+                      name="budget"
+                      value="50k-100k"
+                      type="radio"
+                      class="dark:bg-gray-900 dark:checked:bg-current focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 dark:border-gray-800"
+                    />
+                    <label for="budget_50k-100k" class="ml-3">
                       <span class="block text-sm text-gray-700 dark:text-gray-200"
                       >$50K – $100K</span
                       >
-                  </label>
+                    </label>
+                  </div>
+                  <div class="flex items-center">
+                    <input
+                      id="budget_over_100k"
+                      v-model="budget"
+                      name="budget"
+                      value="over_100k"
+                      type="radio"
+                      class="dark:bg-gray-900 dark:checked:bg-current focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 dark:border-gray-800"
+                    />
+                    <label for="budget_over_100k" class="ml-3">
+                      <span class="block text-sm text-gray-700 dark:text-gray-200">$100K+</span>
+                    </label>
+                  </div>
                 </div>
-                <div class="flex items-center">
+              </fieldset>
+              <div class="sm:col-span-2">
+                <label
+                  for="referee"
+                  class="block text-sm font-medium text-gray-700 dark:text-gray-200"
+                >How did you hear about us?</label
+                >
+                <div class="mt-1">
                   <input
-                    id="budget_over_100k"
-                    name="budget"
-                    value="over_100k"
-                    type="radio"
-                    class="dark:bg-gray-900 dark:checked:bg-current focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 dark:border-gray-800"
+                    type="text"
+                    name="referee"
+                    id="referee"
+                    v-model="referee"
+                    class="shadow-sm dark:bg-gray-900 focus:ring-indigo-500 focus:border-indigo-500 block w-full
+                  sm:text-sm border-gray-300 dark:border-gray-800 rounded-md"
                   />
-                  <label for="budget_over_100k" class="ml-3">
-                    <span class="block text-sm text-gray-700 dark:text-gray-200">$100K+</span>
-                  </label>
                 </div>
               </div>
-            </fieldset>
-            <div class="sm:col-span-2">
-              <label
-                for="how_did_you_hear_about_us"
-                class="block text-sm font-medium text-gray-700 dark:text-gray-200"
-              >How did you hear about us?</label
-              >
-              <div class="mt-1">
-                <input
-                  type="text"
-                  name="how_did_you_hear_about_us"
-                  id="how_did_you_hear_about_us"
-                  class="shadow-sm dark:bg-gray-900 focus:ring-indigo-500 focus:border-indigo-500 block w-full
-                  sm:text-sm border-gray-300 dark:border-gray-800 rounded-md"
-                />
-              </div>
-            </div>
-            <div class="text-right sm:col-span-2">
-              <button
-                @click.prevent="sendContact"
-                class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium
+              <div class="text-right sm:col-span-2">
+                <button
+                  class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium
                 rounded-md text-white bg-indigo-600 hover:bg-indigo-700 dark:bg-gray-900
                 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-              >
-                Submit
-              </button>
-            </div>
-          </form>
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </template>
+
 <script>
 import data from "/static/data"
+import axios from "axios";
+import Error from "@/layouts/error";
 
 export default {
   name: 'ContactForm',
+  components: {Error},
   data() {
-    return {how_can_we_help_you: "", ...data.contactUs}
+    return {
+      error: false,
+      fullName: "",
+      email: "",
+      company: "",
+      phone: "",
+      description: "",
+      budget: "",
+      referee: ""
+    }
   },
   methods: {
-    sendContact() {
-      const inputs = [...document.getElementsByTagName('input'), {
-        value: this.how_can_we_help_you,
-        id: "how_can_we_help_you"
-      }]
-      let data = Array.from(inputs).reduce(
-        (acc, input) => `${acc instanceof HTMLInputElement ? acc.id + ':' + acc.value : acc}\n${input.id || input}:${input.value} ${input.checked ? 'checked' : ''}`
-      )
+    async sendContact(event) {
+      event.preventDefault()
+      const data = {
+        fullName: this.fullName,
+        email: this.email,
+        company: this.company,
+        phone: this.phone,
+        description: this.description,
+        budget: this.budget,
+        referee: this.referee,
+      }
 
-      console.log(data)
-      fetch(
-        'https://api.telegram.org/bot681322477:AAGmZBPAvfVvQBybo2dyXIdNaP4ait72344/sendMessage',
-        {
-          method: 'POST',
-          headers: {'Content-Type': 'application/json'}, //DO NOT REMOVE
-          body: JSON.stringify({
-            chat_id: -483038812,
-            text: data
-          }),
+      const content = JSON.stringify(data)
+      console.log(content)
+
+      const respond = await axios.post("https://api.skylines.one/contact", content, {
+        headers: {
+          "Content-Type": "application/json"
         }
-      ).then(() => {
-        this.$router.push('success')
-        window.location.href = "success";
       })
+      console.log(respond)
+
+      if(respond.status !== 200){
+        this.error = true
+        window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+      } else {
+        await this.$router.push("/success")
+      }
+
     },
   },
 }
