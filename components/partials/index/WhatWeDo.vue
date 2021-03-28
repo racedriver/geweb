@@ -4,7 +4,7 @@
       class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 md:max-w-7xl"
     >
       <DynamicText
-        class="text-3xl font-extrabold text-gray-900 dark:text-gray-50 tracking-tight sm:text-4xl text-gradient-secondary"
+        class="text-3xl font-extrabold text-gray-900 dark:text-gray-50 tracking-tight sm:text-4xl text-gradient-primary"
         :value="title"/>
       <DynamicText class="mt-5 max-w-prose mx-auto text-xl text-gray-500" :value="text"/>
       <div class="mt-12">
