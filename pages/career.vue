@@ -17,7 +17,7 @@
             technologies. Moving the needle that bit further for our clients. The company’s name resembles its
             tradition of flying high in the sky, using only the very best lines of code - Skylines One</br>
             <br>We are a bunch of ex-Apple engineers with a combined 30+ years experience in software architecture
-            and technology.</br><br> Dont wait, join us right now!</br></p>
+            and technology.</br><br> Don't wait, join us right now!</br></p>
         </div>
       </div>
 
@@ -30,17 +30,4 @@
 
     </div>
   </section>
-  </template>
-
-<script>
-export default {
-  name: "career"
-}
-</script>
-
-<style scoped>
-
-</style>
-
-
-
+</template>
