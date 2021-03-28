@@ -30,10 +30,34 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: this.article.title,
+      script: [
+        {
+          type: 'application/ld+json',
+          json: {
+            "@context": "https://schema.org/",
+            "@type": "Article",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://skylines.one/magazine",
+            },
+            "image": this.article.thumbnail,
+            "headline": this.article.title,
+            "dateCreated": this.article.createdAt,
+            "dateModified": this.article.updatedAt,
+            "text": this.article.text,
+          }
+        }
+      ]
+    }
+  },
   async asyncData({ $content, redirect, params }) {
     let article
     try {
-      article = await $content('articles/' + params.slug).fetch()
+      const content = $content('articles/' + params.slug, {text:true});
+      article = await content.fetch()
     } catch (e) {
       redirect(404, '/404')
     }

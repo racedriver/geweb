@@ -70,6 +70,9 @@ export default {
   name: 'AboutUs',
   data() {
     return data.aboutUs
+  },
+  head: {
+    title: 'About us - Skylines One'
   }
 }
 </script>

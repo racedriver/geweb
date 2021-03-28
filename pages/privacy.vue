@@ -147,6 +147,9 @@
 import data from '/static/data'
 export default {
   name: 'privacy',
+  head: {
+    title: 'Privacy - Skylines One'
+  },
   data() {
     return data.privacy
   },

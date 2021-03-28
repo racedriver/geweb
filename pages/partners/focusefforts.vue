@@ -48,5 +48,8 @@
 <script>
 export default {
   name: 'focusefforts',
+  head: {
+  title: 'Skylines One - Partner'
+  }
 }
 </script>

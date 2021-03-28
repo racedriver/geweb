@@ -29,6 +29,9 @@
 import data from '/static/data'
 export default {
   name: 'portfolio',
+  head: {
+    title: 'Portfolio - Skylines One'
+  },
   data() {
     return data.portfolio
   },

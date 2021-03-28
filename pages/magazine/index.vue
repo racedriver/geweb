@@ -19,5 +19,8 @@ export default {
       articles,
     }
   },
+  head: {
+    title: 'Magazine - Skylines One'
+  }
 }
 </script>
