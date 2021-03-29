@@ -68,8 +68,11 @@ import data from "/static/data"
 
 export default {
   name: 'AboutUs',
+  head: {
+    title: 'About us'
+  },
   data() {
     return data.aboutUs
-  }
+  },
 }
 </script>

@@ -4,7 +4,8 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'Skylines One - Application development, Cloud Software',
+    titleTemplate: '%s - Skylines One',
+    title: 'Application development, Cloud Software',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -22,6 +23,47 @@ export default {
         src: '/js/tawk.to.js',
         async: true,
         body: true,
+      },
+      {
+        type: 'application/ld+json',
+        json : {
+          "@context": "https://schema.org/",
+          "@type": "Organization",
+          "url": "https://skylines.one",
+          "legalName": "SkyLines One LLC",
+          "location": "USA",
+          "logo": "https://skylines.one/_nuxt/icons/icon_64x64.80947b.png",
+          "email": "hello@skylines.one",
+          "founder": [
+            {
+              "givenName": "Alex",
+              "familyName": "Mittler",
+              "gender": "Male",
+              "image": "https://skylines.one/images/alex-mittler.jpg",
+            },
+            {
+              "givenName": "Lars",
+              "familyName": "Artmann",
+              "gender": "Male",
+              "image": "https://skylines.one/images/lars-artmann.jpg",
+            },
+          ],
+          "employee": [
+            {
+              "givenName": "Wlad",
+              "gender": "Male",
+              "image": "https://skylines.one/images/wlad.png",
+            },
+            {
+              "givenName": "Christoph",
+              "gender": "Male",
+            },
+          ],
+          "telephone": "+1 (302) 747-1888",
+          "foundingDate": "3, June 2020",
+          "foundingLocation": "CS:GO",
+          "numberOfEmployees": "14",
+        }
       },
     ],
     bodyAttrs: {

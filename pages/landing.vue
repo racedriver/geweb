@@ -20,6 +20,9 @@ import data from "/static/data"
 
 export default {
   name: "landing",
+  head: {
+    title: 'Landing'
+  },
   data() {
     return data.landing;
   }

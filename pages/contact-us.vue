@@ -12,5 +12,8 @@
 
 export default {
   name: 'contact-us',
+  head: {
+    title: 'Contact us'
+  }
 }
 </script>

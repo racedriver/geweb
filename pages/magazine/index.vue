@@ -7,6 +7,9 @@
 
 <script>
 export default {
+  head: {
+    title: 'Magazine'
+  },
   async asyncData({$content, redirect, params}) {
     let articles
     try {
