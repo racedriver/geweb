@@ -74,6 +74,9 @@ module.exports = {
       height: {
         '70vh': '70vh',
       },
+      maxHeight: {
+        '70vh': '70vh',
+      },
       maxWidth: {
         '7.25xl': '84rem',
         '7.5xl': '88rem',
