@@ -14,6 +14,22 @@ export default {
         name: 'description',
         content: 'UX that simply works, just like Apple',
       },
+      {
+        name: 'twitter:card',
+        content: 'summary',
+      },
+      {
+        name: 'twitter:title',
+        content: 'Skylines One LLC',
+      },
+      {
+        name: 'twitter:description',
+        content: 'Have your product built by ex-Apple engineers for the best user experience possible! with Kotlin, Nuxt.js, Tailwind and the safety of the Google Cloud',
+      },
+      {
+        name: 'twitter:image',
+        content: 'https://skylines.one/images/logo.png',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     script: [
