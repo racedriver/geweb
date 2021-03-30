@@ -1,0 +1,3 @@
+# If you would like to report a security issue use one of these emails
+Contact: report@skylines.one
+Contact2: developer@skylines.one
