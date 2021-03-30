@@ -5,10 +5,10 @@ export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     titleTemplate: '%s - Skylines One',
-    title: 'Application development, Cloud Software',
+    title: 'The simplest way to solve your problem using <software>.',
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {charset: 'utf-8'},
+      {name: 'viewport', content: 'width=device-width, initial-scale=1'},
       {
         hid: 'description',
         name: 'description',
@@ -31,9 +31,9 @@ export default {
         content: 'https://skylines.one/images/logo.png',
       },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}],
     script: [
-      { src: '/js/google-tagmanager.js', mode: 'client'},
+      {src: '/js/google-tagmanager.js', mode: 'client'},
       // { src: '~/assets/js/theme.js', mode: 'client'},
       {
         src: '/js/tawk.to.js',
@@ -42,13 +42,13 @@ export default {
       },
       {
         type: 'application/ld+json',
-        json : {
+        json: {
           "@context": "https://schema.org/",
           "@type": "Organization",
           "url": "https://skylines.one",
           "legalName": "SkyLines One LLC",
           "location": "USA",
-          "logo": "https://skylines.one/_nuxt/icons/icon_64x64.80947b.png",
+          "logo": "https://skylines.one/images/logo%20v4.1%20with%20black%20circle%20arrows%20only%2072ppi.png",
           "email": "hello@skylines.one",
           "founder": [
             {
@@ -78,7 +78,7 @@ export default {
           "telephone": "+1 (302) 747-1888",
           "foundingDate": "3, June 2020",
           "foundingLocation": "CS:GO",
-          "numberOfEmployees": "14",
+          "numberOfEmployees": "16",
         }
       },
     ],
@@ -106,6 +106,9 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     'nuxt-i18n',
+    // https://sitemap.nuxtjs.org/
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -186,4 +189,24 @@ export default {
       ogHost: 'https://skylines.one',
     },
   },
+  sitemap: {
+    hostname: 'https://skylines.one',
+    gzip: true,
+    exclude: [
+      '/success',
+      '/landing',
+      '/partners/**'
+    ],
+    xmlNs: 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
+    i18n: true,
+  },
+  robots: {
+    UserAgent: '*',
+    Disallow: [
+      '/success',
+      '/landing',
+      '/partners*'
+    ],
+    Sitemap: "https://skylines.one/sitemap.xml"
+  }
 }
