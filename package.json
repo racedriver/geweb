@@ -23,6 +23,7 @@
     "nuxt": "2.14.12",
     "nuxt-i18n": "^6.20.1",
     "tailwindcss-filters": "^3.0.0",
+    "three": "^0.126.1",
     "vue": "^2.6.12"
   },
   "devDependencies": {

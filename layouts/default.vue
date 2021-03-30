@@ -1,9 +1,11 @@
 <template>
   <div>
-    <Background />
-    <Header />
-    <Nuxt />
-    <Footer />
+    <client-only>
+      <Background/>
+    </client-only>
+    <Header/>
+    <Nuxt/>
+    <Footer/>
   </div>
 </template>
 
@@ -11,7 +13,7 @@
 // import VueIfBot from '@/plugins/vue-if-bot'
 
 export default {
-  head () {
+  head() {
     return this.$nuxtI18nHead()
   },
   // components: {
