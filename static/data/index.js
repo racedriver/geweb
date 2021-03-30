@@ -97,7 +97,7 @@ export default {
         },
         {
           name: 'Wlad',
-          image: '/images/wlad.png',
+          image: '/images/wlad.jpg',
           title: 'Engineer',
           text: 'Wlad is an ex-Apple engineer with a broad history and experiences in software development, custom hardware, circuit boards and printing. He spent several decades at big-tech companies like Apple, Sun Microsystems and CapGemini before joining Skylines One.',
           personality: Protagonist(true),

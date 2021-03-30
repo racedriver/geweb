@@ -2,6 +2,8 @@
   "name": "skylines",
   "version": "1.0.0",
   "private": true,
+  "description": "Have your product built by ex-Apple engineers for the best user experience possible! with Kotlin, Nuxt.js, Tailwind and the safety of the Google Cloud",
+  "author": "Skylines One LLC",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",

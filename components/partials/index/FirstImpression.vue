@@ -8,7 +8,7 @@
         default!important">
 
       <FirstImpressionText class="lg:col-span-5"/>
-      <VideoAsk id="f641hztym" class="lg:col-span-3 h-70vh lg:h-full"/>
+      <VideoAsk id="f641hztym" class="lg:col-span-3 h-70vh lg:h-full" title="Hello video from our CEO"/>
 
     </div>
   </section>
