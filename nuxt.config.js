@@ -213,7 +213,7 @@ export default {
       '/landing',
       '/partners/**'
     ],
-    xmlNs: 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
+    // xmlNs: 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
     i18n: true,
   },
   robots: {
