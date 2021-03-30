@@ -50,6 +50,28 @@ export default {
             "text": this.article.text,
           }
         }
+      ],
+      meta: [
+        {
+          property: "og:title",
+          content: this.article.title,
+        },
+        {
+          property: "og:type",
+          content: "video.movie"
+        },
+        {
+          property: "og:image",
+          content: this.article.thumbnail,
+        },
+        {
+          property: "og:description",
+          content: this.article.short,
+        },
+        {
+          property: "og:video",
+          content: this.article.video,
+        },
       ]
     }
   },
