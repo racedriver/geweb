@@ -46,29 +46,43 @@ export default {
           "@context": "https://schema.org/",
           "@type": "Organization",
           "url": "https://skylines.one",
+          "name": "Skylines One",
           "legalName": "SkyLines One LLC",
           "location": "USA",
           "logo": "https://skylines.one/images/logo%20v4.1%20with%20black%20circle%20arrows%20only%2072ppi.png",
           "email": "hello@skylines.one",
+          "duns": "117640908",
+          "slogan": "The simplest way to solve your problem using <software>.",
           "founder": [
             {
               "givenName": "Alex",
               "familyName": "Mittler",
               "gender": "Male",
               "image": "https://skylines.one/images/alex-mittler.jpg",
+              "jobTitle": "CEO",
+              "knowsLanguage": "DE, EN",
             },
             {
+              "name": "Lars Artmann",
               "givenName": "Lars",
               "familyName": "Artmann",
               "gender": "Male",
               "image": "https://skylines.one/images/lars-artmann.jpg",
+              "email": "lars@skylines.one",
+              "birthDate": "2003-05-10",
+              "jobTitle": "CTO",
+              "knowsLanguage": "DE, EN",
+              "nationality": "DE",
+              "telephone": "+1 (302) 600-7888",
+              "description": "Some people really think he is a genius because at only 17 years old he is already a CTO in the technology space, but don't mention it.",
+              "url": "http://lars.software"
             },
           ],
           "employee": [
             {
               "givenName": "Wlad",
               "gender": "Male",
-              "image": "https://skylines.one/images/wlad.png",
+              "image": "https://skylines.one/images/wlad.jpg",
             },
             {
               "givenName": "Christoph",
@@ -187,6 +201,7 @@ export default {
     },
     meta: {
       ogHost: 'https://skylines.one',
+      theme_color: "#000000",
     },
   },
   sitemap: {

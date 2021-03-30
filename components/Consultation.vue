@@ -1,6 +1,6 @@
 <template>
   <section class="py-24 text-center bg-primary brightness-75">
-      <Title class="px-1 mx-auto sm:px-4-dynamic max-w-1600" subClass="overflow-visible" :value="title"/>
+      <Title class="px-1 mx-auto sm:px-4-dynamic max-w-1600" :value="title"/>
       <DynamicText class="z-10 font-bold text-gradient-primary text-xl-dynamic py-2-dynamic" :value="subtitle"/>
       <div class="flex justify-center mx-auto cursor-pointer px-6-dynamic">
         <DynamicText
