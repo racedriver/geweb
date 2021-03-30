@@ -2,9 +2,15 @@
 title: Sponsorship for M&J Performance by Bremotion
 thumbnail: https://le-cdn.website-editor.net/ee657ec245e14d758468ef8400b60080/dms3rep/multi/opt/M_J_Performance_by_Bremotion_AMG_GT3_iracing_dnls_2021_6-860w.jpg
 short: Promoting future-oriented virtual racing in the simulator for the legendary Nurburgring racing team
+video: https://www.youtube.com/embed/oa0pPcVD6VE
 ---
 
 <div class="aspect-w-16 aspect-h-9">
+<meta property="og:title" content="NIMEX 3h race | Digital Nürburgring Endurance Series">
+<meta property="og:type" content="video">
+<meta property="og:url" content="https://skylines.one/magazine/3-skylines-one-sponsor-of-m-j-performance-by-bremotion-dnls-nurburgring" />
+<meta property="og:video" content="https://www.youtube.com/embed/oa0pPcVD6VE">
+<meta property="og:description" content="Promoting future-oriented virtual racing in the simulator for the legendary Nurburgring racing team">
 <iframe src="https://www.youtube.com/embed/oa0pPcVD6VE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 M&J Performance by Bremotion is gaining a first partner who uses the virtual potential and media reach of the “Digital Nürburgring Long Distance Series” (DNLS) specifically for its own purposes. The logos of Skylines One will be presented from the next DNLS race on the #111 Mercedes-AMG GT3 by Marek Böckmann and Jan Philipp Springob.
