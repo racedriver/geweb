@@ -215,6 +215,7 @@
   </div>
 </template>
 
+<!--suppress ExceptionCaughtLocallyJS -->
 <script>
 import data from "/static/data"
 import axios from "axios";
@@ -251,18 +252,23 @@ export default {
       const content = JSON.stringify(data)
       console.log(content)
 
-      const respond = await axios.post("https://api.skylines.one/contact", content, {
-        headers: {
-          "Content-Type": "application/json"
-        }
-      })
-      console.log(respond)
+      try {
+        const respond = await axios.post("https://api.skylines.one/contact", content, {
+          headers: {
+            "Content-Type": "application/json"
+          }
+        })
+        console.log(respond)
 
-      if(respond.status !== 200){
+        if (respond.status !== 200) {
+          throw new Error("Status is not 200")
+        } else {
+          await this.$router.push("/success")
+        }
+
+      } catch {
         this.error = true
-        window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-      } else {
-        await this.$router.push("/success")
+        window.scrollTo({top: 0, left: 0, behavior: "smooth"});
       }
 
     },
