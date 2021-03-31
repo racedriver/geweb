@@ -25,7 +25,7 @@
       <iframe class="rounded-lg" src="https://www.videoask.com/fu2q1ls1t"
               allow="camera *; microphone *; autoplay *; encrypted-media *; fullscreen *; display-capture *;"
               width="100%"
-              height="600px"
+              height="400px"
       />
 
     </div>
