@@ -61,7 +61,7 @@ body {
   transform: rotate(-90deg);
   transform-origin: 0% 0%;
   transition: all 0.5s ease-in-out;
-  min-width: 15%; /* This is the width of card head, changing it to 15% from 100% heps specially in column view */
+  min-width: 100%; /* This is the width of card head, changing it to 15% from 100% heps specially in column view */
   text-align: center;
   position: absolute;
   bottom: 0;
@@ -69,7 +69,12 @@ body {
   font-size: 1em;
   white-space: nowrap;
 }
-
+/* And for whatever reason media query needs to be located specifically here for max-wid parameter, as mentioned above setting it to  15% from 100% heps specially in column view */
+@media screen and (max-width: 600px) {
+  .card__head {
+    min-width: 15%;
+  }
+}
 &:hover {
    flex-grow: 10;
 img {
@@ -97,10 +102,11 @@ img {
 }
 }
 /* On screens that are 600px wide or less, make the portfolio items on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
   .container {
     flex-direction: column;
-  }
+}
 }
 </style>
 
