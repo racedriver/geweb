@@ -15,18 +15,18 @@
         <div class="flex items-center text-2xl">
           <p><br>Skylines One is a high-tech, cloud-first software company focusing on cutting edge
             technologies. Moving the needle that bit further for our clients. The company’s name resembles its
-            tradition of flying high in the sky, using only the very best lines of code - Skylines One</br>
-            <br>We are a bunch of ex-Apple engineers with a combined 30+ years experience in software architecture
-            and technology.</br><br> Don't wait, join us right now!</br></p>
+            tradition of flying high in the sky, using only the very best lines of code - Skylines One
+            <br>We are a bunch of ex-Apple engineers with decades of experience in software architecture
+            and technology.<br> Don't wait, join us right now!</p>
         </div>
       </div>
 
 
-      <iframe class="rounded-lg" src="https://www.videoask.com/fu2q1ls1t"
+      <!--iframe class="rounded-lg" src="https://www.videoask.com/fu2q1ls1t"
               allow="camera *; microphone *; autoplay *; encrypted-media *; fullscreen *; display-capture *;"
               width="100%"
               height="400px"
-      />
+      /-->
 
     </div>
   </section>
