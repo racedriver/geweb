@@ -35,7 +35,19 @@
 <script>
 export default {
   head: {
-    title: 'Career'
+    title: 'Career',
+    script:[
+      {
+        type: 'application/ld+json',
+        json: {
+          "@context": "https://schema.org/",
+          "@type": "WebPage",
+          "mainContentOfPage": {
+            "about": "The Career of SkyLines One"
+          }
+        }
+      },
+    ],
   }
 }
 </script>

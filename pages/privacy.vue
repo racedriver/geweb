@@ -148,7 +148,20 @@ import data from '/static/data'
 export default {
   name: 'privacy',
   head: {
-    title: 'Privacy'
+    title: 'Privacy',
+    script:[
+      {
+        type: 'application/ld+json',
+        json: {
+          "@context": "https://schema.org/",
+          "@type": "WebPage",
+          "mainContentOfPage": {
+            "@type": "WebPageElement",
+            "about": "Skylines One LLC Privacy Policy"
+          }
+        }
+      },
+    ],
   },
   data() {
     return data.privacy

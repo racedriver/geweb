@@ -5,7 +5,7 @@ export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     titleTemplate: '%s - Skylines One',
-    title: 'The simplest way to solve your problem using <software>.',
+    title: 'Solve your software problem',
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},
@@ -93,6 +93,14 @@ export default {
           "foundingDate": "3, June 2020",
           "foundingLocation": "CS:GO",
           "numberOfEmployees": "16",
+        }
+      },
+      {
+        type: 'application/ld+json',
+        json: {
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "locationCreated": "US",
         }
       },
     ],
