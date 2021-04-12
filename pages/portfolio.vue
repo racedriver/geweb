@@ -14,15 +14,15 @@
   <div class="container">
     <div class="card">
       <img src="../static/images/systems.jpg" width="50%" height="50%">
-      <div class="card__head"><img src="../static/images/logo v4.1 with black circle arrows only 72ppi.png" style="float:left;width:42px;height:42px;"><a href="https://www.iovent.net/">See iovent website.</a></div>
+      <div class="card__head"><img src="../static/images/logo v4.1 with black circle arrows only 72ppi.png" style="float:left;width:42px;height:42px;"><a href="https://www.iovent.net/">See iovent website</a></div>
     </div>
     <div class="card">
       <img src="../static/images/chronow.png">
-      <div class="card__head"><img src="../static/images/logo v4.1 with black circle arrows only 72ppi.png" style="float:left;width:42px;height:42px;"><a href="https://chronow.us/">See chronow website.</a></div>
+      <div class="card__head"><img src="../static/images/logo v4.1 with black circle arrows only 72ppi.png" style="float:left;width:42px;height:42px;"><a href="https://chronow.us/">See chronow website</a></div>
     </div>
     <div class="card">
       <img src="../static/images/myfitmentwebfit.png">
-      <div class="card__head"><img src="../static/images/logo v4.1 with black circle arrows only 72ppi.png" style="float:left;width:42px;height:42px;"><a href="https://play.google.com/store/apps/details?id=one.skylines.myfitment.app">Download app.</a></div>
+      <div class="card__head"><img src="../static/images/logo v4.1 with black circle arrows only 72ppi.png" style="float:left;width:42px;height:42px;"><a href="https://play.google.com/store/apps/details?id=one.skylines.myfitment.app">Download app</a></div>
     </div>
   </div>
   </section>
