@@ -77,6 +77,18 @@ export default {
             value: ' Telegram',
             href: 'https://t.me/joinchat/GdtTxhUBOd5x742Yf6Z9vA',
           },
+          {
+            value: 'Twitter',
+            href: 'https://twitter.com/SkylinesOneLLC'
+          },
+          {
+            value: 'Facebook',
+            href: 'https://www.facebook.com/skylinesone'
+          },
+          {
+            value: 'Youtube',
+            href: 'https://www.youtube.com/channel/UCrsmZqReXNoydQRTtXeiDxQ'
+          },
         ],
       },
     },

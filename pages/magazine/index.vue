@@ -8,7 +8,19 @@
 <script>
 export default {
   head: {
-    title: 'Magazine'
+    title: 'Magazines',
+    script:[
+      {
+        type: 'application/ld+json',
+        json: {
+          "@context": "https://schema.org/",
+          "@type": "WebPage",
+          "mainContentOfPage": {
+            "about": "Magazines from SkyLines One"
+          }
+        }
+      },
+    ],
   },
   async asyncData({$content, redirect, params}) {
     let articles

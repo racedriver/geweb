@@ -30,7 +30,22 @@
 
 <script>
 export default {
-name: "myportfolio.vue"
+name: "myportfolio.vue",
+  head:{
+  title: 'Portfolio',
+  script:[
+    {
+      type: 'application/ld+json',
+      json: {
+        "@context": "https://schema.org/",
+        "@type": "WebPage",
+        "mainContentOfPage": {
+          "about": "The Portfolio of SkyLines One"
+        }
+      }
+    },
+  ]
+  }
 }
 </script>
 
