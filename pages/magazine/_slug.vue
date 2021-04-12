@@ -11,7 +11,7 @@
             }}
           </small>
 
-          <h1 class="text-green-500 underline"><span class="text-white text-6xl">{{ article.title }}</span></h1>
+          <h1 class="text-green-500 underline"><span class="text-white text-4xl">{{ article.title }}</span></h1>
           <p class="mb-6">{{ article.short }}</p>
 
           <div class="wrapper-21to9 mb-6">
