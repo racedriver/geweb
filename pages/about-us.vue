@@ -69,7 +69,19 @@ import data from "/static/data"
 export default {
   name: 'AboutUs',
   head: {
-    title: 'About us'
+    title: 'About us',
+    script:[
+      {
+        type: 'application/ld+json',
+        json: {
+          "@context": "https://schema.org/",
+          "@type": "AboutPage",
+          "mainContentOfPage":{
+            "about":"About SkyLines One",
+          },
+        }
+      },
+    ],
   },
   data() {
     return data.aboutUs

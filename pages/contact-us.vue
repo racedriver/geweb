@@ -13,7 +13,16 @@
 export default {
   name: 'contact-us',
   head: {
-    title: 'Contact us'
+    title: 'Contact us',
+    script:[
+      {
+        type: 'application/ld+json',
+        json: {
+          "@context": "https://schema.org/",
+          "@type": "ContactPage",
+        }
+      },
+    ],
   }
 }
 </script>
