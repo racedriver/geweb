@@ -5,7 +5,7 @@
       <div class="flex justify-center mx-auto cursor-pointer px-6-dynamic">
         <DynamicText
           class="group text-white px-12-dynamic py-6-dynamic bg-gradient-primary rounded text-lg-dynamic bg-clip-border
-             hover:outline-black dark:hover:outline-white hover:no-underline hover:bg-black font-bold hover:text-gradient-secondary"
+             hover:outline-black dark:hover:outline-white hover:no-underline hover:bg-black font-bold hover:text-gradient-primary"
           subClass=""
           :value="{href: '/contact-us', text: button}"/>
       </div>
