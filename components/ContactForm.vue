@@ -42,7 +42,6 @@
                     v-model="fullName"
                     autocomplete="name"
                     class="block w-full shadow-sm sm:text-sm dark:bg-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 dark:border-gray-800 rounded-md"
-                    required
                   />
                 </div>
               </div>
@@ -78,7 +77,6 @@
                     v-model="company"
                     autocomplete="organization"
                     class="block w-full shadow-sm sm:text-sm dark:bg-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 dark:border-gray-800 rounded-md"
-                    required
                   />
                 </div>
               </div>
@@ -94,7 +92,6 @@
                   autocomplete="tel"
                   aria-describedby="phone_description"
                   class="mt-1 block w-full shadow-sm sm:text-sm dark:bg-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 dark:border-gray-800 rounded-md"
-                  required
                 />
               </div>
               <div class="sm:col-span-2">
@@ -117,7 +114,6 @@
                   rows="4"
                   class="mt-1 block w-full shadow-sm sm:text-sm dark:bg-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 dark:border-gray-800 rounded-md"
                   maxlength="500"
-                  required
                 ></textarea>
               </div>
               <fieldset class="sm:col-span-2">
