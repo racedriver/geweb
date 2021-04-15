@@ -69,20 +69,26 @@ body {
   position: relative;
   margin-bottom: 10vmin;
   margin-left: 5vmin;
+
 .card__head {
   color: black;
-  background:  rgba(48, 196, 126, 0.5);
+  background: rgba(48, 196, 126, 0.5);
   padding: 0.5em;
   transform: rotate(-90deg);
   transform-origin: 0% 0%;
   transition: all 0.5s ease-in-out;
-  min-width: 15%; /* This is the width of card head, changing it to 15% from 100% heps specially in column view */
+  min-width: 100%; /* This is the width of card head, changing it to 15% from 100% heps specially in column view */
   text-align: center;
   position: absolute;
   bottom: 0;
   left: 0;
   font-size: 1em;
   white-space: nowrap;
+}
+@media screen and (max-width: 600px) {
+  .card__head {
+    min-width: 15%;
+  }
 }
 
 &:hover {
@@ -117,6 +123,5 @@ img {
     flex-direction: column;
   }
 }
-
 </style>
 
