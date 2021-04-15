@@ -243,7 +243,7 @@ export default {
         description: this.description,
         budget: this.budget,
         referee: this.referee,
-        from: window.location,
+        from: window.location.href,
       }
 
       const content = JSON.stringify(data)
