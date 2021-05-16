@@ -96,6 +96,13 @@ export default {
           personality: Architect(false),
         },
         {
+          name: 'Paul',
+          image: '/images/paul.jpg',
+          title: 'Director Of Business Development',
+          text: 'He can talk about business opportunities and problems with the C-level executives, dig deep into details with your operations folks, then turn around and meet with some of the best engineers from the Apple ecosystem and the youth-movement behind Kotlin and craft unique, elegant, user-experience-first designs',
+          personality: Protagonist(true),
+        },
+        {
           name: 'Wlad',
           image: '/images/wlad.jpg',
           title: 'Engineer',
