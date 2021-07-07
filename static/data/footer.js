@@ -15,12 +15,12 @@ export default {
   title: "Let's build something great together",
   linkBlock: [
     {
-      title: 'Office',
+      title: 'Offices',
       rows: {
         rootClass: 'min-w-full',
         class: paddingClasses + ' min-w-full',
         linebreak: true,
-        text: ['16192 Coastal Highway', 'Lewes DE 19958', 'County of Sussex', 'United States'],
+        text: ['Headquarters', 'Silicon Valley', '800 W El Camino Real', 'Suite 180', 'Mountain View, CA 94040', '', 'Chicago Office', '141 W. Jackson Blvd.', ' Suite 300A', 'Chicago, IL 60604', '', 'Lewes Office', '16192 Coastal Hwy', 'Lewes, DE 19958'],
       },
     },
     {
@@ -29,8 +29,9 @@ export default {
         class: paddingClasses,
         linebreaks: true,
         text: [
-          { value: email, href: `mailto:${email}` },
-          { value: '+1 (302) 747-1888', href: 'tel:+13027471888' },
+          { value: 'Contact us directly'},
+          { value: 'using video or chat'},
+          { value: 'through our website'},
         ],
       },
     },
