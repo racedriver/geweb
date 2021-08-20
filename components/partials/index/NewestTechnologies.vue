@@ -20,11 +20,10 @@
 </template>
 
 <script>
-import data from "/static/data/new-technologies"
 export default {
 name: "NewestTechnologies",
   data() {
-    return data
+    return this.$t("NewTechnologies")
   }
 }
 </script>

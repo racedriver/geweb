@@ -144,7 +144,6 @@
 </template>
 
 <script>
-import data from '/static/data'
 export default {
   name: 'privacy',
   head: {
@@ -164,7 +163,7 @@ export default {
     ],
   },
   data() {
-    return data.privacy
+    return this.$t("privacy")
   },
 }
 </script>

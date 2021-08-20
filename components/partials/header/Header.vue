@@ -6,11 +6,10 @@
 </template>
 
 <script>
-import data from "/static/data/header"
 export default {
   name: "Header",
   data() {
-    return data
+    return this.$t("header")
   }
 }
 </script>

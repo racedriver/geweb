@@ -20,12 +20,10 @@
 </template>
 
 <script>
-import data from '/static/data/our-process'
-
 export default {
   name: 'OurProcess',
   data() {
-    return data
+    return this.$t("OurProcess")
   },
 }
 </script>

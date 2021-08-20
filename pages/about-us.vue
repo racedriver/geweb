@@ -64,8 +64,6 @@
 </template>
 
 <script>
-import data from "/static/data"
-
 export default {
   name: 'AboutUs',
   head: {
@@ -84,7 +82,7 @@ export default {
     ],
   },
   data() {
-    return data.aboutUs
+    return this.$t("aboutUs")
   },
 }
 </script>

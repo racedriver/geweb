@@ -55,11 +55,10 @@
 </template>
 
 <script>
-import data from '/static/data/footer'
 export default {
   name: 'Footer',
   data() {
-    return data
+    return this.$t("footer")
   },
   computed: {
     availableLocales() {

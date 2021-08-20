@@ -16,15 +16,13 @@
 </template>
 
 <script>
-import data from "/static/data"
-
 export default {
   name: "landing",
   head: {
     title: 'Landing'
   },
   data() {
-    return data.landing;
+    return this.$t("landing");
   }
 }
 </script>

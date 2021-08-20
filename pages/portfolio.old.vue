@@ -26,14 +26,13 @@
 </template>
 
 <script>
-import data from '/static/data'
 export default {
   name: 'portfolio',
   head: {
     title: 'Portfolio'
   },
   data() {
-    return data.portfolio
+    return this.$t("portfolio")
   },
 }
 </script>

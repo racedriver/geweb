@@ -14,11 +14,9 @@
 </template>
 
 <script>
-import data from "/static/data"
-
 export default {
   data() {
-    return data.index
+    return this.$t("index")
   },
   async asyncData({$content, redirect, params}) {
     let articles

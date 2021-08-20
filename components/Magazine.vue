@@ -23,14 +23,13 @@
 </template>
 
 <script>
-import data from "/static/data"
 export default {
   name: 'Magazine',
   props: {
     articles: Array,
   },
   data() {
-    return data.magazine
+    return this.$t("magazine")
   },
   methods: {
     url: (entry) => /magazine/ + entry.slug

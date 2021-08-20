@@ -23,14 +23,13 @@
 </template>
 
 <script>
-import data from "/static/data"
 export default {
   name: 'success',
   head: {
     title: 'Success'
   },
   data() {
-    return data
+    return this.$t("index")
   }
 }
 </script>

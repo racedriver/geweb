@@ -57,12 +57,10 @@
 </template>
 
 <script>
-import data from '/static/data/what-we-do'
-
 export default {
   name: 'WhatWeDo',
   data() {
-    return data
+    return this.$t("WhatWeDo")
   },
 }
 </script>

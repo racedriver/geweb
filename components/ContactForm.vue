@@ -212,7 +212,6 @@
 
 <!--suppress ExceptionCaughtLocallyJS -->
 <script>
-import data from "/static/data"
 import axios from "axios";
 import Error from "@/layouts/error";
 
