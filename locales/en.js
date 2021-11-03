@@ -22,102 +22,92 @@ const Protagonist = (isAssertive) => personality("Protagonist", "ENFJ", isAssert
 export default {
   index: {
     magazine: {
-      title: "Magazine"
+      title: "O nas"
     }
   },
   aboutUs: {
-    headTitle: 'About Us',
-      title: 'Our story',
+    headTitle: 'Nasz zespół',
+      title: 'Nasz zespół i jego historia',
       text: {
       linebreak: true,
         text: [
-        'Like every good friendship, Skylines One started out of common interests. The common ground both of the two founders Alexander Mittler and Lars Artmann have is their love for computers, software and gaming that they both discovered during their childhood.  ',
-        'After some rounds of CS:GO, they found that they have another common interest: their passion for enabling great products through technology and the strong focus on bringing great user experience to software. Skylines One was born. From now on, not only Fortune 500 companies, but all businesses equally would be able to deliver the perfect user experience to their customers and employees.',
-        '',
-        'Alex Mittler honed his engineering skills for over a decade at Apple, and was an early employee even before the iPhone came out. With his passion for technology and business, he focuses on excellence in every product he touches. In a nutshell, Alex is a business person with great strengths across fields such as technology, software development, ' +
-        'marketing, finance, investments and international business. Being humble and grinding all the time, he has already led several companies to success and touched the lives of 100+ million people in his career. The one thing that sets him apart, he says, is that for him it\'s either win-win or no deal. You can most often hear him say: \n',
+        'Naszym głównym celem jest przekraczanie oczekiwań naszych klientów. Nie mówimy tylko o wsparciu klienta, ale również o pełnejej ekspertyzie oprogramowania. Nasi inżynierowie, którzy w większości są byłymi pracownikami Apple, chcą poprawić doświadczenia użytkowników dzięki technologiom takim jak Kotlin, Nuxt.js, Vue.js czy Tailwind.',' \n',
+        'Chociaż nie mamy rynku docelowego, na którym się koncentrujemy, świadczymy głównie usługi dla klientów z sektora E-commerce. Ponieważ każda prowadzona działalność jest inna, staramy się jak najlepiej dostosować do indywidualnych preferencji, aby sprostać wszystkim wymaganiom poprzez indywidualne oprogramowanie lub aplikacje. W tym celu konfigurujemy, monitorujemy i utrzymujemy produkty klienta za pomocą oprogramowania SAAS, takiego jak Trello lub Google Workspace.',' \n',
+        'Chcemy jednak stać się globalnymi graczami w różnych branżach, dlatego też połączyliśmy nasze siły wraz z focusefforts.com, aby dostarczyć oprogramowanie na zamówienie dla branży budowlanej. Dzięki naszym rozwiązaniom nasz klient będzie miał łatwiejszy, bardziej efektywny i skuteczny sposób interakcji z partnerami biznesowymi i wykonawcami.',' \n',
+        'Niemniej jednak, nadal chcemy pomagać firmom z każdej branży, które potrzebują intuicyjnego, niestandardowego oprogramowania. Począwszy od firm B2B, aż po znane marki, jesteśmy tu po to, by rozwiązywać wszelkie problemy związane z oprogramowaniem, bez względu na wszystko. Dlatego też zrewolucjonizowaliśmy samoobsługowe automaty do kawy na stacjach benzynowych najbardziej znanej marki kawy w Niemczech, gdzie zintegrowaliśmy globalne opcje płatności, mi. Apple Pay oraz Google Pay.',' \n',
+        'Ponieważ wiemy, że w obecnych czasach wszystkie aspekty prowadzenia działalności nieustanie się zmieniają, chcemy być jak najbardziej elastyczni. Nasza praca nie kończy się w momencie, gdy oprogramowanie jest już gotowe, ciągle uczymy się i rozwijamy, a każdy sukces naszych klientów jest również naszym sukcesem, a to właśnie daje nam motywacje do dalszego działania!\n' +
+        ' \n',
         {
-          value: '“Lots of people dream BIG. EXECUTION is what really matters.”',
-          class: 'font-bold'
-        },
-        'and',
-        {
-          value: '“I run toward fires.”',
-          class: 'font-bold'
-        },
-        '',
-        'Lars Artmann is a genius young software engineer who already has 7 years experience in the newest technologies such as Kotlin, Google Cloud/Firebase and many more! He started coding at an age of 10, since then he watched over 50,000 educational videos. But, DON’T think he is one of the guys that are only good in theory. He would probably say:',
-        {
-          value: '“To be OUTSTANDING you need 4 times more theory than execution, but execution is what matters!”.',
-          class: 'font-bold'
-        },
-        'It’s impossible to sum him up with only a few sentences, so here are the hard facts that will allow you to grasp just how much he has achieved so far with only 17 years on this planet. \n',
-        '- Touched over +100k people with his software',
-        '- Started his second company',
-        '- Written more than 100,000 lines of code (and properly deleted the same amount)',
-        '- IQ 130',
-        '- A true Architect\'s Personality: INTJ-T (Introverted, Intuitive, Thinking, Judging - Turbulent)',
-        '',
-        'This combined experience and skill set truly makes them unbeatable. They developed a company in 11 months that most people don’t expect after 10 years of being in business, along with a truly inspiring friendship. The experience, passion, and thinking outside the box definitely makes us a strong force in the technology sector to look out for.',
-        '',
-        {
-          value: 'Our mission is to accelerate the transition to better technology.',
-          class: 'font-bold'
-        },
-        {
-          value: 'Our vision is to create the most compelling software company of the 21st century by driving the world’s transition to cloud software.',
+          value: '',
           class: 'font-bold'
         },
         '',
         {
-          value: '#theskyisthelimit',
+          value: '',
+          class: 'font-bold'
+        },
+        '',
+        '',
+        {
+          value: '',
+          class: 'font-bold'
+        },
+        '',
+        '',
+        '',
+        {
+          value: '',
+          class: 'font-bold'
+        },
+        {
+          value: '',
+          class: 'font-bold'
+        },
+        '',
+        {
+          value: '',
           class: 'font-bold'
         },
       ]
     },
     team: {
-      title: 'Meet our Team',
+      title: 'Poznaj nasz zespół',
         entries: [
         {
           name: 'Alex Mittler',
           image: 'images/alex-mittler.jpg',
           title: 'CEO',
-          text: 'He spent a decade at Apple as an engineer, even before the iPhone came out, crazy isn’t it?',
+          text: 'Alex Mittler przez ponad dekadę doskonalił swoje umiejętności inżynierskie w Apple. Był jego pracownikiem jeszcze przed pojawieniem się pierwszego iPhone\'a.',
           social: [
             {text: '', href: 'https://www.linkedin.com/in/alexmittler/'}
           ],
-          personality: Executive(true),
         },
         {
-          name: 'Lars Artmann',
-          image: '/images/lars-artmann.jpg',
-          title: 'CTO',
-          text: 'Some people really think he is a genius because at only 17 years old he is already a CTO in the technology space, but don\'t mention it.',
+          name: '',
+          image: '',
+          title: '',
+          text: '',
           social: [
-            {text: '', href: 'https://www.linkedin.com/in/larsartmann/'}
+            {text: ''}
           ],
-          personality: Architect(false),
         },
         {
-          name: 'Paul',
-          image: '/images/paul.jpg',
-          title: 'Director Of Business Development',
-          text: 'He can talk about business opportunities and problems with the C-level executives, dig deep into details with your operations folks, then turn around and meet with some of the best engineers from the Apple ecosystem and the youth-movement behind Kotlin and craft unique, elegant, user-experience-first designs',
-          personality: Protagonist(true),
+          name: '',
+          image: '',
+          title: '',
+          text: '',
         },
         {
           name: 'Wlad',
           image: '/images/wlad.jpg',
-          title: 'Engineer',
-          text: 'Wlad is an ex-Apple engineer with a broad history and experiences in software development, custom hardware, circuit boards and printing. He spent several decades at big-tech companies like Apple, Sun Microsystems and CapGemini before joining Skylines One.',
-          personality: Protagonist(true),
+          title: 'Inżynier/Programista',
+          text: 'Wlad jest byłym inżynierem Apple z bardzo bogatym doświadczeniem w tworzeniu oprogramowania i hardware. Zanim dołączył do Global Engineering, spędził kilkanaście lat pracując w dużych firmach technologicznych, takich jak: Apple, Sun Microsystems i CapGemini.',
         },
         {
           name: 'Christoph',
           image: '/images/malek-anderson.jpg',
-          title: 'Engineer',
-          text: 'Christoph is a young genius talent with a broad knowledge and experiences in modern software development and databases. Fresh out of school and with already a vast experience in Java and Minecraft development, Christoph has almost single-handedly released multi-platform mobile Apps before. We are thrilled to see what he will build with us in the future.',
-          personality: Executive(false),
+          title: 'Programista',
+          text: 'Christoph to młody, genialny talent z szeroką wiedzą i doświadczeniem w tworzeniu nowoczesnego oprogramowania i baz danych. Mimo młodego wieku ma już ogromne doświadczenie w rozwoju Javy i Minecrafta. W przeszłości Christoph stworzył i wprowadził na rynek już niejedną wieloplatformową aplikacje mobilną. Jesteśmy zachwyceni, widząc, co zbuduje z nami w przyszłości.',
         }
       ]
     }
@@ -189,20 +179,16 @@ export default {
     readMore: 'Read More',
   },
   customers: {
-    title: 'Customers',
+    title: 'Co sądzą o nas nasi klienci',
       entries: [
       {
         name: 'Tim Walter',
         position: 'CEO',
         company: 'Wolfcreek',
         image: '/images/tim_walter.jpg',
-        title: 'From ZERO to product-market fit in only 2 months',
+        title: 'Od ZERA do działającego produktu w zaledwie 2 miesiące.',
         text: [
-          '"I can honestly say that if you are looking for someone that you can trust with your tech stack.',
-          "It's Skylines One. They not only deliver ultra-high quality software.",
-          'They also bring in the perfect user experience.',
-          "Working with them is always built on trust and openness, even if it's not in their self-interest.",
-          'Never met anyone like this team!"',
+          '"Mogę szczerze powiedzieć, że jeśli szukasz kogoś, komu możesz powierzyć swój biznes, to tylko Global Engineering. Nie tylko dostarczają oprogramowanie o ultra-wysokiej jakości, ale zapewniają również doskonałe wsparcie dla swoich produktów i użytkowników. Praca z nimi od zawsze była zbudowana na zaufaniu i otwartości. Nigdy nie spotkałem kogoś takiego jak ten zespół!"',
         ],
       },
     ],
@@ -233,65 +219,63 @@ export default {
     },
   },
   FirstImpression: {
-    PreTitle: 'Our Team of',
-      Ex: 'ex',
-      Split: '-',
-      AppleEngineers: 'Apple Engineers',
-      SubTitle: 'are looking forward to build your product!',
+    PreTitle: 'Nasz zespół',
+      Ex: 'złożony z byłych',
+      Split: ' ',
+      AppleEngineers: 'Inżynierów Apple',
+      SubTitle: 'czeka, aby stworzyć Twój produkt!',
       SubSubTitle:
         '(And you\'ll never have to worry about building quality products again!)',
-      Button: 'Contact us\n\r for project review',
+      Button: 'Skontaktuj się z nami, \n\r aby omówić Swój projekt',
       OurPortfolio: 'Our portfolio',
   },
   footer: {
-    name: 'Skylines One',
-    subtitle: '.Love the hustle',
+      name: 'GE',
+    subtitle: 'Global Engineering',
     bottom: [
       [
         { value: '© 2021, All rights reserved.' },
       ],
       [
-        { value: 'Made by Skylines One' },
+        { value: 'Made by Global Engineering' },
       ],
     ],
-    title: "Let's build something great together",
+    title: "Stwórzmy razem coś wielkiego",
     linkBlock: [
       {
-        title: 'Offices',
+        title: 'Nasze biura',
         rows: {
           rootClass: 'min-w-full',
           class: paddingClasses + ' min-w-full',
           linebreak: true,
-          text: ['Headquarters', 'Silicon Valley', '800 W El Camino Real', 'Suite 180', 'Mountain View, CA 94040', '', 'Chicago Office', '141 W. Jackson Blvd.', ' Suite 300A', 'Chicago, IL 60604', '', 'Lewes Office', '16192 Coastal Hwy', 'Lewes, DE 19958'],
+          text: ['Siedziba Główna', 'Silicon Valley', '800 W El Camino Real', 'Suite 180', 'Mountain View, CA 94040', '', 'Lewes', '16192 Coastal Hwy', 'Lewes, DE 19958'],
         },
       },
       {
-        title: "Let's talk",
+        title: " ",
         rows: {
           class: paddingClasses,
           linebreaks: true,
           text: [
-            { value: 'Contact us directly'},
-            { value: 'using video or chat'},
-            { value: 'through our website'},
+            { value: ' '},
           ],
         },
       },
       {
-        title: 'Company',
+        title: 'Global Engineering',
         rows: {
           class: paddingClasses,
           linebreak: true,
           text: [
-            { value: 'About', href: 'about-us' },
-            { value: 'Our work', href: 'portfolio' },
-            { value: 'Career', href: 'career' },
-            { value: 'Privacy Policy', href: 'privacy' },
+            { value: 'O Nas', href: 'about-us' },
+            { value: 'Portfolio', href: 'portfolio' },
+            { value: 'Kariera', href: 'career' },
+            { value: 'Polityka prywatności', href: 'privacy' },
           ],
         },
       },
       {
-        title: "Let's connect",
+        title: "Połączmy się",
         rows: {
           class: paddingClasses + ' pl-1 fa-brand-2',
           linebreak: true,
@@ -340,27 +324,22 @@ export default {
   header: {
     sites: [
       {
-        name: 'About Us',
+        name: 'O nas',
         link: '/about-us',
         svg: 'M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z',
       },
       {
-        name: 'Magazine',
+        name: 'Aktualności',
         link: '/magazine',
         svg: 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253',
       },
       {
-        name: 'Portfolio',
-        link: '/portfolio',
-        svg: 'M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z',
-      },
-      {
-        name: 'Career',
+        name: 'Kariera',
         link: '/career',
         svg: 'M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z',
       },
       {
-        name: 'Contact Us',
+        name: 'Kontakt',
         link: '/contact-us',
         svg: 'M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z',
       },
@@ -368,7 +347,7 @@ export default {
   },
   NewTechnologies: {
     title: [
-      { value: 'Use the newest technologies like' },
+      { value: 'Używamy najnowszych technologi, takich jak' },
       {
         value: 'Kotlin',
         class: 'text-white',
@@ -377,7 +356,7 @@ export default {
       },
       { seperator: ', ' },
       { value: 'Vue.js', class: 'text-white', href: 'https://vuejs.org/' },
-      { value: 'and the power of the' },
+      { value: 'oraz mocy' },
       {
         value: 'Google Cloud',
         class: 'text-white',
@@ -395,48 +374,48 @@ export default {
     ],
   },
   OurProcess: {
-    title: 'In love with your product',
+    title: 'Co możemy dla was zrobić',
     subtitle: '',
     processes: [
       {
         image: '/images/planing.png',
-        title: 'Virtual and Augmented Reality',
+        title: 'Hardware and Software Integration',
         text:
-          'Ask us about the fashion App we built letting you\n' +
-          'put on clothing virtually on your smartphone. What will you build with VR / AR?',
+          'Nie tylko zajmujemy się tylko tworzeniem oprogramowania.\n' +
+          'Nasze doświadczenie pozwala nam także na tworzenie nowych, dedykowanych produktów elektronicznych.',
       },
       {
         image: '/images/wireframes.png',
-        title: 'Platforms',
+        title: 'Applikacje na iOS / Android',
         text:
           ' \n' +
-          'Interested in automotive? So are we! Our CEO is all about cars and we even run our own race team. ' +
-          'In the past, we built a platfom that includes 1 Billion+ data records ensuring the car parts you order will match your car.\n' +
-          'Which platform are you? \n',
+          'W eCommerce, stworzyliśmy następce eBay dla produktów luksusowych.\n' +
+          'Czy wiesz, że większość telefonów na rynku oparta jest na Androidzie, ale 90% wartościowych klientów bazuje na iOS.\n' +
+          'Czy w związku z tym najpierw  wprowadzisz swoją aplikację na iOS?',
       },
       {
         image: '/images/Visual%20Design%20app.png',
-        title: 'Apps for iOS / Android',
+        title: 'VR/AR Wirtualna i rozszerzona rzeczywistość',
         text:
-          'In eCommerce, we have built the next eBay for luxury goods.\n' +
-          'And did you know? Most smartphones sold are Android-based, but 90% of high value clients are on iOS.' +
-          'Based on that, will you build on iOS first?',
+          'Chcesz stworzyć aplikację łączącą świat rzeczywisty z wirtualnym?\n' +
+          'Z przyjemnoscią stworzymy dla Ciebie aplikacje, która urzeczywistni Twoje wizje!' +
+          '',
       },
     ],
   },
     WhatWeDo:{
-      title: 'Everything you need to bring your project into reality',
+      title: 'Wszystko, czego potrzebujesz, aby urzeczywistnić swój projekt',
       text:
-        'Out of your expectations, we create even better solutions. By pushing the boundaries we create truly innovative products.',
+        'Wychodzimy naprzeciw Twoim oczekiwaniom, aby tworzyć jeszcze lepsze rozwiązania. ',
       entries: [
         {
           image: '/images/logo/cloud.svg',
           svg:
             'M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z',
-          title: 'Cloud Software',
+          title: 'Oprogramowanie w chmurze',
           text:
-            "You will almost always want to develop cloud first because it's the safest place for your data and it's scalable." +
-            'We will also be happy to consider your custom requirements.'
+            "Zawsze będziesz chciał najpierw opracować chmurę, ponieważ jest to najbezpieczniejsze miejsce dla Twoich danych i jest skalowalne. ." +
+            'Z przyjemnością rozważymy również Twoje niestandardowe wymagania.   '
         },
         {
           image: '/images/ux%20design.png',
@@ -444,46 +423,46 @@ export default {
             'M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z',
           title: 'User Experience & Design',
           text:
-            'User experience is most important for your product since it directly translates to\n' +
-            'customer satisfaction and customer retention. We know that from\n' +
-            'our own experience.',
+            'Przejrzystość i użyteczność naszych produktów jest dla nas priorytetem, ponieważ \n' +
+            'przekłada się  bezpośrednio na satysfakcję i zadowolenie klientów. \n' +
+            'Wiemy to z własnego doświadczenia.',
         },
         {
           image: '/images/application%20development.png',
           svg: 'M12 19l9 2-9-18-9 18 9-2zm0 0v-8',
           title: 'Product Development',
           text:
-            'Get the entire process handled by us. Just lean back and let us do the magic! ' +
-            'Already got a team working? Project left part-finished? Great, we\'ll take it from here!',
+            'Zajmujemy się kompleksowo całym procesem tworzenia aplikacji. ' +
+            'Masz już zespól, który pracuje nad twoim projektem, ale nie został on jeszcze ukończony? Nie ma problemu, dokończymy go dla Ciebie!',
         },
         {
           image: '/images/software.jpeg',
           svg:
             'M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4',
-          title: 'Data Management',
+          title: 'Zarządzanie danymi',
           text:
-            "All the time spent on managing data will no longer be a worry for you. " +
-            "Our ex-Apple geeks love problem solving and will make data management look easy.",
+            "Oszczędzaj czas spędzony na zarządzaniu danymi. " +
+            "Nasi programiści uwielbiają udowadniać, że może to być proste i nie będzie już więcej utrapieniem.",
         },
         {
           image: '/images/mqdefault_6s.png',
           svg:
             'M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z',
-          title: 'Robotics',
+          title: 'Hardware and Software Integration ',
           text:
-            'You have a Robot or want to build one? ' +
-            'Perfect! We love engineering on real world objects. ' +
-            'Have an idea and want to go 0-100 faster than a Ferrari? ' +
-            'Send us a message.',
+            'Masz pomysł na nowy produkt i potrzebujesz zaspołu, który urzeczywistni Twoją wizję?' +
+            ' Z przyjemnością zrobimy to za Ciebie i stworzymy dedykowane dla niego oprogramowanie. ' +
+            '' +
+            '',
         },
         {
           image: '/images/industries.jpeg',
           svg:
             'M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z',
-          title: 'Different industries',
+          title: 'Różne modele biznesowe',
           text:
-            'We are experts in product development and able to adapt to your industry. ' +
-            'Explain your business to us and we will deliver the best user experience and product market fit seamlessly.',
+            'Jesteśmy ekspertami w tworzeniu nowych produktów i potrafimy dostosować się do każdej branży. ' +
+            'Wyjaśnij nam na czym polega Twoja działalność, a my dopasujemy naszą aplikację do Twojego rynku.',
         },
       ],
     }

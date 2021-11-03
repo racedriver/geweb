@@ -1,6 +1,6 @@
 <template>
   <main>
-    <HeadText title="Contact Us"/>
+    <HeadText title="Kontakt"/>
 <!--    <div class="py-32 bg-blush-500 text-white text-6xl text-extrabold text-center flex justify-center">-->
 <!--      <DynamicText class="max-w-5xl" :value="copy"/>-->
 <!--    </div>-->

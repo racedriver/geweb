@@ -16,11 +16,10 @@
         <div class="lg:pl-8 lg:col-start-2">
           <div class="max-w-md mx-auto sm:max-w-lg lg:mx-0">
             <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl dark:text-white">
-              Let's work together
+              Zróbmy razem coś wielkiego!
             </h2>
             <p class="mt-4 text-lg text-gray-500 dark:text-gray-400 sm:mt-3">
-              We’d love to hear from you! Send us a message using the form
-              opposite, or email us.
+              Wyślij do nas wiadomość korzystając z poniższego formularza!
             </p>
             <form
               id="contact-form"
@@ -31,7 +30,7 @@
                 <label
                   for="fullname"
                   class="block text-sm font-medium text-gray-700 dark:text-gray-200"
-                >Name</label
+                >Twoje imię</label
                 >
                 <div class="mt-1">
                   <input
@@ -66,7 +65,7 @@
                 <label
                   for="company"
                   class="block text-sm font-medium text-gray-700 dark:text-gray-200"
-                >Company</label
+                >Nazwa Twojej firmy</label
                 >
                 <div class="mt-1">
                   <input
@@ -82,7 +81,7 @@
               <div class="sm:col-span-2">
                 <label
                   for="phone"
-                  class="block text-sm font-medium text-gray-700 dark:text-gray-200">Phone</label>
+                  class="block text-sm font-medium text-gray-700 dark:text-gray-200">Numer kontaktowy</label>
                 <input
                   type="text"
                   name="phone"
@@ -98,11 +97,11 @@
                   <label
                     for="how_can_we_help"
                     class="block text-sm font-medium text-gray-700 dark:text-gray-200"
-                  >How can we help you?</label>
+                  >Co możemy dla Ciebie zrobić?</label>
                   <span
                     id="how_can_we_help_description"
                     class="text-sm text-gray-500"
-                  >Max. 500 characters</span>
+                  >Max. 500 znaków</span>
                 </div>
                 <textarea
                   v-model="description"
@@ -116,71 +115,13 @@
                 ></textarea>
               </div>
               <fieldset class="sm:col-span-2">
-                <legend class="block text-sm font-medium text-gray-700 dark:text-gray-200">
-                  Expected budget
-                </legend>
-                <div class="mt-4 grid grid-cols-1 gap-y-4">
-                  <div class="flex items-center">
-                    <input
-                      id="budget_under_25k"
-                      v-model="budget"
-                      name="budget"
-                      value="under_25k"
-                      type="radio"
-                      class="dark:bg-gray-900 dark:checked:bg-current focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 dark:border-gray-800"
-                    />
-                    <label for="budget_under_25k" class="ml-3">
-                      <span class="block text-sm text-gray-700 dark:text-gray-200">Less than $25K</span>
-                    </label>
-                  </div>
-                  <div class="flex items-center">
-                    <input
-                      id="budget_25k-50k"
-                      v-model="budget"
-                      name="budget"
-                      value="25k-50k"
-                      type="radio"
-                      class="dark:bg-gray-900 dark:checked:bg-current focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 dark:border-gray-800"
-                    />
-                    <label for="budget_25k-50k" class="ml-3">
-                      <span class="block text-sm text-gray-700 dark:text-gray-200">$25K – $50K</span>
-                    </label>
-                  </div>
-                  <div class="flex items-center">
-                    <input
-                      id="budget_50k-100k"
-                      v-model="budget"
-                      name="budget"
-                      value="50k-100k"
-                      type="radio"
-                      class="dark:bg-gray-900 dark:checked:bg-current focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 dark:border-gray-800"
-                    />
-                    <label for="budget_50k-100k" class="ml-3">
-                      <span class="block text-sm text-gray-700 dark:text-gray-200"
-                      >$50K – $100K</span
-                      >
-                    </label>
-                  </div>
-                  <div class="flex items-center">
-                    <input
-                      id="budget_over_100k"
-                      v-model="budget"
-                      name="budget"
-                      value="over_100k"
-                      type="radio"
-                      class="dark:bg-gray-900 dark:checked:bg-current focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 dark:border-gray-800"
-                    />
-                    <label for="budget_over_100k" class="ml-3">
-                      <span class="block text-sm text-gray-700 dark:text-gray-200">$100K+</span>
-                    </label>
-                  </div>
-                </div>
+               
               </fieldset>
               <div class="sm:col-span-2">
                 <label
                   for="referee"
                   class="block text-sm font-medium text-gray-700 dark:text-gray-200"
-                >How did you hear about us?</label
+                >Skąd się o nas dowiedziałeś?</label
                 >
                 <div class="mt-1">
                   <input
@@ -199,7 +140,7 @@
                 rounded-md text-white bg-indigo-600 hover:bg-indigo-700 dark:bg-gray-900
                 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
-                  Submit
+                  Wyślij
                 </button>
               </div>
             </form>

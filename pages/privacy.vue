@@ -1,143 +1,72 @@
 <template>
   <main class="max-w-5xl px-4 sm:px-8 text-white w-full max-w-7xl mx-auto">
-    <h1 class="text-5xl mb-4">Skylines One LLC - Privacy Policy</h1>
+    <h1 class="text-5xl mb-4">Global Engineering LCC - Polityka prywatności</h1>
     <div>
       <p>
-        This Privacy Policy describes how your personal information is
-        collected, used, and shared when you visit or make a purchase from
-        https://skylines.one (the “Site”).
+        Niniejsza Polityka prywatności opisuje, w jaki sposób Twoje dane osobowe są gromadzone, wykorzystywane i udostępniane podczas odwiedzania lub dokonywania zakupów na https://skylines.one („Witryna”).
         <br /><br />
-        PERSONAL INFORMATION WE COLLECT
+        DANE OSOBOWE, KTÓRE ZBIERAMY
         <br />
-        When you visit the Site, we automatically collect certain information
-        about your device, including information about your web browser, IP
-        address, time zone, and some of the cookies that are installed on your
-        device. Additionally, as you browse the Site, we collect information
-        about the individual web pages or products that you view, what websites
-        or search terms referred you to the Site, and information about how you
-        interact with the Site. We refer to this automatically-collected
-        information as “Device Information.”
-        <br />
-        We collect Device Information using the following technologies:
-        <br />
-        - “Cookies” are data files that are placed on your device or computer
-        and often include an anonymous unique identifier. For more information
-        about cookies, and how to disable cookies, visit
-        http://www.allaboutcookies.org. - “Log files” track actions occurring on
-        the Site, and collect data including your IP address, browser type,
-        Internet service provider, referring/exit pages, and date/time stamps. -
-        “Web beacons,” “tags,” and “pixels” are electronic files used to record
-        information about how you browse the Site. - "Basic http header
-        information" which are used to secure the availability of our services -
-        "Firebase" is a service provided by Google that provides hosting and
-        analytics, among other services. For more info on firebase visit
-        firebase.google.com.
-        <br />
-        Additionally when you make a purchase or attempt to make a purchase
-        through the Site, we collect certain information from you, including
-        your name, billing address, shipping address, payment information
-        (including credit card numbers, paypal, bank account details or other
-        payment methods as described on the site), email address, and phone
-        number. We refer to this information as “Order Information.”
-        <br />
-        When we talk about “Personal Information” in this Privacy Policy, we are
-        talking both about Device Information and Order Information.
+        Kiedy odwiedzasz Witrynę, automatycznie zbieramy pewne informacje o Twoim urządzeniu, w tym informacje o Twojej przeglądarce internetowej, adresie IP, strefie czasowej i niektórych plikach cookie zainstalowanych na Twoim urządzeniu. Ponadto podczas przeglądania Witryny zbieramy informacje o poszczególnych stronach internetowych lub produktach, które przeglądasz, jakie witryny lub wyszukiwane hasła przekierowują Cię do Witryny oraz informacje o tym, jak korzystasz z witryny. Te automatycznie gromadzone informacje nazywamy „Informacjami o urządzeniu”.
         <br /><br />
-        HOW DO WE USE YOUR PERSONAL INFORMATION?
+        Zbieramy Informacje o urządzeniu za pomocą następujących technologii:
         <br />
-        We use the Order Information that we collect generally to fulfill any
-        orders placed through the Site (including processing your payment
-        information, arranging for shipping, and providing you with invoices
-        and/or order confirmations).
-        <br />
-        Additionally, we use this Order Information to: Communicate with you;
-        Screen our orders for potential risk or fraud; and
-        <br />
-        When in line with the preferences you have shared with us, provide you
-        with information or advertising relating to our products or services.
-        <br />
-        We use the Device Information that we collect to help us screen for
-        potential risk and fraud (in particular, your IP address), and more
-        generally to improve and optimize our Site (for example, by generating
-        analytics about how our customers browse and interact with the Site, and
-        to assess the success of our marketing and advertising campaigns).
+        - „Cookies” to pliki danych, które są umieszczane na Twoim urządzeniu lub komputerze i często zawierają anonimowy unikalny identyfikator. Więcej informacji o plikach cookie i sposobie ich wyłączania można znaleźć na stronie http://www.allaboutcookies.org. - „Pliki dziennika” śledzą działania wykonywane w Witrynie i zbierają dane, w tym adres IP, typ przeglądarki, dostawcę usług internetowych, strony odsyłające/wyjścia oraz znaczniki daty/godziny. - „Sygnały nawigacyjne”, „znaczniki” i „piksele” to pliki elektroniczne używane do rejestrowania informacji o sposobie przeglądania Witryny. - „Podstawowe informacje nagłówka http”, które służą do zabezpieczenia dostępności naszych usług – „Firebase” to usługa świadczona przez Google, która zapewnia między innymi hosting i analitykę. Więcej informacji o firebase znajdziesz na firebase.google.com.
         <br /><br />
-        SHARING YOUR PERSONAL INFORMATION
+        Dodatkowo, gdy dokonujesz zakupu lub próbujesz dokonać zakupu za pośrednictwem Witryny, zbieramy od Ciebie pewne informacje, w tym imię i nazwisko, adres rozliczeniowy, adres wysyłki, informacje dotyczące płatności (w tym numery kart kredytowych, PayPal, dane konta bankowego lub inne metody płatności zgodnie z opisem na stronie), adres e-mail i numer telefonu. Informacje te nazywamy „Informacjami o zamówieniu”.
         <br />
-        We share your Personal Information with third parties to help us use
-        your Personal Information, as described above. We also use Google
-        Analytics to help us understand how our customers use the Site--you can
-        read more about how Google uses your Personal Information here:
-        https://www.google.com/intl/en/policies/privacy/. You can also opt-out
-        of Google Analytics here: https://tools.google.com/dlpage/gaoptout.
-        <br />
-        Finally, we may also share your Personal Information to comply with
-        applicable laws and regulations, to respond to a subpoena, search
-        warrant or other lawful request for information we receive, or to
-        otherwise protect our rights.
+        Kiedy mówimy o „Danych osobowych” w niniejszej Polityce prywatności, mamy na myśli zarówno Informacje o urządzeniu, jak i Informacje o zamówieniu.
         <br /><br />
-        BEHAVIOURAL ADVERTISING
+        W JAKI SPOSÓB WYKORZYSTUJEMY TWOJE DANE OSOBOWE?
         <br />
-        As described above, we use your Personal Information to provide you with
-        targeted advertisements or marketing communications we believe may be of
-        interest to you. For more information about how targeted advertising
-        works, you can visit the Network Advertising Initiative’s (“NAI”)
-        educational page at
-        http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work.
+        Korzystamy z Informacji o Zamówieniu, które zbieramy w celu realizacji wszelkich zamówień złożonych za pośrednictwem Witryny (w tym przetwarzania informacji o płatnościach, organizowania wysyłki oraz dostarczania faktur i/lub potwierdzeń zamówień).
+        <br /><br />
+
+        Ponad to korzystamy z gromadzonych przez nas informacji o urządzeniu, aby pomóc nam w sprawdzaniu potencjalnego ryzyka i oszustw (w szczególności adresu IP) oraz, w celu ulepszenia i optymalizacji naszej Witryny (na przykład poprzez generowanie analiz dotyczących tego, jak nasi klienci przeglądają i wchodzą w interakcję z w Witrynie oraz w celu oceny zasięgu naszych kampanii marketingowych i reklamowych).
+        <br /><br />
+        UDOSTĘPNIANIE TWOICH DANYCH OSOBOWYCH
         <br />
-        You can opt out of targeted advertising by:
+        Udostępniamy Twoje Dane Osobowe stronom trzecim, aby pomóc nam w korzystaniu z Twoich Danych Osobowych, jak opisano powyżej. Korzystamy również z Google Analytics, aby pomóc nam zrozumieć, w jaki sposób nasi klienci korzystają z Witryny — możesz przeczytać więcej o tym, jak Google wykorzystuje Twoje dane osobowe tutaj: https://www.google.com/intl/en/policies/privacy/. Możesz również zrezygnować z Google Analytics tutaj: https://tools.google.com/dlpage/gaoptout.
+        <br /><br />
+        Możemy również udostępniać Twoje Dane Osobowe, aby zachować zgodność z obowiązującymi przepisami i regulacjami, odpowiedzieć na wezwanie do sądu, nakaz przeszukania lub inne zgodne z prawem żądanie informacji, które otrzymujemy, lub w inny sposób chronić nasze prawa.
+        <br /><br />
+        REKLAMA BEHAWIORALNA
+        <br />
+        Jak opisano powyżej, wykorzystujemy Twoje dane osobowe w celu dostarczania Ci ukierunkowanych reklam lub komunikatów marketingowych, które naszym zdaniem mogą Cię zainteresować. Więcej informacji na temat działania reklamy ukierunkowanej można znaleźć na stronie edukacyjnej Network Advertising Initiative („NAI”) pod adresem http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work.
+        <br />
+        Możesz zrezygnować z reklam ukierunkowanych poprzez:
         <br />
         FACEBOOK - https://www.facebook.com/settings/?tab=ads<br />
         GOOGLE - https://www.google.com/settings/ads/anonymous<br />
         LINKEDIN - https://www.linkedin.com/psettings/guest-controls<br />
         <br />
-        Additionally, you can opt out of some of these services by visiting the
-        Digital Advertising Alliance’s opt-out portal at:
-        http://optout.aboutads.info/.
+        Ponadto możesz zrezygnować z niektórych z tych usług, odwiedzając portal rezygnacji Digital Advertising Alliance pod adresem: http://optout.aboutads.info/.
         <br /><br />
         DO NOT TRACK
         <br />
         Please note that we do not alter our Site’s data collection and use
         practices when we see a Do Not Track signal from your browser.
         <br /><br />
-        In addition, if you are located in Europe you may have the following
-        additional rights, depending on the country you are located in and the
-        applicable local laws:
+                 <br /><br />
+        TWOJE PRAWA
+        <br />
+        Jeśli jesteś rezydentem Unii Europejskiej, masz prawo do dostępu do przechowywanych przez nas Twoich danych osobowych oraz do żądania poprawienia, aktualizacji lub usunięcia Twoich danych osobowych. Jeśli chcesz skorzystać z tego prawa, skontaktuj się z nami, korzystając z poniższych danych kontaktowych.
+        <br />
+        Ponadto, jeśli jesteś mieszkańcem Europy, zauważamy, że przetwarzamy Twoje dane w celu realizacji umów, które możemy z Tobą zawrzeć (na przykład, jeśli składasz zamówienie za pośrednictwem Witryny) lub w inny sposób w celu realizacji naszych uzasadnionych interesów biznesowych wymienionych powyżej. Ponadto należy pamiętać, że Twoje dane będą przekazywane poza Europę, w tym do Kanady i Stanów Zjednoczonych.
         <br /><br />
-        YOUR RIGHTS
+        PRZECHOWYWANIE DANYCH
         <br />
-        If you are a European resident, you have the right to access personal
-        information we hold about you and to ask that your personal information
-        be corrected, updated, or deleted. If you would like to exercise this
-        right, please contact us through the contact information below.
-        <br />
-        Additionally, if you are a European resident we note that we are
-        processing your information in order to fulfill contracts we might have
-        with you (for example if you make an order through the Site), or
-        otherwise to pursue our legitimate business interests listed above.
-        Additionally, please note that your information will be transferred
-        outside of Europe, including to Canada and the United States.
+        Kiedy składasz zamówienie za pośrednictwem Witryny, zachowamy Twoje Informacje o Zamówieniu dla naszej dokumentacji, chyba że i dopóki nie poprosisz nas o usunięcie tych informacji..
         <br /><br />
-        DATA RETENTION
+        ZMIANY REGULAMINU
         <br />
-        When you place an order through the Site, we will maintain your Order
-        Information for our records unless and until you ask us to delete this
-        information.
+        Od czasu do czasu możemy aktualizować niniejszą politykę prywatności, aby odzwierciedlić na przykład zmiany w naszych praktykach lub z innych przyczyn operacyjnych, prawnych lub regulacyjnych.
         <br /><br />
-        CHANGES
+        SKONTAKTUJ SIĘ Z NAMI
         <br />
-        We may update this privacy policy from time to time in order to reflect,
-        for example, changes to our practices or for other operational, legal or
-        regulatory reasons.
-        <br /><br />
-        CONTACT US
+        Aby uzyskać więcej informacji na temat naszych praktyk dotyczących prywatności, jeśli masz pytania lub chcesz złożyć skargę, skontaktuj się z nami za pośrednictwem poczty e-mail na adres privacy-complaint@skylines.one lub pocztą, korzystając z danych podanych poniżej:
         <br />
-        For more information about our privacy practices, if you have questions,
-        or if you would like to make a complaint, please contact us by e-mail at
-        privacy-complaint@skylines.one or by mail using the details provided
-        below:
-        <br />
-        16192 Coastal Highway, Lewes, DE, 19958, United States
+        16192 Coastal Highway, Lewes, DE, 19958, Stany Zjednoczone
       </p>
     </div>
   </main>

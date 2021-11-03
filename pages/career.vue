@@ -9,15 +9,12 @@
       <div class="grid-cols-1 md:w-2/3 place-content-center  self-center items-center">
 
         <h1 class="place-content-center self-center items-center text-green-800 font-bold font text-6xl">
-          Career
+          Dołącz do nas!
         </h1>
 
         <div class="flex items-center text-2xl">
-          <p><br>Skylines One is a high-tech, cloud-first software company focusing on cutting edge
-            technologies. Moving the needle that bit further for our clients. The company’s name resembles its
-            tradition of flying high in the sky, using only the very best lines of code - Skylines One
-            <br>We are a bunch of ex-Apple engineers with decades of experience in software architecture
-            and technology.<br> Don't wait, join us right now!</p>
+          <p><br>Global Engineering to zaawansowana technologicznie firma zajmująca się tworzeniem oprogramowania w chmurze. Koncentrujemy się głównie na najnowocześniejszych technologiach, wychodząc naprzeciw oczekiwaniom naszych klientów.
+            <br><br>Nasi inżynierowie mają ponad 30-letnie doświadczenie w pracy z największymi firmami z branży IT, takimi jak Apple, Dell oraz Quest.<br><br> Nie zwlekaj, dołącz do nas teraz!</p>
         </div>
       </div>
 

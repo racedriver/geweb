@@ -1,21 +1,17 @@
 ---
-title: First Steps and Obstacles
+title: Pierwsze kroki 
 thumbnail: /images/steps.jpg
-short: Delivering state of the art tech with an Apple-like UX
+short: 
 ---
 
-### Since its foundation, the Skylines One team made sure to deliver on its promise to offer building the greatest user experience out there.
 
-We are firm believers in quality as opposed to quantity. In other words, we find it extraordinarily fulfilling to be laser-focused on providing a hundred percent guaranteed satisfaction to our clients. Therefore, we want to be nothing but the best in the software market and gladly go the extra mile for our customers.
 
-From the get-go, we have placed a great importance on making sure our online presence reflects our efforts in being the best in user experience (UX/UI), Kotlin and Cloud/Firebase applications. LinkedIn and Facebook, being among the platforms we’ve constantly made use of in order to get our name known. The truth is, allowing potential clients to get a clear-cut picture of who we are and what we do has always been one of our main goals. As far fetched as it may seem, for now, we’re aiming to become recognized worldwide. And, to achieve this, we’re planning on putting ourselves out there on social media to give everyone an insight of who we are and what we are doing! We want our clients to get to know us, as a company, but also as the individuals that make this company unique and special, therefore check our social media on [LinkedIn](https://www.linkedin.com/company/skylinesone) and [Facebook](https://www.facebook.com/skylinesone) for updates on the company, our team, our vision and our current and upcoming projects and promotions.
+W obecnych czasach, bardziej niż kiedykolwiek, prowadzenie działalności online jest coraz bardziej popularne. Wraz z rozwojem nowych technologii, coraz ważniejsze staje się wyróżnianie się z tłumu i bycie wyjątkowym. Właśnie z myślą o tym powstała firma Global Engineering.
 
-Getting the word out there while making our existing customers happy is pretty much all we focused on these past months. In fact, proving ourselves daily has been challenging for our team. However, our detail-oriented vision coupled with our strong determination has given us the extra push to continue moving forward and delivering top-notch results. Moreover, at Skylines One, we’re fully aware of the importance of taking enough time to do things right. Needless to say, we deeply believe in taking one step at a time when working towards our objectives and then don’t stop till it’s perfect for our client and us; just as our slogan implies #Letscreatethefuture.
+Sama koncepcja naszej działalności jest prosta: stwórz indywidualne i przejrzyste oprogramowanie, zapewniając przy tym jak najlepsze wsparcie dla każdego z naszych klientów.  Każdy projekt jest dla nas wyjątkowy i ma swoje specjalne potrzeby i wymogi, a nasza praca musi to odzwierciedlać.
 
-At Skylines One, we value honesty. That’s why we don’t shy away from being authentic and truthful to our clients at all times. In other words, we are very straight forward about both our achievements and our shortcomings. As a result, it’s not hard for us to publicly admit that we’ve been facing a wide variety of challenges as a young company. Nevertheless, our clients can rest assured that our team’s professionalism and ability to overcome any obstacles is unmatched. Not only that, but we’re very aware about our own potential and will prove to be a successful tech venture.
+Mocno wierzymy w jakość, a nie w ilość. Innymi słowy, jest dla nas niezwykle ważne, aby zapewnić każdemu stuprocentową satysfakcję płynącą z użytkowania naszego oprogramowania. Od momentu powstania, nasz zespół kładzie duży nacisk, aby swoimi działaniami zapewnić każdego, że wywiązujemy się z naszej obietnicy budowania jak najlepszych doświadczeń podczas użytkowania naszych aplikacji.
 
-As of now, finding the right talent for our sales and marketing teams has been an obstacle. However, we know this could easily be fixed by making sure our prospective employees are put through a rigorous admission trial. We’re all about quality as opposed to quantity and we are looking for open minded, thriving professionals who are willing to go the extra mile, like us, the current team at Skylines One.
+W Global Engineering cenimy uczciwość, dlatego zawsze jesteśmy prawdomówni wobec naszych klientów. Innymi słowy,  potrafimy się przyznać zarówno w do naszych sukcesów, jak i naszych niedociągnięć. Nietrudno nam publicznie przyznać, że jako młoda firma stawialiśmy czoła wielu różnym wyzwaniom. Niemniej jednak każdy może być pewny, że nasz profesjonalizm i umiejętność rozwiazywania nawet najbardziej złożonych problemów nie ma sobie równych.  
 
-We love to do our very best to meet and exceed our client’s expectations. Our user experience is unmatched, after all we model it after the late Steve Jobs who is the master of the topic. No matter what; we are here to make it perfect for you. We truly will “exceed not meet the expectations”!
-
-Therefore, we thrive to get better and only the Sky(lines One) is the limit!
+Prawda jest taka, że zawsze chcieliśmy przedstawić naszym potencjalnym klientom jasny obraz tego, kim jesteśmy i co robimy. Aby to osiągnąć, planujemy pokazać się w mediach społecznościowych, by pokazać wszystkim na czym polega nasza praca! Chcemy, także aby nasi klienci poznali nas, nie jako firmę, ale także jako osoby, które sprawiają, że nasz zespół jest wyjątkowy. Sprawdzaj nasze media społecznościowe na LinkedIn i Facebook, aby być na bieżąco z naszą aktualną ofertą oraz promocjami! 
