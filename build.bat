@@ -1,1 +1,1 @@
-gcloud builds submit --project skylines-one --tag gcr.io/skylines-one/web:1.0.0 --machine-type=n1-highcpu-8 . && gcloud run deploy web --project skylines-one --image=gcr.io/skylines-one/web:1.0.0 --platform managed --port 3000 --region us-east1
+gcloud builds submit --project globalengineering --tag gcr.io/globalengineering/web:1.0.0 --machine-type=n1-highcpu-8 . && gcloud run deploy web --project globalengineering --image=gcr.io/globalengineering/web:1.0.0 --platform managed --port 3000 --region us-east1

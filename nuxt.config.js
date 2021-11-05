@@ -4,15 +4,15 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s - Skylines One',
-    title: 'Solve your software problem',
+    titleTemplate: '%s - Global Engineering',
+    title: 'Solve your engineering problem',
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},
       {
         hid: 'description',
         name: 'description',
-        content: 'UX that simply works, just like Apple',
+        content: 'Software and Hardware that simply works, just like Apple',
       },
       {
         name: 'twitter:card',
@@ -20,11 +20,11 @@ export default {
       },
       {
         name: 'twitter:title',
-        content: 'Skylines One LLC',
+        content: 'Global Engineering LLC',
       },
       {
         name: 'twitter:description',
-        content: 'Have your product built by ex-Apple engineers for the best user experience possible! with Kotlin, Nuxt.js, Tailwind and the safety of the Google Cloud',
+        content: 'Have your product built by ex-Apple engineers for the best user experience possible!',
       },
       {
         name: 'twitter:image',
@@ -46,36 +46,21 @@ export default {
           "@context": "https://schema.org/",
           "@type": "Organization",
           "url": "https://skylines.one",
-          "name": "Skylines One",
-          "legalName": "SkyLines One LLC",
+          "name": "Global Engineering",
+          "legalName": "Global Engineering LLC",
           "location": "USA",
           "logo": "https://skylines.one/images/logo%20v4.1%20with%20black%20circle%20arrows%20only%2072ppi.png",
-          "email": "hello@skylines.one",
+          "email": "hello@global-engineering.io",
           "duns": "117640908",
-          "slogan": "The simplest way to solve your problem using <software>.",
+          "slogan": "Solve your engineering problem",
           "founder": [
             {
               "givenName": "Alex",
               "familyName": "Mittler",
               "gender": "Male",
               "image": "https://skylines.one/images/alex-mittler.jpg",
-              "jobTitle": "CEO",
+              "jobTitle": "Founder",
               "knowsLanguage": "DE, EN",
-            },
-            {
-              "name": "Lars Artmann",
-              "givenName": "Lars",
-              "familyName": "Artmann",
-              "gender": "Male",
-              "image": "https://skylines.one/images/lars-artmann.jpg",
-              "email": "lars@skylines.one",
-              "birthDate": "2003-05-10",
-              "jobTitle": "CTO",
-              "knowsLanguage": "DE, EN",
-              "nationality": "DE",
-              "telephone": "+1 (302) 600-7888",
-              "description": "Some people really think he is a genius because at only 17 years old he is already a CTO in the technology space, but don't mention it.",
-              "url": "http://lars.software"
             },
           ],
           "employee": [
@@ -91,7 +76,7 @@ export default {
           ],
           "telephone": "+1 (302) 747-1888",
           "foundingDate": "3, June 2020",
-          "foundingLocation": "CS:GO",
+          "foundingLocation": "Silicon Valley, USA",
           "numberOfEmployees": "16",
         }
       },
@@ -181,15 +166,15 @@ export default {
     locales: [
       {
         icon:
-          'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/259/flag-united-states_1f1fa-1f1f8.png',
-        name: 'English',
+          'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/285/flag-poland_1f1f5-1f1f1.png',
+        name: 'Polski',
         code: 'en',
         iso: 'en',
         file: 'en.js',
       },
       {
         icon:
-          'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/259/flag-germany_1f1e9-1f1ea.png',
+          'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/285/flag-germany_1f1e9-1f1ea.png',
         name: 'Deutsch',
         code: 'de',
         iso: 'de',
@@ -203,23 +188,23 @@ export default {
   },
   pwa: {
     manifest: {
-      name: 'Skylines One',
+      name: 'Global Engineering',
       description:
-        'Have your product built by ex-Apple engineers for the best user experience possible! with Kotlin, Nuxt.js, Tailwind and the safety of the Google Cloud',
+        'Have your product built by ex-Apple engineers for the best user experience possible!',
       display: 'fullscreen',
       background_color: '#000',
-      short_name: 'Skylines One',
+      short_name: 'Global Engineering',
       lang: 'en',
       useWebmanifestExtension: false,
       icons: [],
     },
     meta: {
-      ogHost: 'https://skylines.one',
+      ogHost: 'https://global-engineering.io',
       theme_color: "#000000",
     },
   },
   sitemap: {
-    hostname: 'https://skylines.one',
+    hostname: 'https://global-engineering.io',
     gzip: true,
     exclude: [
       '/success',
@@ -236,6 +221,6 @@ export default {
       '/landing',
       '/partners*'
     ],
-    Sitemap: "https://skylines.one/sitemap.xml"
+    Sitemap: "https://global-engineering.io/sitemap.xml"
   }
 }

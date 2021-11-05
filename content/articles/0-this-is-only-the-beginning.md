@@ -2,7 +2,7 @@
 title: This is only the beginning
 thumbnail: /images/time.jpg
 short: 
-
+---
 
 Jako startup jedno stwierdzenie nie wystarczy, by określić, to dokąd chcemy iść i co chcemy osiągnąć.
 
@@ -20,4 +20,4 @@ Równie ważne jest dla nas wyeliminowanie strachu przed tworzeniem i wdrażanie
 
 Jeśli osiągniemy te cele, to będziemy mogli stwierdzić, że nasza misja zakończona i przejść do nowych wyzwań, ponieważ technologia będzie się nadal rozwijać, podobnie jak my!
 
-Interested in a collaboration for your next project? Contact Skylines One through the website https://skylines.one or reach out via Discord https://discord.skylines.one.
+Interested in a collaboration for your next project? Contact Global Engineering through the website https://global-engineering.io.
